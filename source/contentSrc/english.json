@@ -1,0 +1,46 @@
+{
+    "about_page" : {
+        "paragraph": "BIGHIT MUSIC is an industry-leading music label that continues to pioneer new paths driven by a strong belief in music and ceaseless support from fans. <br><br> BIGHIT strives to create music heretofore unseen in the world through its inimitable way, creating the music that symbolizes an era that can resonate with fans across the world.<br><br> Artists under the label includes Lee Hyun, BTS and TOMORROW X TOGETHER.",
+        "artist_name" : ["LEE HYUN", "BTS","TOMORROW X TOGETHER"],
+        "careers_paragraph" : "We hire people with diverse experiences to create new values and fully support the professionalism and passion of our members.<br>We're waiting for passionate talent to enjoy the challenge in Big Hit <br>Music.",
+        "careers_button": "Apply"
+    },
+
+    "family_site_menu" : {
+        "menu" : "FAMILY SITE"
+    },
+
+    "profile":{
+        "paragraph":"BTS, an acronym of Bangtan Sonyeondan or “Beyond the Scene,” is a Grammy-nominated South Korean group that has been capturing the hearts of millions of fans globally since its debut in June 2013.<br>The members of BTS are RM, Jin, SUGA, j-hope, Jimin, V, and Jung Kook. Gaining recognition for their authentic and self-produced music, top-notch performances, and the way they interact with their fans, BTS has established themselves as “21st century Pop Icons” breaking countless world records. While imparting a positive influence through activities such as the LOVE MYSELF campaign and the UN ‘Speak Yourself’ speech, the band has mobilized millions of fans across the world (named ARMY), collected four No. 1 songs in a span of 9 months, performed multiple sold-out stadium shows across the world, and been named TIME’s Entertainer of the Year 2020. BTS has been nominated for Best Pop Duo/Group Performance for the 63rd Grammy Awards and recognized with numerous prestigious awards like the Billboard Music Awards, American Music Awards and MTV Video Music Awards.",
+        "members":[["RM","Date of Birth : 12th September, 1994"], ["Jin", "Date of Birth : 4th December, 1992"],["SUGA","Date of Birth : 9th March, 1993"],["j-hope","Date of Birth : 18th February, 1994"],["Jimin","Date of Birth : 13th October, 1995"],["V","Date of Birth : 30th December, 1995"],["Jung Kook","Date of Birth : 1st September, 1997"]]
+    },
+
+    "butter1_album" : {
+       "paragraph" : "BTS released their CD single ‘Butter’ on July 9. The CD single includes the shimmering summer song “Butter” as well as “Permission to Dance” that will get your heart pumping and dance again. The instrumental versions of each are also part of the tracklist. <br><br> Belonging to the dance pop genre, “Permission to Dance” sits on piano and string sounds that make the listeners bop their heads and bust some dance moves. World-renowned musician Ed Sheeran and British producer Steve Mac took part in making the song."
+    },
+
+    "butter2_album" : {
+        "paragraph" : "BTS’ latest summer anthem “Butter” released on May 21 is a dance pop track that easily becomes listeners’ favorite earworm,<br>with its distinctive baseline and crisp synth sounds. It is their second English song following “Dynamite”.<br><br>“Butter” puts forth BTS’ unique charm that no one else can pull off. Sometimes smooth, at times charismatic, the duality of BTS, that they claim to “owe it all to my mother,” will melt listeners' hearts. The fun and witty lyrics brimming with positive and bright energy will instantly uplift moods."
+     },
+
+    "be_album" : {
+        "paragraph" : "BTS is returning with their new album BE to unfold another chapter of 2020.<br><br>As a sense of helplessness looms in every corner of the world, BTS opens themselves up to express their mixed feelings about this situation—fear and anxiety mingled with the determination to overcome all this. The album consists of a total of eight tracks including the No.1 summer hit “Dynamite” and lead single “Life Goes On”. The latter speaks on behalf of everyone stuck in the new normality brought on by COVID-19: one day, the world stopped without any warning, streets erased of footsteps and the way out is nowhere near in sight. BTS echoes in a low voice the comforting message that in the face of unexpected turns “Life Goes On” and extends their hands towards the future.",
+        "note&curate_list":["SUGA", "RM", "JUNG KOOK", "JIMIN", "V", "J-HOPE", "JIN", "BTS"],
+        "photo_list":["BTS", "V", "JIMIN", "RM", "JUNG KOOK", "JIN", "SUGA", "J-HOPE"],
+        "track_list":[["1","Life Goes On","3’27”"],["2","Fly To My Room","3’42”"],["3","Blue & Grey","4’15”"],["4","Skit","3’00”"],["5","Telepathy","3’22”"],["6","Dis-ease","4’00”"],["7","Stay","3’25”"],["8","Dynamite","3’19”"]]
+    },
+
+    "dynamite_album" : {
+        "paragraph" : "“Dynamite” is a Disco Pop single that sings of joy and confidence, bringing a new surge of much-needed ‘energy’ to reinvigorate the global community.<br><br>In this song, the global superstars find happiness by doing again what they do best: engaging in a perpetual cycle of giving and receiving joy with the world through music and performances.<br><br>It also marks BTS’ first song to be released completely in English; having sought a “breakthrough” to overcome a sense of disheartenment from within the new global climate, BTS embarks on a new challenge through “Dynamite.”<br><br>The choreography is edgy and upbeat, with deeply addicting movements that highlight the distinct charms of each BTS member."
+    },
+
+    "mots7_album" : {
+        "paragraph" : "BTS Releases 4th Studio Album “MAP OF THE SOUL : 7”!<br>A heartfelt story of BTS and their search for their “real selves”<br><br>BTS will release their fourth studio album “MAP OF THE SOUL : 7” on February 21.<br><br>Unveiled last year, the MAP OF THE SOUL series contains the honest and heartfelt story of BTS and their journey of discovering their true selves. The first chapter of this story, “MAP OF THE SOUL : PERSONA”, sang about the world and the joy of love, and the discovery of the self as it is displayed to the world; “MAP OF THE SOUL : 7” now turns inward to the shadow within in a candid acknowledgement that it, too, is part of the self.<br><br>“MAP OF THE SOUL : 7” looks back on the past seven years of BTS since their debut as seven members of one team. The journey was not always smooth sailing, and there were special travails that they had to endure in their rise as global superstars. Now, understanding that the scars left by those hardships is a part of their real selves, BTS accepts both “the self I want to show” and the “self I want to scorn” to at last tell their own story of finding their “real and complete selves”.<br><br>Bridging fine art and popular art through such initiatives as the global art project CONNECT, BTS and the “Black Swan” art film featuring a modern dance interpretation of the early-release track, BTS is poised to show their latest growth as artist through “MAP OF THE SOUL : 7”.",
+        "track_list":[["1","Intro : Persona ","2’54”"],["2","Boy With Luv (Feat. Halsey)","3’49”"],["3","Make It Right","3’42”"],["4","Jamais Vu","3’46”"],["5","Dionysus ","4’08”"],["6","Interlude : Shadow ","4’20”"],["7","Black Swan","3’18”"],["8","Filter","3’00”"],["9","My Time","3’54”"],["10","Louder than bombs","3’37”"],["11","ON","4’06”"],["12","UGH!","3’45”"],["13","00:00 (Zero O’Clock)","4’10”"],["14","Inner Child","3’53”"],["15","Friends","3’19”"],["16","Moon","3’29”"],["17","Respect","3’58”"],["18","We are Bulletproof : the Eternal","4’22”"],["19","Outro : Ego","3’16”"]]
+    },
+
+    "lysh_album" : {
+        "paragraph": "BTS releases LOVE YOURSELF 承 'HER'!“Loving yourself is the beginning of true love”,<br>All the different faces of love expressed through the signature music of BTS!<br><br>On September 18, BTS will release 承 'HER', the first album in the new LOVE YOURSELF series.<br><br>LOVE YOURSELF 承 'HER' is an expression of the anxiety and elation of love, told in the unique style of BTS. The “love” that BTS aims to convey in the LOVE YOURSELF series is both the individual experience of a boy growing into adulthood and a message of peace and unity to our society today. In the mini album 承 'HER' that begins this new narrative, the image of boys in love for the first time are expressed in a refreshing and cheerful take that aims to talk about the topic of “love” while immersed in a coming-of-age tale.",
+        "track_list":[["1","Intro : Serendipity","2’19”"],["2","DNA","3’43”"],["3","Best Of Me","3’46”"],["4","Dimple","3’16”"],["5","Pied Piper","4’05”"],["6","Skit : Billboard Music Awards Speech","1’43”"],["7","MIC Drop","3’57”"],["8","Go Go","3’55”"],["9","Outro : Her","3’49”"]]
+    }
+}
