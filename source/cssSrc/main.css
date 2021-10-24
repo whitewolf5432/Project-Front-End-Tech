@@ -55,11 +55,21 @@
 .family-site {
     width: 22.25em;
     margin-bottom: 0.125em;
+    border-bottom: #929191 solid 1px;
 }
 
 .family-btn {
     border: none;
     font-size: small;
-    background-color: rgba(255, 255, 255, 0.287);
+    background-color: rgba(255, 255, 255, 0);
     padding-bottom: 1em;
+    color: #929191;
+}
+
+.footer .active {
+    border-color: rgba(146, 145, 145, 0.5);
+}
+
+.active .family-btn {
+    color: rgba(146, 145, 145, 0.5);
 }
