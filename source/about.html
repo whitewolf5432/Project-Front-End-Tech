@@ -1,0 +1,121 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="cssSrc/main.css">
+    <link rel="stylesheet" href="cssSrc/about.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="head bg-black bg-opacity-25">
+            <div class="menu-bar" id="menu">
+                <button class="menu" onclick="document.getElementById('menu').classList.toggle('close')">
+                </button>
+            </div>
+            <img src="imgSrc/main/logo.png" height="52.5%">
+            <button class="menu">
+                ENG
+            </button>
+        </header>
+
+
+        <div class="d-flex justify-content-end flex-column w-100 content">
+            <section class="test">
+
+                <div class="bighit_about">
+                    <!-- แก้ฟอนต์ -->
+                    <h1 style="margin-top: 25vh; text-align: center;">BIGHIT MUSIC</h1>
+                    <img src="imgSrc/about/img-music-banner.jpg" class="img_banner">
+                    <!-- เปลี่ยนภาษา -->
+                    <p class="about_bighit">BIGHIT MUSIC is an industry-leading music label that continues to pioneer
+                        new paths <br>
+                        driven by a strong belief in music and ceaseless support from fans.</p>
+                    <p class="about_bighit">
+                        BIGHIT strives to create music heretofore unseen in the world through its inimitable way,
+                        creating the music <br>
+                        that symbolizes an era that can resonate with fans across the world.
+                    </p>
+                    <p class="about_bighit">
+                        Artists under the label includes Lee Hyun, BTS and TOMORROW X TOGETHER.
+                    </p>
+                </div>
+
+                <div class="bighit_artits">
+                    <h1 style="text-align: center;">ARTISTS</h1>
+                    <div class="img_artits">
+                        <img src="imgSrc/about/img-leehyun.jpg">
+                        <img src="imgSrc/about/img-bts.jpg">
+                        <img src="imgSrc/about/img-twt.jpg">
+                    </div>
+                    <div class="button_artists">
+                        <button style="background: none; border: none;">LEE HYUN</button>
+                        <button style="background: none; border: none;" >BTS</button>
+                        <button style="background: none; border: none;">TOMORROW X TOGETHER</button>
+                    </div>
+
+                <div class="bighit_careers">
+                    <h1 style="text-align: center;">CAREERS</h1>
+
+                </div>
+
+                </div>
+
+
+
+
+
+
+
+
+            </section>
+
+
+            <footer class="footer bg-dark d-flex justify-content-around p-2">
+                <div class="col"></div>
+                <div id="family" class="family-site pe-1">
+                    <button type="button" class="family-btn row h-75 mt-1 pt-1 w-100 justify-content-center">
+                        FAMILY SITES
+                    </button>
+                    <ul class="d-none opacity-0">
+                        <li>
+                            <a href="https://hybecorp.com">HYBE Co., Ltd.</a>
+                        </li>
+                        <li>
+                            <a href="https://www.bighitaudition.com/">Big Hit Audition</a>
+                        </li>
+                        <li>
+                            <a href="https://www.weverseshop.io">WEVERSE SHOP</a>
+                        </li>
+                        <li>
+                            <a href="https://weverse.io/">Weverse</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col"></div>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $(".family-btn").mouseover(function () {
+                document.getElementById('family').classList.add('active');
+            });
+            $(".family-btn").mouseout(function () {
+                document.getElementById('family').classList.remove('active');
+            });
+        });
+    </scrip >
+
+</body >
+</html >

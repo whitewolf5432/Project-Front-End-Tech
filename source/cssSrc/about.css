@@ -1,0 +1,40 @@
+.bighit_about{
+    background-color: #232321;
+    height: auto;
+    padding-bottom: 20vh;
+}
+
+.img_banner{
+    display: flex;
+    margin: 1vh auto;
+}
+
+.about_bighit{
+    margin-top: 6vh;
+    text-align: center;
+    font-size: 18px;
+    color: #6b6b6a;
+}
+
+.bighit_artits{
+    background-color: #282828;
+    height: auto;
+    padding-bottom: 20vh;
+}
+
+.img_artits{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.button_artists{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bighit_careers{
+    background-color: #232321;
+    height: auto;
+}
