@@ -58,6 +58,9 @@
             width: 100%;
             height: 500px;
         }
+        .cover{
+            box-shadow: 0px 5px 10px #ccc;
+        }
     </style>
 </head>
 <body>
@@ -69,7 +72,7 @@
                 <button class="menu" onclick="document.getElementById('menu').classList.toggle('close')">
                 </button>
             </div>
-            <img src="source/imgSrc/main/logo.png" height="52.5%">
+            <img  src="source/imgSrc/main/logo.png" height="52.5%">
             <button class="menu">
                 ENG
             </button>
@@ -78,18 +81,14 @@
                
         <div class="d-flex justify-content-between flex-column w-100 content">
             
-            <section class="">
-                
+            <section class="d-flex align-content-center justify-content-center mt-5">
+                <div class="row m-0 w-75">
+                    <div class="col-6 p-1">
+                        <img class="cover"  src="https://ibighit.com/bts/images/bts/discography/love_yourself-her/album-cover.jpg" width="72.3%" alt="">
+                    </div>  
+                </div>
             </section>
-            <div class="row m-0">
-                <div class="col">
-                    <img src="https://ibighit.com/bts/images/bts/discography/love_yourself-her/album-cover.jpg" alt="">
-                </div>
-                <div class="col">
-                    <h1></h1>
-                </div>
-                
-            </div>
+            
             <footer class="footer bg-dark"></footer>
         </div>
         </div>
