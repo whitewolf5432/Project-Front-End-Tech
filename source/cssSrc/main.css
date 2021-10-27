@@ -1,5 +1,6 @@
 *{
-    font-family: CamberSemiBold;
+    /* font-family: CamberSemiBold; */
+    font-family: CamberMedium;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -23,6 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .content {
