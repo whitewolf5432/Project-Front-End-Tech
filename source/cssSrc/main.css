@@ -29,7 +29,7 @@
 }
 
 .menu-bar {
-    background: url("source/imgSrc/main/btn-gnb.png");
+    background: url("../imgSrc/main/btn-gnb.png");
 }
 
 .menu {
@@ -40,7 +40,7 @@
 }
 
 .close {
-    background: url("source/imgSrc/main/btn-close.png");
+    background: url("../imgSrc/main/btn-close.png");
     background-position: center;
     background-size: 35%;
     background-repeat: no-repeat;
