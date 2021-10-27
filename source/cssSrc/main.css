@@ -73,3 +73,6 @@
 .active .family-btn {
     color: rgba(146, 145, 145, 0.5);
 }
+.cover{
+    box-shadow: 0px 5px 10px #ccc;
+}
