@@ -1,0 +1,14 @@
+@font-face {
+    font-family: CamberMedium;
+    src: url("../font/EmtypeFoundry-CamberMediumRegular_1.ttf");
+}
+
+@font-face {
+    font-family: CamberSemiBold;
+    src: url("../font/EmtypeFoundry-CamberSemiBoldRegular_1.ttf");
+}
+
+@font-face {
+    font-family: SolanoGothic;
+    src: url("../font/MVB-SolanoGothicMVB-Bd_1.ttf");
+}
