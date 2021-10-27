@@ -1,40 +1,102 @@
-.bighit_about{
-    background-color: #232321;
-    height: auto;
-    padding-bottom: 20vh;
+.title_bighit{
+  position: absolute;
+  margin-top: -1em;
+  height: 20%;
+  width: 100%;
+  font-size: 80px;
+  color: #fff;
+  line-height: 1.25;
+  z-index: 9;
 }
 
-.img_banner{
-    display: flex;
-    margin: 1vh auto;
+.title_artists{
+  position: absolute;
+  margin-top: -2em;
+  height: 20%;
+  width: 100%;
+  font-size: 80px;
+  color: #fff;
+  line-height: 1.25;
+  z-index: 9;
 }
 
 .about_bighit{
-    margin-top: 6vh;
-    text-align: center;
-    font-size: 18px;
-    color: #6b6b6a;
-}
-
-.bighit_artits{
-    background-color: #282828;
-    height: auto;
-    padding-bottom: 20vh;
-}
-
-.img_artits{
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-}
-
-.button_artists{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-
-.bighit_careers{
     background-color: #232321;
     height: auto;
+    padding-top: 14em;   
+    text-align: center;
+    font-size: 17px;
+    
 }
+
+.img_bighit{
+    display: flex;
+    justify-content: center;
+}
+
+.text_bighit{
+    color: white; 
+    opacity: 0.5;
+    padding: 40px 0 110px;
+}
+
+.about_artists{
+    display: flex;
+    justify-content: center;
+    background-color: #282828;
+    padding: 70px 0 60px;
+    gap: 30px;
+    font-size: 17px;
+    color: #fff;
+}
+
+.about_artists li{
+    display: inline-block;
+}
+
+.about_artists li span{
+    display: block;
+    text-align: center;
+}
+
+.about_careers{
+    background-color: #232321;
+    padding: 75px 0 170px;
+}
+
+.title_careers{
+    height: 120px;
+    width: 1200px;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+
+.text_careers{
+    text-align: center;
+    color: white; 
+    opacity: 0.5;
+    margin: 24px 0 50px;
+}
+
+.btn_careers{
+    background: url("/source/imgSrc/about/btn_move.png") no-repeat;
+    background-position: 90%;
+    width: 320px;
+    height: 70px;
+    border: 1px solid #777;
+    text-align: left;
+    text-indent: 20px;
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.7;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:visited {
+    color:white;
+  }
