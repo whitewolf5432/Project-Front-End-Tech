@@ -10,6 +10,7 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="cssSrc/font.css">
     <link rel="stylesheet" href="cssSrc/main.css">
     <link rel="stylesheet" href="cssSrc/about.css">
     <title>Document</title>
@@ -17,7 +18,7 @@
 
 <body>
     <div class="wrapper">
-        <header class="head bg-black bg-opacity-25">
+        <header class="head">
             <div class="menu-bar" id="menu">
                 <button class="menu" onclick="document.getElementById('menu').classList.toggle('close')">
                 </button>
@@ -31,7 +32,7 @@
 
         <div class="d-flex justify-content-end flex-column w-100 content">
             <section class="test">
-                
+
                 <div class="about_bighit">
                     <div class="title_bighit d-flex justify-content-center align-items-center">BIGHIT MUSIC</div>
                     <div class="img_bighit">
@@ -51,34 +52,36 @@
                 <div class="about_artists">
                     <div class="title_artists d-flex justify-content-center align-items-center">ARTISTS</div>
                     <li>
-                        <a href="...">
-                            <img src="imgSrc/about/img-leehyun.jpg">
-                            <span>LEE HYUN</span>
-                        </a>
+
+                        <img src="imgSrc/about/img-leehyun.jpg">
+                        <span>LEE HYUN</span>
+
                     </li>
                     <li>
-                        <a href="...">
-                            <img src="imgSrc/about/img-bts.jpg">
-                            <span>BTS</span>
-                        </a>
+
+                        <img src="imgSrc/about/img-bts.jpg">
+                        <span>BTS</span>
+
                     </li>
                     <li>
-                        <a href="...">
-                            <img src="imgSrc/about/img-twt.jpg">
-                            <span>TOMORROW X TOGETHER</span>
-                        </a>
+
+                        <img src="imgSrc/about/img-twt.jpg">
+                        <span>TOMORROW X TOGETHER</span>
+
                     </li>
                 </div>
                 <div class="about_careers d-flex justify-content-center flex-column align-items-center">
                     <h1 class="title_careers">CAREERS</h1>
                     <div class="text_careers">
+                        <!-- เปลี่ยนภาษา -->
                         <p>We hire people with diverse experiences to create new values and fully<br>
                             support the professionalism and passion of our members.<br>
                             We're waiting for passionate talent to enjoy the challenge in Big Hit Music.</p>
                     </div>
-                    <button type="button" class="btn_careers">
-                        <a href="https://careers.hybecorp.com/">Apply</a>
-                    </button>
+                    <a href="https://careers.hybecorp.com/">
+                       <button type="button" class="btn_careers" >Apply</button> 
+                    </a>
+                    
                 </div>
 
 
