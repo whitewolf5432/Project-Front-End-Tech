@@ -51,6 +51,7 @@
     z-index: 2;
     width: 100vw;
     height: 60px;
+    background-color: #272727;
 }
 
 .family-site {
@@ -61,10 +62,34 @@
 
 .family-btn {
     border: none;
-    font-size: small;
+    font-size: 13.25px;
     background-color: rgba(255, 255, 255, 0);
+    padding-top: 1em;
     padding-bottom: 1em;
     color: #929191;
+    background-image: url("https://img.icons8.com/ios-filled/50/000000/collapse-arrow.png");
+    background-repeat: no-repeat;
+    background-size: 2em;
+    background-position: 100%;
+    background-position-y: 0.5em;
+}
+
+#family_site {
+    list-style-type: none;
+    bottom: 2em;
+    width: 22.25em;
+    padding-left: 0;
+}
+
+#family_site li {
+    background-color: #1e1e1e;
+    box-sizing: border-box;
+    padding-block: 10px;
+}
+
+#family_site li:hover {
+    background-color: rgb(0, 0, 0);
+    padding-block: 10px;
 }
 
 .footer .active {
@@ -73,4 +98,25 @@
 
 .active .family-btn {
     color: rgba(146, 145, 145, 0.5);
+    background-image: url("https://img.icons8.com/ios-filled/50/000000/expand-arrow--v1.png");
+}
+
+.family-link {
+    cursor: pointer;
+}
+
+.copyright {
+    font-size: 11px;
+    font-family: CamberMedium;
+}
+
+.copyright div {
+    padding-top: 5px;
+    padding-right: 2em;
+    color: rgba(146, 145, 145, 0.5);
+}
+
+.family-link {
+    margin-bottom: -2px;
+    margin-right: 30px;
 }
