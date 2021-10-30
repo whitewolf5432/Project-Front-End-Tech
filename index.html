@@ -17,21 +17,24 @@
                 <button class="menu" onclick="document.getElementById('menu').classList.toggle('close')">
                 </button>
             </div>
-            <img src="source/imgSrc/main/logo.png" height="34em">
-            <button class="menu">
+            <a href=".">
+                <img src="source/imgSrc/main/logo.png" height="34em">
+            </a>
+                <button class="menu">
                 ENG
             </button>
         </header>
         <div class="d-flex justify-content-end flex-column w-100 content">
             <section class="test">
             </section>
-            <footer class="footer bg-dark d-flex justify-content-around p-2">
-                <div class="col"></div>
-                <div id="family" class="family-site pe-1">
-                    <button type="button" class="family-btn row h-75 mt-1 pt-1 w-100 justify-content-center">
+            <footer class="footer d-flex justify-content-around p-2">
+                <div class="col">
+                </div>
+                <div id="family" class="family-site">
+                    <button type="button" class="family-btn row h-100 w-100 justify-content-center">
                         FAMILY SITES
                     </button>
-                    <ul class="d-none opacity-0">
+                    <ul class="d-none opacity-0 position-absolute justify-content-center flex-column text-center" id="family_site">
                         <li>
                             <a href="https://hybecorp.com">HYBE Co., Ltd.</a>
                         </li>
@@ -46,17 +49,26 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col"></div>
+                <div class="col copyright text-end">
+                    <div class="col family-link pe-3" onclick="location.href='family_sites.html';">FAMILY SITE</div>
+                    <div class="col">COPYRIGHT © 2021 IT KMITL. All Rights Reserved</div>
+                </div>
             </footer>
         </div>
     </div>
     <script>
     $(document).ready(function(){
-        $(".family-btn").mouseover( function () {
+        $("#family").mouseover( function () {
             document.getElementById('family').classList.add('active');
+            document.getElementById('family_site').classList.remove('d-none');
+            document.getElementById('family_site').classList.add('d-flex');
+            document.getElementById('family_site').classList.remove('opacity-0');
         });
-        $(".family-btn").mouseout( function () {
+        $("#family").mouseout( function () {
             document.getElementById('family').classList.remove('active');
+            document.getElementById('family_site').classList.add('d-none');
+            document.getElementById('family_site').classList.remove('d-flex');
+            document.getElementById('family_site').classList.add('opacity-0');
         });
     });
     </script>
