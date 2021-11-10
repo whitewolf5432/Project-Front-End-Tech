@@ -25,6 +25,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.2);
+    z-index: 50;
 }
 
 .content {
@@ -82,21 +83,29 @@ header div ul li {
     border: none;
     font-size: 13.25px;
     background-color: rgba(255, 255, 255, 0);
+    padding-left: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
     color: #929191;
-    background-image: url("https://img.icons8.com/ios-filled/50/000000/collapse-arrow.png");
-    background-repeat: no-repeat;
-    background-size: 2em;
-    background-position: 100%;
-    background-position-y: 0.5em;
+}
+
+.family-btn::after {
+    content: '';
+    display: block;
+    transform: translate(9em, 0.5em) rotateZ(225deg);
+    width: 0.75em;
+    height: 0.75em;
+    margin-top: -2px;
+    border: 1px solid #6b6b6b;
+    border-width: 0 2px 2px 0;
 }
 
 #family_site {
     list-style-type: none;
-    bottom: 2em;
     width: 22.25em;
     padding-left: 0;
+    transition: all 100ms;
+    transform: translateY(-13em);
 }
 
 #family_site li {
@@ -120,9 +129,14 @@ header div ul li {
     border-color: rgba(146, 145, 145, 0.5);
 }
 
+.active .family-btn::after {
+    transform: translate(9em, 0.25em) rotateZ(45deg);
+    border: 1px solid rgba(146, 145, 145, 0.5);
+    border-width: 0 2px 2px 0;
+}
+
 .active .family-btn {
     color: rgba(146, 145, 145, 0.5);
-    background-image: url("https://img.icons8.com/ios-filled/50/000000/expand-arrow--v1.png");
 }
 
 .family-link {
