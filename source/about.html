@@ -10,6 +10,7 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jsSrc/main.js"></script>
     <link rel="stylesheet" href="cssSrc/font.css">
     <link rel="stylesheet" href="cssSrc/main.css">
     <link rel="stylesheet" href="cssSrc/about.css">
@@ -18,21 +19,50 @@
 
 <body>
     <div class="wrapper">
-        <header class="head">
+        <header class="head bg-black bg-opacity-25">
+            <nav class="position-fixed w-100 h-100 d-none justify-content-center align-items-center" id="menu-list">
+                <div class="col d-flex justify-content-center h-100 align-items-center" id="list">
+                    <ul class="p-0" onclick="">
+                        <li>test</li>
+                        <li>test</li>
+                        <li onclick="moreList(0)">test</li>
+                        <li onclick="moreList(1)">test</li>
+                        <li onclick="moreList(2)">test</li>
+                    </ul>
+                </div>
+                <div class="d-none col justify-content-start p-0 h-100 bg-dark bg-opacity-25 align-items-center" id="more">
+                    <ul class="p-0 d-none flex-column" id="more0">
+                        <li>test</li>
+                        <li>test</li>
+                        <li>test</li>
+                        <li>test</li>
+                    </ul>
+                    <ul class="p-0 d-none flex-column" id="more1">
+                        <li>กหฟกหฟก</li>
+                        <li>กหฟกหฟก</li>
+                        <li>ฟหกหฟกฟห</li>
+                        <li>ฟหกฟหก</li>
+                    </ul>
+                    <ul class="p-0 d-none flex-column"  id="more2">
+                        <li>หฟกฟหกฟ</li>
+                        <li>กหฟกกก</li>
+                        <li>dsada</li>
+                        <li>dasdsadasda</li>
+                    </ul>
+                </div>
+            </nav>
             <div class="menu-bar" id="menu">
-                <button class="menu" onclick="document.getElementById('menu').classList.toggle('close')">
-                </button>
+                <button class="menu" onclick="showMenu()"></button>
             </div>
-            <img src="imgSrc/main/logo.png" height="52.5%">
-            <button class="menu">
+            <a href=".">
+                <img src="imgSrc/main/logo.png" height="34em">
+            </a>
+                <button class="menu">
                 ENG
             </button>
         </header>
-
-
         <div class="d-flex justify-content-end flex-column w-100 content">
             <section>
-
                 <div class="about_bighit">
                     <div class="title_bighit d-flex justify-content-center align-items-center">BIGHIT MUSIC</div>
                     <div class="img_bighit">
@@ -42,32 +72,25 @@
                         <!-- เปลี่ยนภาษา -->
                         <p">BIGHIT MUSIC is an industry-leading music label that continues to pioneer new paths<br>
                             driven by a strong belief in music and ceaseless support from fans.</p>
-                            <p>BIGHIT strives to create music heretofore unseen in the world through its inimitable way,
-                                creating the music<br>
-                                that symbolizes an era that can resonate with fans across the world.</p>
-                            <p>Artists under the label includes Lee Hyun, BTS and TOMORROW X TOGETHER.</p>
+                        <p>BIGHIT strives to create music heretofore unseen in the world through its inimitable way,
+                            creating the music<br>
+                            that symbolizes an era that can resonate with fans across the world.</p>
+                        <p>Artists under the label includes Lee Hyun, BTS and TOMORROW X TOGETHER.</p>
                     </div>
                 </div>
-
                 <div class="about_artists">
                     <div class="title_artists d-flex justify-content-center align-items-center">ARTISTS</div>
                     <li>
-
                         <img src="imgSrc/about/img-leehyun.jpg">
                         <span>LEE HYUN</span>
-
                     </li>
                     <li>
-
                         <img src="imgSrc/about/img-bts.jpg">
                         <span>BTS</span>
-
                     </li>
                     <li>
-
                         <img src="imgSrc/about/img-twt.jpg">
                         <span>TOMORROW X TOGETHER</span>
-
                     </li>
                 </div>
                 <div class="about_careers d-flex justify-content-center flex-column align-items-center">
@@ -81,28 +104,16 @@
                     <a href="https://careers.hybecorp.com/">
                        <button type="button" class="btn_careers" >Apply</button> 
                     </a>
-                    
                 </div>
-
-
-
-
-
-
-
-
-
-
             </section>
-
-
-            <footer class="footer bg-dark d-flex justify-content-around p-2">
-                <div class="col"></div>
-                <div id="family" class="family-site pe-1">
-                    <button type="button" class="family-btn row h-75 mt-1 pt-1 w-100 justify-content-center">
+            <footer class="footer d-flex justify-content-around p-2">
+                <div class="col">
+                </div>
+                <div id="family" class="family-site">
+                    <button type="button" class="family-btn row h-100 w-100 justify-content-center">
                         FAMILY SITES
                     </button>
-                    <ul class="d-none opacity-0">
+                    <ul class="opacity-0 position-absolute justify-content-center flex-column text-center" id="family_site">
                         <li>
                             <a href="https://hybecorp.com">HYBE Co., Ltd.</a>
                         </li>
@@ -117,22 +128,12 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col"></div>
+                <div class="col copyright text-end">
+                    <div class="col family-link pe-3" onclick="location.href='family_sites.html';">FAMILY SITE</div>
+                    <div class="col">COPYRIGHT © 2021 IT KMITL. All Rights Reserved</div>
+                </div>
             </footer>
         </div>
     </div>
-
-    <script>
-        $(document).ready(function () {
-            $(".family-btn").mouseover(function () {
-                document.getElementById('family').classList.add('active');
-            });
-            $(".family-btn").mouseout(function () {
-                document.getElementById('family').classList.remove('active');
-            });
-        });
-    </script>
-
 </body>
-
 </html>
