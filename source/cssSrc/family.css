@@ -4,6 +4,10 @@ h2 {
     font-size: 50px;
 }
 
+body {
+    background-color: #282828;
+}
+
 .family_top {
     background-color: #282828;
     padding: 180px 0 140px;
@@ -12,6 +16,11 @@ h2 {
 .title_sep {
     background-color: #282828;
     height: 50px;
+}
+
+.title_sep2 {
+    background-color: #282828;
+    height: 135px;
 }
 
 .title_sep h2 {
@@ -24,105 +33,55 @@ h2 {
 
 .family_label {
     background-color: #1c1c1a;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
-.family_label ul {
+ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
+    width: 1080px;
+    justify-content: space-between;
 }
 
-.family_label ul li a span {
-    height: 240px;
-}
-
-.family_site h2 {
-    position: absolute;
-    width: 100%;
-    font-family: SolanoGothic;
-    text-align: center;
-    font-size: 50px;
-    margin-top: -42px;
-}
-
-.wrap_site {
-    padding-bottom: 85px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding-top: 80px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.wrap_site li {
+ul li {
     background-color: #282828;
     display: inline-block;
-    text-align: center;
+    height: 240px;
+    width: calc(33.3333% - 10px);
+    margin-bottom: 20px;
 }
 
-.wrap_site li a span {
+ul li a span {
     font-family: CamberSemiBold;
-    height: 240px;
-    width: 350px;
     display: flex;
-    text-align: center;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
     transition: all 300ms ease;
 }
 
-.wrap_site li a:hover span {
+ul li a:hover span {
     background-color: white;
     color: #282828;
     cursor: pointer;
 }
 
-.sep {
-    background-color: #282828;
-    padding-top: 220px;
-}
-
 .family_sol {
     background-color: #1c1c1a;
-    padding-top: 165px;
+    margin-top: 165px;
 }
 
-.family_sol h2 {
-    position: absolute;
-    width: 100%;
-    font-family: SolanoGothic;
-    text-align: center;
-    font-size: 50px;
-    z-index: 9;
-    margin-top: -205px;
+.family_site {
+    background-color: #1c1c1a;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
-.wrap_site2 {
-    padding-bottom: 85px;
-    display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
-    padding-top: 10px;
-    padding-left: 225px;
-}
-
-.wrap_site2 li {
-    background-color: #282828;
-    display: inline-block;
-    text-align: center;
-}
-
-.wrap_site2 li a span {
-    font-family: CamberSemiBold;
-    height: 240px;
-    width: 350px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    transition: all 300ms ease;
+.family_plat {
+    background-color: #1c1c1a;
+    margin-top: 165px;
 }
