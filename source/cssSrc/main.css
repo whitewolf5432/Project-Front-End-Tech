@@ -160,8 +160,3 @@ header div ul li {
 }
 
 /* NOTE test section here */
-.test {
-    width: 100%;
-    height: calc(100vh - 60px);
-    background-color: rgb(160, 160, 160);
-}
