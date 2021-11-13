@@ -3,6 +3,9 @@
     height: calc(100vh - 60px);
     background-color: white;
 }
+.dropdown{
+  margin-top: 4%;
+}
 .dropbtn {
     background-color: transparent;
     color: #404040;
@@ -12,7 +15,6 @@
     position: relative;
     font-size: 1vw;
     font-weight: bold;
-    padding-top: 2vw;
     font-family: CamberMedium;
     border: none;
     cursor: pointer;
@@ -36,6 +38,7 @@
     position: absolute;
     text-align: center;
     font-size: 1vw;
+    font-weight: 700;
     background: #f0f0f0;
     color: rgba(64, 64, 64, 0.8);
     padding: 12px 16px;
@@ -52,15 +55,31 @@
   .dropdown:hover .dropdown-content {
     display: inline-block;
     overflow: visible;
+    
+  }
+  .dropdown-content a:hover{
+    color: #404040;
+    
+  }
+  .dropdown:hover{  
+    cursor: pointer;
+  }
+  .dropdown:hover .dropbtn{
+    color: #797979    ;
   }
   .dropdown:hover .dropdown-content a{
     overflow: visible;
   }
-  
+  .droparrow{
+    position: absolute;
+    top:-10%;
+  }
   .pic{
     background-image: url('../imgSrc/BTS/TOUR/tour-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    
   }
   .board{
     border-bottom: 1px solid rgba(170, 170, 170, 0.8);
