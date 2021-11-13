@@ -11,8 +11,6 @@ $(document).ready(function() {
         document.getElementById('family_site').classList.add('opacity-0');
     });
 
-    content();
-
     $('#language').mouseover( function () {
         $('#language').addClass('active');
         $('#language ul').css('opacity', '1');
