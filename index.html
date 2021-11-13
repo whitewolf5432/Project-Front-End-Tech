@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="source/cssSrc/main.css">
     <script src="https://kit.fontawesome.com/23b0d6d721.js" crossorigin="anonymous"></script>
     <title>Document</title>
+    <script src="/source/jsSrc/loveyourself.js"></script>
     <style>
         @font-face {
             font-family: 'MVB';
@@ -71,10 +72,10 @@
         </header>
         <div class="d-flex justify-content-end flex-column w-100 content">
             
-            <section class="test content d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 120px;">
-                <div class="row d-flex c" style="padding-top: 100px;">
+            <section class="content d-flex flex-column align-content-center justify-content-center">
+                <div class="row d-flex c" >
                     <div class="col-6 d-flex justify-content-center align-items-baseline">
-                        <a href="" class="btn fas fa-arrow-left" style="font-size: 18px; padding-right: 100px;">   
+                        <a id="arrow" class="btn fas fa-arrow-left">   
                         </a>
                     </div>
                 </div>
@@ -86,31 +87,54 @@
                     </div>
                     <div class="col-lg-4 col-md-5 d-flex flex-column px-5">
                         <p style="color: black;">THE 5TH MINI ALBUM</p>
-                        <div style="overflow: hidden; line-height: 60px; font-family: MVB; font-size: 70px; color: #5D5D7A;">LOVE YOURSELF<span style="font-size: 60px; color: #5D5D7A;">承</span><br>‘HER’</div>
+                        <div id="title">LOVE YOURSELF<span style="font-size: 60px; color: #5D5D7A;">承</span><br>‘HER’</div>
                         <br>
                         <p id="data" style="font-family: camber; font-size: 17px; color: #5D5D7A;"></p>
-                        <script>
-                            fetch('/source/contentSrc/english.json')
-                                .then(response => response.json())
-                                .then(data => {
-                                    console.log(data.about_page.paragraph)
-                                    document.querySelector("#data").innerHTML = data.lysh_album.paragraph
-                                }
-                                )
-                        </script>
                     </div>
                     <div class="col-2">
                         
                     </div>
                 </div>
             </section>
-            <section class="test content d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 120px;">
+
+            <section class=" content d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 120px;">
                 
             </section>
-            <section class="test content d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 120px;">
+
+            <section class="content d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 120px;">
+                <div>
+                    
+                <div class="row d-flex flex-column align-content-center justify-content-center">
+                    <div style="width: 1080px; height: 808px;">
+                    <div class="row d-flex  align-content-center justify-content-center" style="position: relative; overflow:hidden; width: 1080px; height: 608px;">
+                        <div><button class="btn" id="play" onclick="play()" style="display: block; padding-top: 104px; position: relative;" height="608">
+                            <div>
+                            <img style="position: absolute; left: 0; padding-left: 12px;" src="https://ibighit.com/bts/images/bts/discography/love_yourself-her/video-cover06.jpg">
+                            <i style="position: absolute; padding-top: 270px; left: 520px; font-size: 30px;" class="fas fa-play"></i>
+                            <div class="imgoverlay"></div>
+                        </div>
+                        </button></div>
+                        <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: none; padding-top: 49px;" id="vid" width="1080" height="608"
+                        src='https://www.youtube.com/embed/fJ9rUzIMcZQ'>>
+                    </iframe><h1 id="headvid">VIDEO</h1> </div>
+                    <div class="row d-flex flex-column flex-column align-content-center justify-content-center">
+                        <div class="col d-flex align-content-center justify-content-center pt-4" style="font-size: 16; text-align: center;">
+                            <div class="col-2" ><button onclick="vid1()" id="vidbut1" class="btn vidbut">COMEBACK<br>TRAILER</button></div>
+                            <div class="col-2 vidbut" ><button onclick="vid2()" id="vidbut2" class="btn">'DNA'MV<br>TEASER 1</button></div>
+                            <div class="col-2 vidbut" ><button onclick="vid3()" id="vidbut3" class="btn">'DNA'MV<br>TEASER 2</button></div>
+                            <div class="col-1 vidbut" ><button onclick="vid4()" id="vidbut4" class="btn">'DNA'MV<br>MV</button></div>
+                            <div class="col-3 vidbut" ><button onclick="vid5()" id="vidbut5" class="btn">'MIC DROP(REMIX)'MV'<br>TEASER</button></div>
+                            <div class="col vidbut"><button onclick="vid6()" id="vidbut6" class="btn">'MIC DROP(REMIX)'<br>MV</button></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div> 
+            </section>
+            <section class=" content d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 120px;">
                 
             </section>
-            <section class="test content d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 120px;">
+            <section class=" content d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 120px;">
                 
             </section>
             <footer class="footer d-flex justify-content-around p-2">
