@@ -58,13 +58,16 @@
   }
   
   .pic{
-    background-image: url('https://ibighit.com/bts/images/bts/tour/love_yourself/tour-bg.jpg');
+    background-image: url('../imgSrc/BTS/TOUR/tour-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
   }
   .board{
     border-bottom: 1px solid rgba(170, 170, 170, 0.8);
     border-top: 1px solid rgba(170, 170, 170, 0.8);
+  }
+  .boarddown{
+    border-bottom: 1px solid rgba(170, 170, 170, 0.8);
   }
   .day{
     font-size: 1vw;
