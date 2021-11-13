@@ -40,7 +40,9 @@
 .text_bighit {
     color: white;
     opacity: 0.5;
-    padding: 40px 0 110px;
+    width: 75vw;
+    padding: 2.77vw 0 6vw;
+    margin: auto;
     font-family: CamberMedium;
 }
 
