@@ -57,6 +57,10 @@
     overflow: visible;
     
   }
+  .dropdown:hover .droparrow {
+    transform: rotateX(180deg);
+    
+  }
   .dropdown-content a:hover{
     color: #404040;
     
