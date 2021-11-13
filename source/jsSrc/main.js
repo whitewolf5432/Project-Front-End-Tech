@@ -42,8 +42,10 @@ function showMenu() {
     document.getElementById('menu').classList.toggle('close');
     document.getElementById('menu-list').classList.toggle('opacity-100');
     if(document.getElementById('menu-list').style.visibility == 'visible') {
+        $('*').css('overflow-y', 'auto');
         document.getElementById('menu-list').style.visibility = 'hidden';
     } else {
+        $('*').css('overflow-y', 'hidden');
         document.getElementById('menu-list').style.visibility = 'visible';
     }
     document.getElementById('list').classList.replace('justify-content-end', 'justify-content-center');
