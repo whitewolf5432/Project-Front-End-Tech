@@ -16,17 +16,17 @@
     align-items: center;
 }
 
-.head {
+header {
     position: fixed;
     top: 0;
-    width: 100vw;
+    right: 0;
+    width: 100%;
     height: 63px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 30;
-    overflow-y: hidden;
 }
 
 .content {
@@ -39,7 +39,7 @@
 }
 
 .menu {
-    width: 5.5em;
+    width: 90px;
     height: 63px;
     border: none;
     background-color: rgba(255, 255, 255, 0);
@@ -52,9 +52,9 @@
     background-repeat: no-repeat;
 }
 
-#list {
-    /* width: 100%; */
-    transition: all 1s;
+#list ul li a {
+    text-decoration: none;
+    color: white;
 }
 
 #menu-list {
@@ -72,12 +72,23 @@
     opacity: 0;
     visibility: hidden;
     transition: opacity 1s;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 #more ul li {
     height: 67px;
     border: none;
     justify-content: start;
+    font-size: 16px;
+}
+
+#more ul li a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+#more ul li a:hover {
+    color: white;
 }
 
 #more0, #more1, #more2 {
@@ -85,19 +96,91 @@
     visibility: hidden;
     transition: opacity 1s;
     margin-left: 100px;
-    font-size: 16px;
 }
 
 header div ul li {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 32px;
+    font-size: 24px;
     width: 364px;
     height: 102px;
     padding: 5px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.24);
     z-index: 25;
+}
+
+#language button {
+    color: white;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.75);
+}
+
+#language button:hover {
+    text-shadow: none;
+}
+
+#language_option {
+    top: 63px;
+    right: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 100ms;
+    z-index: 100;
+}
+
+#language span {
+    opacity: 0;
+    transition: opacity 150ms;
+}
+
+#language:hover span {
+    opacity: 1;
+}
+
+.active span {
+    display: block;
+    width: 0.75em;
+    height: 0.75em;
+    position: fixed;
+    transform: translateY(30px) rotateZ(45deg);
+    background-color: white;
+    opacity: 1;
+}
+
+.active span:nth-child(2) {
+    width: 90px;
+    height: 63px;
+    top: 0;
+    transform: translateY(63px);
+    background-color: black;
+    opacity: 1;
+    z-index: 30;
+}
+
+.active #language_option{
+    opacity: 1;
+    visibility: visible;
+}
+
+#language_option li{
+    width: 90px;
+    height: 63px;
+    border: none;
+    box-shadow: inset 0px 1px 0px rgba(58, 56, 52, 0.2);
+    font-size: large;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: opacity 100ms;
+    opacity: 0;
+}
+
+#language_option li:hover, #language_option #selected{
+    background-color: black;
+    color: white;
 }
 
 .footer {
@@ -111,7 +194,6 @@ header div ul li {
     width: 22.25em;
     margin-bottom: 0.125em;
     border-bottom: #929191 solid 1px;
-    overflow-y: hidden;
 }
 
 .family-btn {
@@ -127,7 +209,7 @@ header div ul li {
 .family-btn::after {
     content: '';
     display: block;
-    transform: translate(9em, 0.5em) rotateZ(225deg);
+    transform: translate(115px, 7px) rotateZ(225deg);
     width: 0.75em;
     height: 0.75em;
     margin-top: -2px;
@@ -140,7 +222,7 @@ header div ul li {
     width: 22.25em;
     padding-left: 0;
     transition: all 100ms;
-    transform: translateY(-13em);
+    transform: translateY(-210px);
 }
 
 #family_site li {
@@ -160,12 +242,17 @@ header div ul li {
     color: rgb(255, 255, 255);
 }
 
+#family_site_content {
+    align-self: flex-end;
+    width: fit-content;
+}
+
 .footer .active {
     border-color: rgba(146, 145, 145, 0.5);
 }
 
 .active .family-btn::after {
-    transform: translate(9em, 0.25em) rotateZ(45deg);
+    transform: translate(115px, 5px) rotateZ(45deg);
     border: 1px solid rgba(146, 145, 145, 0.5);
     border-width: 0 2px 2px 0;
 }
