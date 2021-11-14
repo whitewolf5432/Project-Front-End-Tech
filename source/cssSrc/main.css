@@ -168,10 +168,10 @@ header div ul li {
     font-size: 18px; padding-right: 100px;
 }
 #headvid{
-    text-align: center; color: #5D5D7A; position: absolute; overflow:hidden; font-size: 80px; line-height: 60px; font-family: MVB;
+    text-align: center; color: #5D5D7A; position: absolute; overflow:hidden; font-size: 80px; font-family: MVB; margin-bottom: 724px;
 }
 .vidbut{
-    font-family: camber;
+    font-family: camberm;
     color: #7084A8CC;
     opacity: 60%;
 }
@@ -189,4 +189,12 @@ header div ul li {
 .imgoverlay:hover{
     opacity: 0;
 }
+.videobg{
+    background: #B1C2E04D;
+    width: 1920px; height: 720px;
+}
+#arrowbot:hover{
+    color: pink;
+}
+.videobg > ul > li  {display: none;}
 /* NOTE test section here */

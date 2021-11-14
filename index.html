@@ -19,8 +19,12 @@
             src: url('/source/font/MVB-SolanoGothicMVB-Bd_1.ttf') format("truetype");
         }
         @font-face {
-            font-family: 'camber';
+            font-family: 'camberm';
             src: url('/source/font/EmtypeFoundry-CamberMediumRegular_1.ttf') format("truetype");
+        }
+        @font-face {
+            font-family: 'cambersb';
+            src: url('/source/font/EmtypeFoundry-CamberSemiBoldRegular_1.ttf') format("truetype");
         }
     </style>
 </head>
@@ -89,7 +93,7 @@
                         <p style="color: black;">THE 5TH MINI ALBUM</p>
                         <div id="title">LOVE YOURSELF<span style="font-size: 60px; color: #5D5D7A;">承</span><br>‘HER’</div>
                         <br>
-                        <p id="data" style="font-family: camber; font-size: 17px; color: #5D5D7A;"></p>
+                        <p id="data" style="font-family: camberm; font-size: 17px; color: #5D5D7A;"></p>
                     </div>
                     <div class="col-2">
                         
@@ -101,24 +105,23 @@
                 
             </section>
 
-            <section class="content d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 120px;">
-                <div>
-                    
-                <div class="row d-flex flex-column align-content-center justify-content-center">
-                    <div style="width: 1080px; height: 808px;">
+
+            <section class="content d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 80px; padding-top: 80px;">
+                <div class=" row d-flex flex-column align-content-center justify-content-center">
+                    <div class="videobg d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 690px;">     
                     <div class="row d-flex  align-content-center justify-content-center" style="position: relative; overflow:hidden; width: 1080px; height: 608px;">
-                        <div><button class="btn" id="play" onclick="play()" style="display: block; padding-top: 104px; position: relative;" height="608">
+                        <div><button class="btn" id="play" onclick="play()" style="display: block; position: relative;" height="608px">
                             <div>
                             <img style="position: absolute; left: 0; padding-left: 12px;" src="https://ibighit.com/bts/images/bts/discography/love_yourself-her/video-cover06.jpg">
                             <i style="position: absolute; padding-top: 270px; left: 520px; font-size: 30px;" class="fas fa-play"></i>
                             <div class="imgoverlay"></div>
                         </div>
                         </button></div>
-                        <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: none; padding-top: 49px;" id="vid" width="1080" height="608"
+                        <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: none;" id="vid" width="1080" height="608px"
                         src='https://www.youtube.com/embed/fJ9rUzIMcZQ'>>
-                    </iframe><h1 id="headvid">VIDEO</h1> </div>
-                    <div class="row d-flex flex-column flex-column align-content-center justify-content-center">
-                        <div class="col d-flex align-content-center justify-content-center pt-4" style="font-size: 16; text-align: center;">
+                    </iframe></div><h1 id="headvid">VIDEO</h1>
+                    <div class="row d-flex flex-column flex-column align-content-center justify-content-center" style="width: 1080px;">
+                        <div class="col d-flex align-content-center justify-content-center pb-2 pt-2" style="font-size: 16; text-align: center;">
                             <div class="col-2 vidbut" ><button onclick="vid1()" id="vidbut1" class="btn">COMEBACK<br>TRAILER</button></div>
                             <div class="col-2 vidbut" ><button onclick="vid2()" id="vidbut2" class="btn">'DNA'MV<br>TEASER 1</button></div>
                             <div class="col-2 vidbut" ><button onclick="vid3()" id="vidbut3" class="btn">'DNA'MV<br>TEASER 2</button></div>
@@ -127,15 +130,131 @@
                             <div class="col vidbut" ><button onclick="vid6()" id="vidbut6" class="btn">'MIC DROP(REMIX)'<br>MV</button></div>
                         </div>
                     </div>
-                </div>
-                </div>
-            </div> 
-            </section>
-            <section class=" content d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 120px;">
                 
+            </div>
+                </div>
             </section>
-            <section class=" content d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 120px;">
-                
+
+            
+            <section class="content d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 80px;"> 
+                <div class="row d-flex flex-column align-content-center justify-content-center">
+                    <div class="videobg" style="width: 100%; height: 740px; position: absolute; margin-top: 200px; background: #EB97BC4D;">
+                    </div>                   
+                    <div style="width: 1440px; height: 1000px; position: relative; padding-top: 100px;">
+                        <div class="row d-flex flex-column flex-column align-content-center justify-content-center"><div class="row d-flex  align-content-center justify-content-center" style="position: relative; overflow:hidden; width: 1440px; height: 800px;">               
+                            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                      <div class="d-flex align-items-center justify-content-center">
+                                          <img id="photo1" height="720px" src="https://ibighit.com/bts/images/bts/discography/love_yourself-her/photo01-01.jpg">
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <div class="d-flex align-items-center justify-content-center">
+                                          <img id="photo2" height="720px" src="https://ibighit.com/bts/images/bts/discography/love_yourself-her/photo01-02.jpg">
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <div class="d-flex align-items-center justify-content-center">
+                                          <img id="photo3" height="720px" src="https://ibighit.com/bts/images/bts/discography/love_yourself-her/photo01-03.jpg">
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <div class="d-flex align-items-center justify-content-center">
+                                          <img id="photo4" height="720px" src="https://ibighit.com/bts/images/bts/discography/love_yourself-her/photo01-04.jpg">
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <div class="d-flex align-items-center justify-content-center">
+                                          <img id="photo5" height="720px" src="https://ibighit.com/bts/images/bts/discography/love_yourself-her/photo01-05.jpg">
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <div class="d-flex align-items-center justify-content-center">
+                                          <img id="photo6" height="720px" src="https://ibighit.com/bts/images/bts/discography/love_yourself-her/photo01-06.jpg">
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <div class="d-flex align-items-center justify-content-center">
+                                          <img id="photo7" height="720px" src="https://ibighit.com/bts/images/bts/discography/love_yourself-her/photo01-07.jpg">
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <div class="d-flex align-items-center justify-content-center">
+                                          <img id="photo8" height="720px" src="https://ibighit.com/bts/images/bts/discography/love_yourself-her/photo01-08.jpg">
+                                      </div>
+                                    </div>
+                                    
+                                  </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                                  <span aria-hidden="true"><i id="arrowbot" style="color: gray; font-size: 50px;" class="fas fa-chevron-left"></i></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                                  <span aria-hidden="true"><i style="color: gray; font-size: 50px;" class="fas fa-chevron-right"></i></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                             </div><h1 style="text-align: center; margin-bottom: 760px; color: #A8587C;" id="headvid">PHOTO</h1>  </div>   
+                        <div class="row d-flex flex-column flex-column align-content-center justify-content-center">
+                            <div class="col d-flex align-content-center justify-content-center" style="font-size: 16; text-align: center;">
+                                <div class="col-2 vidbut" ><button onclick="phoset1()" id="phobut1" class="btn">CONCEPT PHOTO L</button></div>
+                                <div class="col-2 vidbut" ><button onclick="phoset2()" id="phobut2" class="btn">CONCEPT PHOTO O</button></div>
+                                <div class="col-2 vidbut" ><button onclick="phoset3()" id="phobut3" class="btn">CONCEPT PHOTO V</button></div>
+                                <div class="col-2 vidbut" ><button onclick="phoset4()" id="phobut4" class="btn">CONCEPT PHOTO E</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="content d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 270px;">
+                <div class="row d-flex flex-column align-content-center justify-content-center pb-2"><div style="color: #5D5D7A; text-align: center; font-size: 80px; font-family: MVB;">TRACK</div></div>
+                <div class="row d-flex flex-column align-content-center justify-content-center pt-2" style="font-family: chambers;">
+                    <div class="row d-flex align-content-center justify-content-center pt-2">
+                        <div class="col-5 text"><div style="color: #AB7DAC; text-align: end; margin-right: 20px; font-size: 17px;">1</div></div>
+                        <div class="col-7"><div style="color: #5D5D7A; text-align: start; font-size: 17px; font-weight: bold;">Intro : Serendipity <span style="color: #5D5D7A; font-weight: lighter;">2’19”</span></div></div>
+                    </div>
+                    
+                    <div class="row d-flex align-content-center justify-content-center pt-2">
+                        <div class="col-5 text"><div style="color: #AB7DAC; text-align: end; margin-right: 20px; font-size: 17px;">2</div></div>
+                        <div class="col-7"><div style="color: #5D5D7A; text-align: start; font-size: 17px; font-weight: bold;">DNA <span style="color: #5D5D7A; font-weight: lighter;">3’43”</span></div></div>
+                    </div>
+
+                    <div class="row d-flex align-content-center justify-content-center pt-2">
+                        <div class="col-5 text"><div style="color: #AB7DAC; text-align: end; margin-right: 20px; font-size: 17px;">3</div></div>
+                        <div class="col-7"><div style="color: #5D5D7A; text-align: start; font-size: 17px; font-weight: bold;">Best Of Me <span style="color: #5D5D7A; font-weight: lighter;">3’46”</span></div></div>
+                    </div>
+
+                    <div class="row d-flex align-content-center justify-content-center pt-2">
+                        <div class="col-5 text"><div style="color: #AB7DAC; text-align: end; margin-right: 20px; font-size: 17px;">4</div></div>
+                        <div class="col-7"><div style="color: #5D5D7A; text-align: start; font-size: 17px; font-weight: bold;">Dimple <span style="color: #5D5D7A; font-weight: lighter;">3’16”</span></div></div>
+                    </div>
+
+                    <div class="row d-flex align-content-center justify-content-center pt-2">
+                        <div class="col-5 text"><div style="color: #AB7DAC; text-align: end; margin-right: 20px; font-size: 17px;">5</div></div>
+                        <div class="col-7"><div style="color: #5D5D7A; text-align: start; font-size: 17px; font-weight: bold;">Pied Piper <span style="color: #5D5D7A; font-weight: lighter;">4’05”</span></div></div>
+                    </div>
+
+                    <div class="row d-flex align-content-center justify-content-center pt-2">
+                        <div class="col-5 text"><div style="color: #AB7DAC; text-align: end; margin-right: 20px; font-size: 17px;">6</div></div>
+                        <div class="col-7"><div style="color: #5D5D7A; text-align: start; font-size: 17px; font-weight: bold;">Skit : Billboard Music Awards Speech <span style="color: #5D5D7A; font-weight: lighter;">1’43”</span></div></div>
+                    </div>
+
+                    <div class="row d-flex align-content-center justify-content-center pt-2">
+                        <div class="col-5 text"><div style="color: #AB7DAC; text-align: end; margin-right: 20px; font-size: 17px;">7</div></div>
+                        <div class="col-7"><div style="color: #5D5D7A; text-align: start; font-size: 17px; font-weight: bold;">MIC Drop <span style="color: #5D5D7A; font-weight: lighter;">3’57”</span></div></div>
+                    </div>
+
+                    <div class="row d-flex align-content-center justify-content-center pt-2">
+                        <div class="col-5 text"><div style="color: #AB7DAC; text-align: end; margin-right: 20px; font-size: 17px;">8</div></div>
+                        <div class="col-7"><div style="color: #5D5D7A; text-align: start; font-size: 17px; font-weight: bold;">Go Go <span style="color: #5D5D7A; font-weight: lighter;">3’55”</span></div></div>
+                    </div>
+
+                    <div class="row d-flex align-content-center justify-content-center pt-2">
+                        <div class="col-5 text"><div style="color: #AB7DAC; text-align: end; margin-right: 20px; font-size: 17px;">9</div></div>
+                        <div class="col-7"><div style="color: #5D5D7A; text-align: start; font-size: 17px; font-weight: bold;">Outro : Her <span style="color: #5D5D7A; font-weight: lighter;">3’49”</span></div></div>
+                    </div>
             </section>
             <footer class="footer d-flex justify-content-around p-2">
                 <div class="col">
