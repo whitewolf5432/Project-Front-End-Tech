@@ -19,7 +19,7 @@
 header {
     position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
     width: 100%;
     height: 63px;
     display: flex;
@@ -183,11 +183,59 @@ header div ul li {
     color: white;
 }
 
-.footer {
+footer {
     z-index: 50;
     width: 100vw;
     height: 60px;
     background-color: #272727;
+}
+
+.contact ul {
+    margin: 0;
+    padding: 0;
+}
+
+.contact ul li {
+    width: 30px;
+    height: 30px;
+    border-radius: 50vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-inline: 0.345vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.twitter {
+    background-image: url("../../source/imgSrc/main/twitter.png");
+}
+
+.twitter:hover {
+    background-image: url("../../source/imgSrc/main/twitter_h.png");
+}
+
+.facebook {
+    background-image: url("../../source/imgSrc/main/facebook.png");
+}
+
+.facebook:hover {
+    background-image: url("../../source/imgSrc/main/facebook_h.png");
+}
+
+.youtube {
+    background-image: url("../../source/imgSrc/main/youtube.png");
+}
+
+.youtube:hover {
+    background-image: url("../../source/imgSrc/main/youtube_h.png");
+}
+
+.naver_post {
+    background-image: url("../../source/imgSrc/main/naver_post.png");
+}
+
+.naver_post:hover {
+    background-image: url("../../source/imgSrc/main/naver_post_h.png");
 }
 
 .family-site {
@@ -247,7 +295,7 @@ header div ul li {
     width: fit-content;
 }
 
-.footer .active {
+footer .active {
     border-color: rgba(146, 145, 145, 0.5);
 }
 
