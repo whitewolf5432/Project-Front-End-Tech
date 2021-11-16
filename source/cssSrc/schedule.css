@@ -3,25 +3,25 @@
     margin-bottom: 9.31vw;
 }
 
-.info {
+.date {
     color: rgb(255, 255, 255);
     height: 12vw;
 }
 
-.info p {
+.date p {
     line-height: 2vw;
     font-size: 3vw;
     font-family: SolanoGothic;
 }
 
-.info span {
+.date span {
     font-family: SolanoGothic;
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.5vw;
     line-height: 2.3vw;
 }
 
-.info div {
+.date div {
     width: 2.5vw;
     height: 2.5vw;
 }
@@ -32,6 +32,7 @@ table {
     border: 2px solid #262626;
     border-width: 2px 0px 0px 2px;
 }
+
 tr {
     display: table;
     position: relative;

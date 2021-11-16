@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" type="image/png" href="https://www.ibighit.com/images/favicon-32.ico" />
+    <script src="../jsSrc/main.js"></script>
+    <link rel="stylesheet" href="../cssSrc/font.css">
+    <link rel="stylesheet" href="../cssSrc/main.css">
+    <link rel="stylesheet" href="../cssSrc/schedule.css">
+    <link rel="stylesheet" href="../cssSrc/discography.css">
+    <title>Artists | BIGHIT MUSIC</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="position-fixed d-flex w-100 h-100 justify-content-center align-items-center" id="menu-list">
+                <div class="col d-flex justify-content-center h-100 align-items-center" id="list">
+                    <ul class="p-0" onclick="">
+                        <li><a href="../../index.html">HOME</a></li>
+                        <li><a href="../about.html">ABOUT</a></li>
+                        <li onclick="moreList(0)" id='0'>BTS</li>
+                        <li onclick="moreList(1)" id='1'>TOMORROW X TOGETHER</li>
+                        <li onclick="moreList(2)" id='2'>LEE HYUN</li>
+                    </ul>
+                </div>
+                <div class="d-flex justify-content-start p-0 h-100 align-items-center" id="more">
+                    <ul class="p-0 d-flex flex-column position-absolute" id="more0">
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="about.htnl">ABOUT</a></li>
+                        <li><a href="discography.html">DISCOGRAPHY</a></li>
+                        <li><a href="schedule.html">SCHEDULE</a></li>
+                        <li><a href="tour.html">TOUR</a></li>
+                    </ul>
+                    <ul class="p-0 d-flex flex-column position-absolute" id="more1">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">DISCOGRAPHY</a></li>
+                        <li><a href="#">SCHEDULE</a></li>
+                        <li><a href="#">INTRODUTION</a></li>
+                    </ul>
+                    <ul class="p-0 d-flex flex-column position-absolute" id="more2">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">DISCOGRAPHY</a></li>
+                        <li><a href="#">SCHEDULE</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-bar menu overflow-hidden" id="menu">
+                <button class="menu" onclick="showMenu()"></button>
+            </div>
+            <a href="../../index.html">
+                <img src="../imgSrc/main/logo.png" height="34em">
+            </a>
+            <div class="menu d-flex justify-content-center align-items-center" id="language">
+                <button class="border-0 bg-transparent">
+                    ENG
+                </button>
+                <span></span>
+                <span></span>
+                <ul class="position-fixed" id="language_option">
+                    <li onclick="move(0)" id="selected">ENG</li>
+                    <li onclick="move(1)">KOR</li>
+                    <li onclick="move(2)">JPN</li>
+                    <li onclick="move(3)">CHN</li>
+                </ul>
+            </div>
+        </header>
+        <div class="d-flex justify-content-end flex-column w-100 content">
+            <section>
+                <div class="dis_wrap">
+
+                    <ul>
+                        <li>
+                            <a href="/index.html"><span>BIGHIT MUSIC</span></a>
+                        </li>
+                        <li>
+                            <a href="https://beliftlab.com/"><span>BELIFT LAB</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.sourcemusic.com/ko/index.php?lang=ko"><span>SOURCE MUSIC</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.pledis.co.kr/html/"><span>PLEDIS<br>ENTERTAINMENT</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.kozofficial.com/"><span>KOZ<br>ENTERTAINMENT</span></a>
+                        </li>
+                        <li>
+                            <a href="https://hybelabelsjapan.com/"><span>HYBE LABEL JAPAN</span></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </section>
+            <footer class="d-flex justify-content-around p-2">
+                <div class="col contact d-flex flex-column align-items-baseline justify-content-center">
+                    <ul class="d-flex align-items-center justify-content-center ps-3">
+                        <a href="https://twitter.com/bighit_music">
+                            <li class="twitter"></li>
+                        </a>
+                        <a href="https://www.facebook.com/BIGHIT.MUSIC">
+                            <li class="facebook"></li>
+                        </a>
+                        <a href="https://www.youtube.com/user/ibighit">
+                            <li class="youtube"></li>
+                        </a>
+                        <a href="https://post.naver.com/bighitent_official">
+                            <li class="naver_post"></li>
+                        </a>
+                    </ul>
+                </div>
+                <div id="family" class="family-site">
+                    <button type="button" class="family-btn row h-100 w-100 justify-content-center">
+                        FAMILY SITES
+                    </button>
+                    <ul class="d-none opacity-0 position-absolute justify-content-center flex-column text-center" id="family_site">
+                        <a href="https://hybecorp.com" class="text-decoration-none">
+                            <li>HYBE Co., Ltd.</li>
+                        </a>
+                        <a href="https://www.bighitaudition.com/" class="text-decoration-none">
+                            <li>Big Hit Audition</li>
+                        </a>
+                        <a href="https://www.weverseshop.io" class="text-decoration-none">
+                            <li>WEVERSE SHOP</li>
+                        </a>
+                        <a href="https://weverse.io/" class="text-decoration-none">
+                            <li>Weverse</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col copyright text-end d-flex jusity-content-end flex-column">
+                    <div class="col family-link pe-3" onclick="location.href='../familysite.html';" id="family_site_content">FAMILY SITE</div>
+                    <div class="col">COPYRIGHT © 2021 IT KMITL. All Rights Reserved</div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
