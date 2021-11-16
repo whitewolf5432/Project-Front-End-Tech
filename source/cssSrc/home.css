@@ -2,6 +2,7 @@
     height: calc(100vh - 60px);
     width: 100%;
     cursor: pointer;
+    background-color: red;
 }
 
 .carousel-control-prev-icon {
@@ -53,7 +54,23 @@
     left: 20%;
 }
 
+.content_inner_txt2 {
+    position: absolute;
+    z-index: 20;
+    top: 40%;
+    left: 29%;
+}
+
 .content_inner_txt p {
+    text-align: left;
+    font-size: 90px;
+    letter-spacing: -.03em;
+    font-family: SolanoGothic;
+    line-height: 1;
+    padding: 2px;
+}
+
+.content_inner_txt2 p {
     text-align: left;
     font-size: 90px;
     letter-spacing: -.03em;
@@ -66,7 +83,7 @@
     background-color: rgba(0, 0, 0, 0.85);
     position: absolute;
     width: 100%;
-    height: calc(100% - 60px);
+    height: calc(100vh - 60px);
     margin-top: 60px;
     z-index: 21;
     display: flex;
@@ -139,7 +156,7 @@
 }
 
 .kv_fight {
-    height: 100vh;
+    height: calc(100% - 60px);
     width: 100%;
     background-image: url(../../source/imgSrc/home/kv-fight_escape.jpg);
     background-size: cover;
@@ -148,7 +165,7 @@
 }
 
 .kv_moon {
-    height: 100vh;
+    height: calc(100% - 60px);
     width: 100%;
     background-image: url(../../source/imgSrc/home/kv-moon_in_the_sea.jpg);
     background-size: cover;
@@ -157,15 +174,43 @@
 }
 
 .kv_butter {
-    height: 100vh;
+    height: calc(100% - 60px);
     width: 100%;
     background-color: #FFDC00;
 }
 
 .kv_freeze {
-    height: 100vh;
+    height: calc(100% - 60px);
     width: 100%;
     background-color: #10125a;
+}
+
+.kv_be {
+    height: calc(100% - 60px);
+    width: 100%;
+    background-image: url(../../source/imgSrc/BTS/HOME/kv-be_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -60px;
+}
+
+.kv_dynamite {
+    height: calc(100% - 60px);
+    width: 100%;
+    background-color: #e66e9b;
+    background-image: url(../../source/imgSrc/BTS/HOME/kv-dynamite_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -60px;
+}
+
+.kv_map {
+    height: calc(100% - 60px);
+    width: 100%;
+    background-image: url(../../source/imgSrc/BTS/HOME/kv-map_of_the_soul-7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -60px;
 }
 
 .melon {
@@ -391,7 +436,7 @@
 .kv_freeze .popup .popup_inner .popup_list li .melon:hover {
     /* color: #ffa8b5; */
     color: #01a7e3;
-    background-image: url(../../source/imgSrc/main/ico-melon-butter_h.png);
+    background-image: url(../../source/imgSrc/main/ico-melon-freeze_h.png);
     background-color: rgba(0, 0, 0, 0.25);
 }
 
@@ -399,40 +444,180 @@
     /* color: #ffa8b5; */
     color: #01a7e3;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(../../source/imgSrc/main/ico-genie-butter_h.png);
+    background-image: url(../../source/imgSrc/main/ico-genie-freeze_h.png);
 }
 
 .kv_freeze .popup .popup_inner .popup_list li .vibe:hover {
     /* color: #ffa8b5; */
     color: #01a7e3;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(../../source/imgSrc/main/ico-vibe-butter_h.png);
+    background-image: url(../../source/imgSrc/main/ico-vibe-freeze_h.png);
 }
 
 .kv_freeze .popup .popup_inner .popup_list li .flo:hover {
     /* color: #ffa8b5; */
     color: #01a7e3;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(../../source/imgSrc/main/ico-flo-butter_h.png);
+    background-image: url(../../source/imgSrc/main/ico-flo-freeze_h.png);
 }
 
 .kv_freeze .popup .popup_inner .popup_list li .bugs:hover {
     /* color: #ffa8b5; */
     color: #01a7e3;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(../../source/imgSrc/main/ico-bugs-butter_h.png);
+    background-image: url(../../source/imgSrc/main/ico-bugs-freeze_h.png);
 }
 
 .kv_freeze .popup .popup_inner .popup_list li .applemusic:hover {
     /* color: #ffa8b5; */
     color: #01a7e3;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(../../source/imgSrc/main/ico-apple-butter_h.png);
+    background-image: url(../../source/imgSrc/main/ico-apple-freeze_h.png);
 }
 
 .kv_freeze .popup .popup_inner .popup_list li .spotify:hover {
     /* color: #ffa8b5; */
     color: #01a7e3;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(../../source/imgSrc/main/ico-spotify-butter_h.png);
+    background-image: url(../../source/imgSrc/main/ico-spotify-freeze_h.png);
+}
+
+.kv_dynamite .popup .popup_inner .info h2:hover {
+    color: #ec869d;
+    cursor: pointer;
+}
+
+.kv_dynamite .popup .popup_inner .popup_list {
+    margin-top: 20px;
+    border: solid whitesmoke;
+    border-width: 1px 0px;
+    border-bottom: 2px solid #72545d;
+}
+
+.kv_dynamite .popup .popup_inner .popup_list li .melon:hover {
+    /* color: #ffa8b5; */
+    color: #ec869d;
+    background-image: url(../../source/imgSrc/main/ico-melon-fight_escape_h.png);
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.kv_dynamite .popup .popup_inner .popup_list li .genie:hover {
+    /* color: #ffa8b5; */
+    color: #ec869d;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(../../source/imgSrc/main/ico-genie-fight_escape_h.png);
+}
+
+.kv_dynamite .popup .popup_inner .popup_list li .vibe:hover {
+    /* color: #ffa8b5; */
+    color: #ec869d;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(../../source/imgSrc/main/ico-vibe-fight_escape_h.png);
+}
+
+.kv_dynamite .popup .popup_inner .popup_list li .flo:hover {
+    /* color: #ffa8b5; */
+    color: #ec869d;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(../../source/imgSrc/main/ico-flo-fight_escape_h.png);
+}
+
+.kv_dynamite .popup .popup_inner .popup_list li .bugs:hover {
+    /* color: #ffa8b5; */
+    color: #ec869d;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(../../source/imgSrc/main/ico-bugs-fight_escape_h.png);
+}
+
+.kv_dynamite .popup .popup_inner .popup_list li .spotify:hover {
+    /* color: #ffa8b5; */
+    color: #ec869d;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(../../source/imgSrc/main/ico-spotify-fight_escape_h.png);
+}
+
+.kv_dynamite .popup .popup_inner .popup_list li .applemusic:hover {
+    /* color: #ffa8b5; */
+    color: #ec869d;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(../../source/imgSrc/main/ico-apple-fight_escape_h.png);
+}
+
+.kv_dynamite .popup .popup_inner .popup_list li .amazonmusic:hover {
+    /* color: #ffa8b5; */
+    color: #ec869d;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(../../source/imgSrc/main/ico-amazon-dynamite_h.png);
+}
+
+.kv_be .popup .popup_inner .popup_list li:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.kv_map .popup .popup_inner .info h2:hover {
+    color: #01a7e3;
+    cursor: pointer;
+}
+
+.kv_map .popup .popup_inner .popup_list {
+    margin-top: 20px;
+    border: solid whitesmoke;
+    border-width: 1px 0px;
+    border-bottom: 2px solid rgba(123, 162, 217, 0.6);
+}
+
+.kv_map .popup .popup_inner .popup_list li .melon:hover {
+    /* color: #ffa8b5; */
+    color: #01a7e3;
+    background-image: url(../../source/imgSrc/main/ico-melon-map_of_the_soul-7_h.png);
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.kv_map .popup .popup_inner .popup_list li .genie:hover {
+    /* color: #ffa8b5; */
+    color: #01a7e3;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(../../source/imgSrc/main/ico-genie-map_of_the_soul-7_h.png);
+}
+
+.kv_map .popup .popup_inner .popup_list li .vibe:hover {
+    /* color: #ffa8b5; */
+    color: #01a7e3;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(../../source/imgSrc/main/ico-vibe-map_of_the_soul-7_h.png);
+}
+
+.kv_map .popup .popup_inner .popup_list li .flo:hover {
+    /* color: #ffa8b5; */
+    color: #01a7e3;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(../../source/imgSrc/main/ico-flo-map_of_the_soul-7_h.png);
+}
+
+.kv_map .popup .popup_inner .popup_list li .bugs:hover {
+    /* color: #ffa8b5; */
+    color: #01a7e3;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(../../source/imgSrc/main/ico-bugs-map_of_the_soul-7_h.png);
+}
+
+.kv_map .popup .popup_inner .popup_list li .applemusic:hover {
+    /* color: #ffa8b5; */
+    color: #01a7e3;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(../../source/imgSrc/main/ico-apple-map_of_the_soul-7_h.png);
+}
+
+.kv_map .popup .popup_inner .popup_list li .spotify:hover {
+    /* color: #ffa8b5; */
+    color: #01a7e3;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(../../source/imgSrc/main/ico-spotify-map_of_the_soul-7_h.png);
+}
+
+.kv_map .popup .popup_inner .popup_list li .amazonmusic:hover {
+    /* color: #ffa8b5; */
+    color: #01a7e3;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(../../source/imgSrc/main/ico-amazon-map_of_the_soul-7_h.png);
 }
