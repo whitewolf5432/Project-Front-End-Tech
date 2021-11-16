@@ -154,12 +154,6 @@ function phoset4() {
     function mouseOut2(y) {
         y.style.color = "#A6607F";
     }
-    function mouseOver3(z) {
-        z.style.color = "pink";
-      }
-    function mouseOut3(z) {
-        z.style.color = "gray";
-    }
     function mouseOver4() {
         document.getElementById('left').style.color = "pink";
       }
