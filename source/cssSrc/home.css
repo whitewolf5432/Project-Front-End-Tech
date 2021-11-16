@@ -1,0 +1,139 @@
+.kv_fight {
+    background-image: url(/source/imgSrc/home/kv-fight_escape.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -105px;
+}
+
+.kv_fight_img {
+    transform: translateY(-80px) translateX(50px);
+}
+
+.kv_fight_txt {
+    position: absolute;
+    z-index: 20;
+    top: 40%;
+    left: 13%;
+}
+
+.kv_fight_txt p {
+    text-align: left;
+    font-size: 90px;
+    letter-spacing: -.03em;
+    font-family: SolanoGothic;
+    line-height: 1;
+    padding: 2px;
+    overflow-y: hidden;
+}
+
+.carousel-inner {
+    height: calc(100vh - 60px);
+    width: 100%;
+}
+
+.carousel-control-prev-icon {
+    margin: 20px;
+    width: 35px;
+    height: 35px;
+    left: 0;
+}
+
+.carousel-control-next-icon {
+    margin: 20px;
+    width: 35px;
+    height: 35px;
+    right: 0;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 100%;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+.kv_moon {
+    background-image: url(/source/imgSrc/home/kv-moon_in_the_sea.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -105px;
+}
+
+.kv_butter {
+    background-color: #FFDC00;
+}
+
+.kv_freeze {
+    background-color: #10125a;
+}
+
+.popup {
+    background-color: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 60px);
+    margin-top: 60px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup h2 {
+    font-family: CamberSemiBold;
+    font-size: 2.65vh;
+    text-align: center;
+    line-height: 1.2;
+    overflow-y: hidden;
+}
+
+.popup .popup_inner {
+    width: 360px;
+}
+
+.popup .popup_inner .popup_list {
+    border: solid whitesmoke;
+    border-width: 2px 0px;
+    border-bottom: solid #72545d;
+}
+
+.popup .popup_inner .popup_list li {
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup .popup_inner .popup_list li :hover {
+    color: #ffa8b5;
+}
+
+.popup .popup_inner .popup_list li a {
+    background-image: url(/source/imgSrc/main/ico-melon.png);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 10%;
+    background-position-x: 0px;
+    background-repeat: no-repeat;
+    background-position-x: 80px;
+    background-position-y: 10px;
+    text-decoration: none;
+    color: white;
+}
