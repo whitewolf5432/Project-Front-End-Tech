@@ -329,37 +329,5 @@ footer .active {
     margin-bottom: -2px;
     margin-right: 30px;
 }
-#title{
-    overflow: hidden; line-height: 60px; font-family: MVB; font-size: 70px; color: #5D5D7A;
-}
-#arrow{
-    font-size: 18px; padding-right: 100px;
-}
-.vidbut{
-    font-family: camberm;
-    color: #7084A8CC;
-    opacity: 60%;
-}
-.vidbut:hover{
-    opacity: 1;
-}
-.imgoverlay{
-    position: relative; overflow:hidden;
-    width: 1080px;
-    height: 608px;
-    opacity: 1;
-    display: block;
-    background-color: rgb(0, 0, 0, 0.6);
-}
-.imgoverlay:hover{
-    opacity: 0;
-}
-.videobg{
-    background: #B1C2E04D;
-    width: 1920px; height: 720px;
-}
-#arrowbot:hover{
-    color: pink;
-}
-.videobg > ul > li  {display: none;}
+
 /* NOTE test section here */
