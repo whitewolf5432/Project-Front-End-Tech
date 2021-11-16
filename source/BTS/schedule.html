@@ -8,10 +8,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="icon" type="image/png" href="https://www.ibighit.com/images/favicon-32.ico"/>
-    <script src="jsSrc/main.js"></script>
-    <link rel="stylesheet" href="cssSrc/font.css">
-    <link rel="stylesheet" href="cssSrc/family.css">
-    <link rel="stylesheet" href="cssSrc/main.css">
+    <script src="../jsSrc/main.js"></script>
+    <link rel="stylesheet" href="../cssSrc/font.css">
+    <link rel="stylesheet" href="../cssSrc/main.css">
+    <link rel="stylesheet" href="../cssSrc/schedule.css">
     <title>Artists | BIGHIT MUSIC</title>
 </head>
 <body>
@@ -20,8 +20,8 @@
             <div class="position-fixed d-flex w-100 h-100 justify-content-center align-items-center" id="menu-list">
                 <div class="col d-flex justify-content-center h-100 align-items-center" id="list">
                     <ul class="p-0" onclick="">
-                        <li><a href="..">HOME</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="../../index.html">HOME</a></li>
+                        <li><a href="../about.html">ABOUT</a></li>
                         <li onclick="moreList(0)" id='0'>BTS</li>
                         <li onclick="moreList(1)" id='1'>TOMORROW X TOGETHER</li>
                         <li onclick="moreList(2)" id='2'>LEE HYUN</li>
@@ -29,11 +29,11 @@
                 </div>
                 <div class="d-flex justify-content-start p-0 h-100 align-items-center" id="more">
                     <ul class="p-0 d-flex flex-column position-absolute" id="more0">
-                        <li><a href="BTS/home.html">HOME</a></li>
-                        <li><a href="BTS/about.html">ABOUT</a></li>
-                        <li><a href="BTS/discography.html">DISCOGRAPHY</a></li>
-                        <li><a href="BTS/schedule.html">SCHEDULE</a></li>
-                        <li><a href="BTS/tour.html">TOUR</a></li>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="about.htnl">ABOUT</a></li>
+                        <li><a href="discography.html">DISCOGRAPHY</a></li>
+                        <li><a href=".">SCHEDULE</a></li>
+                        <li><a href="tour.html">TOUR</a></li>
                     </ul>
                     <ul class="p-0 d-flex flex-column position-absolute" id="more1">
                         <li><a href="#">HOME</a></li>
@@ -53,8 +53,8 @@
             <div class="menu-bar" id="menu">
                 <button class="menu" onclick="showMenu()"></button>
             </div>
-            <a href="..">
-                <img src="imgSrc/main/logo.png" height="34em">
+            <a href="../../index.html">
+                <img src="../imgSrc/main/logo.png" height="34em">
             </a>
             <div class="menu d-flex justify-content-center align-items-center" id="language">
                 <button class="border-0 bg-transparent">
@@ -71,71 +71,63 @@
             </div>
         </header>
         <div class="d-flex justify-content-end flex-column w-100 content">
-            <section>
-                <div class="family_top">
-                    <h2>
-                        family site
-                    </h2>
-                </div>
-                <div class="title_sep">
-                    <h2>LABEL</h2>
-                </div>
-                <div class="family_site">
-                    <ul>
-                        <li>
-                            <a href="/index.html"><span>BIGHIT MUSIC</span></a>
-                        </li>
-                        <li>
-                            <a href="https://beliftlab.com/"><span>BELIFT LAB</span></a>
-                        </li>
-                        <li>
-                            <a href="https://www.sourcemusic.com/ko/index.php?lang=ko"><span>SOURCE MUSIC</span></a>
-                        </li>
-                        <li>
-                            <a href="https://www.pledis.co.kr/html/"><span>PLEDIS<br>ENTERTAINMENT</span></a>
-                        </li>
-                        <li>
-                            <a href="https://www.kozofficial.com/"><span>KOZ<br>ENTERTAINMENT</span></a>
-                        </li>
-                        <li>
-                            <a href="https://hybelabelsjapan.com/"><span>HYBE LABEL JAPAN</span></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="family_sol">
-                    <div class="title_sep">
-                        <h2>
-                            SOLUTION
-                        </h2>
+            <section class="w-100 d-flex justify-content-center bg-black">
+                <div class="col-10 d-flex flex-column align-items-center" id="schedule">
+                    <img src="../imgSrc/BTS/SCHEDULE/schedule-kv.jpg">
+                    <div class="w-100 info d-flex justify-content-around align-items-center">
+                        <div class="carousel-control-prev-icon"></div>
+                        <p class="text-center text-uppercase">NOVEMBER<br>
+                            <span>2021</span>
+                        </p>
+                        <div class="carousel-control-next-icon"></div>
                     </div>
-                    <div class="family_site">
-                        <ul>
-                            <li>
-                                <a href="https://www.superbcorp.com/">
-                                    <span>SUPERB</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="family_plat">
-                    <div class="title_sep">
-                        <h2>PLATFORMS</h2>
-                    </div>
-                    <div class="family_site">
-                        <ul>
-                            <li>
-                                <a href="https://about.weverse.io/en.html">
-                                    <span>
-                                        WEVERSE COMPANY
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-            
-                </div>
-                <div class="title_sep2">
+                    <table class="d-table-row collapsed">
+                        <tr>
+                            <td><div class="d-flex justify-content-between"><p class="text-light text-opacity-50">SUN</p><p>1</p></div></td>
+                            <td><div class="d-flex justify-content-between"><p class="text-light text-opacity-50">MON</p><p>2</p></div></td>
+                            <td><div class="d-flex justify-content-between"><p class="text-light text-opacity-50">TUES</p><p>3</p></div></td>
+                            <td><div class="d-flex justify-content-between"><p class="text-light text-opacity-50">WED</p><p>4</p></div></td>
+                            <td><div class="d-flex justify-content-between"><p class="text-light text-opacity-50">THUR</p><p>5</p></div></td>
+                            <td><div class="d-flex justify-content-between"><p class="text-light text-opacity-50">FRI</p><p>6</p></div></td>
+                            <td><div class="d-flex justify-content-between"><p class="text-light text-opacity-50">SAT</p><p>7</p></div></td>
+                        </tr>
+                        <tr>
+                            <td><p>8</p></td>
+                            <td><p>9</p></td>
+                            <td><p>10</p></td>
+                            <td><p>11</p></td>
+                            <td><p>12</p></td>
+                            <td><p>13</p></td>
+                            <td><p>14</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>15</p></td>
+                            <td><p>16</p></td>
+                            <td><p>17</p></td>
+                            <td><p>18</p></td>
+                            <td><p>19</p></td>
+                            <td><p>20</p></td>
+                            <td><p>21</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>22</p></td>
+                            <td><p>23</p></td>
+                            <td><p>24</p></td>
+                            <td><p>25</p></td>
+                            <td><p>26</p></td>
+                            <td><p>27</p></td>
+                            <td><p>28</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>29</p></td>
+                            <td><p>30</p></td>
+                            <td><p></p></td>
+                            <td><p></p></td>
+                            <td><p></p></td>
+                            <td><p></p></td>
+                            <td><p></p></td>
+                        </tr>
+                    </table>
                 </div>
             </section>
             <footer class="d-flex justify-content-around p-2">
@@ -167,7 +159,7 @@
                     </ul>
                 </div>
                 <div class="col copyright text-end d-flex jusity-content-end flex-column">
-                    <div class="col family-link pe-3" onclick="location.href='family_sites.html';" id="family_site_content">FAMILY SITE</div>
+                    <div class="col family-link pe-3" onclick="location.href='../familysite.html';" id="family_site_content">FAMILY SITE</div>
                     <div class="col">COPYRIGHT © 2021 IT KMITL. All Rights Reserved</div>
                 </div>
             </footer>
