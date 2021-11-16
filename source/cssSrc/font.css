@@ -12,3 +12,7 @@
     font-family: SolanoGothic;
     src: url("../font/MVB-SolanoGothicMVB-Bd_1.ttf");
 }
+@font-face {
+    font-family: NorBcomic-B;
+    src: url("../font/NorBComic-Bold.ttf");
+}

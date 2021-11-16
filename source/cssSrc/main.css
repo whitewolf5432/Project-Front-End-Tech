@@ -14,15 +14,8 @@
     justify-content: space-between;
     align-items: center;
 }
-<<<<<<< HEAD
-body{
-    scroll-behavior: smooth;
-}
-.head {
-=======
 
 header {
->>>>>>> 7ada8645355186c8c8c0c65dc6180371a9f8e7ed
     position: fixed;
     top: 0;
     left: 0;
@@ -341,9 +334,6 @@ footer .active {
 }
 #arrow{
     font-size: 18px; padding-right: 100px;
-}
-#headvid{
-    text-align: center; color: #5D5D7A; position: absolute; overflow:hidden; font-size: 80px; font-family: MVB; margin-bottom: 724px;
 }
 .vidbut{
     font-family: camberm;

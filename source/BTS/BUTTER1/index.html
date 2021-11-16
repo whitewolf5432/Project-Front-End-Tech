@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" type="image/png" href="https://www.ibighit.com/images/favicon-32.ico"/>
+    <script src="source/jsSrc/main.js"></script>
+    <link rel="stylesheet" href="../../cssSrc/font.css">
+    <link rel="stylesheet" href="../../cssSrc/main.css">
+    <link rel="stylesheet" href="../../cssSrc/butter1.css">
+    <title>Artists | BIGHIT MUSIC</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div style="background-color: #ffdc04; width: 100%; height: 60px; position: absolute;"></div>
+        <header>
+            <div class="position-fixed d-flex w-100 h-100 justify-content-center align-items-center" id="menu-list">
+                <div class="col d-flex justify-content-center h-100 align-items-center" id="list">
+                    <ul class="p-0" onclick="">
+                        <li><a href=".">HOME</a></li>
+                        <li><a href="../../about.html">ABOUT</a></li>
+                        <li onclick="moreList(0)" id='0'>BTS</li>
+                        <li onclick="moreList(1)" id='1'>TOMORROW X TOGETHER</li>
+                        <li onclick="moreList(2)" id='2'>LEE HYUN</li>
+                    </ul>
+                </div>
+                <div class="d-flex justify-content-start p-0 h-100 align-items-center" id="more">
+                    <ul class="p-0 d-flex flex-column position-absolute" id="more0">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">DISCOGRAPHY</a></li>
+                        <li><a href="#">SCHEDULE</a></li>
+                        <li><a href="#">TOUR</a></li>
+                    </ul>
+                    <ul class="p-0 d-flex flex-column position-absolute" id="more1">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">DISCOGRAPHY</a></li>
+                        <li><a href="#">SCHEDULE</a></li>
+                        <li><a href="#">INTRODUTION</a></li>
+                    </ul>
+                    <ul class="p-0 d-flex flex-column position-absolute" id="more2">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">DISCOGRAPHY</a></li>
+                        <li><a href="#">SCHEDULE</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-bar" id="menu">
+                <button class="menu" onclick="showMenu()"></button>
+            </div>
+            <a href=".">
+                <img src="../../imgSrc/main/logo.png" height="34em">
+            </a>
+            <div class="menu d-flex justify-content-center align-items-center" id="language">
+                <button class="border-0 bg-transparent">
+                    ENG
+                </button>
+                <span></span>
+                <span></span>
+                <ul class="position-fixed" id="language_option">
+                    <li onclick="move(0)" id="selected">ENG</li>
+                    <li onclick="move(1)">KOR</li>
+                    <li onclick="move(2)">JPN</li>
+                    <li onclick="move(3)">CHN</li>
+                </ul>
+            </div>
+        </header>
+
+
+        
+        <div class="d-flex justify-content-end flex-column w-100 content">
+
+            
+            <section class="test" style="background: #ffdc04;">
+                <video src="../../vdoSrc/butter/butter-2.mp4" autoplay muted></video>
+            </section>
+            <section class="test" style="background-color: #ffdc00;">
+                <div style="padding-top: 120px; margin-bottom: 50px;" class="col d-flex align-content-center justify-content-center"><img width="50px" height="48.58" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_icon.png" alt=""></div>
+                <div class="col" style="text-align: center; font-size: 17px;">
+                    <div style="color: black;">BTS released their CD single ‘Butter’ on July 9. The CD single includes the shimmering summer song “Butter” as well as
+                        <br>“Permission to Dance” that will get your heart pumping and dance again. The instrumental versions of each are also part of the tracklist.
+                        <br>
+                        <br>
+                        Belonging to the dance pop genre, “Permission to Dance” sits on piano and string sounds that make the listeners bop their heads and
+                        <br>
+                        bust some dance moves. World-renowned musician Ed Sheeran and British producer Steve Mac took part in making the song.
+                    </div>
+                    <p></p>
+                    <div class="col" style="background-color: white; background-image: url(../../imgSrc/BTS/DISCOGRAPHY/BUTTER/video_bg.png); background-repeat: no-repeat; background-size: cover;">
+                        <div class="row"><img height="343.67px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/album-desc_btm.png" alt="">></div>
+                        <div style="height: 1080px;">
+                        <div style="padding-top: 100px;">
+                            <img height="50px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_logo.png" alt="">
+                            <div style="font-family: NorBcomic-B; color: black; padding-top: 17px; font-size: 27px;">"VIDEO"</div>
+                        </div>
+                        <div class=" row d-flex flex-column align-content-center justify-content-center">
+                            <div class=" d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 740px;">
+                                <div><button class="btn" id="play" onclick="play()" style="display: block; position: relative;" height="608px">
+                                    <div>
+                                        
+                                    <img style="position: absolute; left: 12px; height: 608px;" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/video-cover01.jpg">
+                                    <i style="position: absolute; padding-top: 270px; left: 500px; font-size: 30px;"><img src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_video_btn.png" alt=""></i>
+                                    <div class="imgoverlay d-flex"></div>
+                                </div>
+                                </button></div>
+                                    <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: none;" id="vid" width="1080" height="608px"
+                                    src='https://www.youtube.com/embed/fJ9rUzIMcZQ'>>
+                                    </iframe>
+                            </div>
+                    
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div style="line-height: 20px; color: black; text-align: end; font-family: NorBcomic-B; font-size: 25px; padding-right: 60px;">MV TEASER <br><img width="140px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_text_under.png" alt=""></div>
+                                
+                            </div>
+                            <div class="col">
+                                <div style="line-height: 20px; color: black; text-align: start; font-family: NorBcomic-B; font-size: 25px; padding-left: 60px;">'BUTTER' MV <br><img width="160px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_text_under.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+            <footer class="d-flex justify-content-around p-2">
+                <div class="col contact d-flex flex-column align-items-baseline justify-content-center">
+                    <ul class="d-flex align-items-center justify-content-center ps-3">
+                        <a href="https://twitter.com/bighit_music"><li class="twitter"></li></a>
+                        <a href="https://www.facebook.com/BIGHIT.MUSIC"><li class="facebook"></li></a>
+                        <a href="https://www.youtube.com/user/ibighit"><li class="youtube"></li></a>
+                        <a href="https://post.naver.com/bighitent_official"><li class="naver_post"></li></a>
+                    </ul>
+                </div>
+                <div id="family" class="family-site">
+                    <button type="button" class="family-btn row h-100 w-100 justify-content-center">
+                        FAMILY SITES
+                    </button>
+                    <ul class="d-none opacity-0 position-absolute justify-content-center flex-column text-center" id="family_site">
+                        <a href="https://hybecorp.com" class="text-decoration-none">
+                            <li>HYBE Co., Ltd.</li>
+                        </a>
+                        <a href="https://www.bighitaudition.com/" class="text-decoration-none">
+                            <li>Big Hit Audition</li>
+                        </a>
+                        <a href="https://www.weverseshop.io" class="text-decoration-none">
+                            <li>WEVERSE SHOP</li>
+                        </a>
+                        <a href="https://weverse.io/" class="text-decoration-none">
+                            <li>Weverse</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col copyright text-end d-flex jusity-content-end flex-column">
+                    <div class="col family-link pe-3" onclick="location.href='source/familysite.html';" id="family_site_content">FAMILY SITE</div>
+                    <div class="col">COPYRIGHT © 2021 IT KMITL. All Rights Reserved</div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

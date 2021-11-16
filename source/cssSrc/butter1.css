@@ -1,0 +1,11 @@
+.imgoverlay{
+    position: relative; overflow:hidden;
+    width: 1080px;
+    height: 608px;
+    opacity: 1;
+    display: block;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+.imgoverlay:hover{
+    opacity: 0;
+}

@@ -10,6 +10,7 @@
     <script src="../../jsSrc/main.js"></script>
     <link rel="stylesheet" href="../../cssSrc/font.css">
     <link rel="stylesheet" href="../../cssSrc/loveyourself.css">
+    <link rel="stylesheet" href="../../cssSrc/main.css">
     <script src="https://kit.fontawesome.com/23b0d6d721.js" crossorigin="anonymous"></script>
     <title>Document</title>
     <script src="../../jsSrc/loveyourself.js"></script>
@@ -30,50 +31,62 @@
 </head>
 <body>
     
-    <div class="wrapper">
+    <div class="wrapper" style="overflow:hidden;">
         <div style="background-image: url(https://ibighit.com/bts/images/bts/discography/love_yourself-her/discography-bg.png); background-repeat: no-repeat; background-size: cover;">
-        <header class="head bg-black bg-opacity-25">
-            <div class="position-fixed w-100 h-100 d-none justify-content-center align-items-center" id="menu-list">
-                <div class="col d-flex justify-content-center h-100 align-items-center" id="list">
-                    <ul class="p-0" onclick="">
-                        <li>test</li>
-                        <li>test</li>
-                        <li onclick="moreList(0)">test</li>
-                        <li onclick="moreList(1)">test</li>
-                        <li onclick="moreList(2)">test</li>
+            <header>
+                <div class="position-fixed d-flex w-100 h-100 justify-content-center align-items-center" id="menu-list">
+                    <div class="col d-flex justify-content-center h-100 align-items-center" id="list">
+                        <ul class="p-0" onclick="">
+                            <li><a href=".">HOME</a></li>
+                            <li><a href="../../about.html">ABOUT</a></li>
+                            <li onclick="moreList(0)" id='0'>BTS</li>
+                            <li onclick="moreList(1)" id='1'>TOMORROW X TOGETHER</li>
+                            <li onclick="moreList(2)" id='2'>LEE HYUN</li>
+                        </ul>
+                    </div>
+                    <div class="d-flex justify-content-start p-0 h-100 align-items-center" id="more">
+                        <ul class="p-0 d-flex flex-column position-absolute" id="more0">
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">DISCOGRAPHY</a></li>
+                            <li><a href="#">SCHEDULE</a></li>
+                            <li><a href="#">TOUR</a></li>
+                        </ul>
+                        <ul class="p-0 d-flex flex-column position-absolute" id="more1">
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">DISCOGRAPHY</a></li>
+                            <li><a href="#">SCHEDULE</a></li>
+                            <li><a href="#">INTRODUTION</a></li>
+                        </ul>
+                        <ul class="p-0 d-flex flex-column position-absolute" id="more2">
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">DISCOGRAPHY</a></li>
+                            <li><a href="#">SCHEDULE</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-bar" id="menu">
+                    <button class="menu" onclick="showMenu()"></button>
+                </div>
+                <a href=".">
+                    <img src="https://ibighit.com/images/bts/logo.png" height="34em">
+                </a>
+                <div class="menu d-flex justify-content-center align-items-center" id="language">
+                    <button class="border-0 bg-transparent">
+                        ENG
+                    </button>
+                    <span></span>
+                    <span></span>
+                    <ul class="position-fixed" id="language_option">
+                        <li onclick="move(0)" id="selected">ENG</li>
+                        <li onclick="move(1)">KOR</li>
+                        <li onclick="move(2)">JPN</li>
+                        <li onclick="move(3)">CHN</li>
                     </ul>
                 </div>
-                <div class="d-none col justify-content-start p-0 h-100 bg-dark bg-opacity-25 align-items-center" id="more">
-                    <ul class="p-0 d-none flex-column" id="more0">
-                        <li>test</li>
-                        <li>test</li>
-                        <li>test</li>
-                        <li>test</li>
-                    </ul>
-                    <ul class="p-0 d-none flex-column" id="more1">
-                        <li>กหฟกหฟก</li>
-                        <li>กหฟกหฟก</li>
-                        <li>ฟหกหฟกฟห</li>
-                        <li>ฟหกฟหก</li>
-                    </ul>
-                    <ul class="p-0 d-none flex-column"  id="more2">
-                        <li>หฟกฟหกฟ</li>
-                        <li>กหฟกกก</li>
-                        <li>dsada</li>
-                        <li>dasdsadasda</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="menu-bar" id="menu">
-                <button class="menu" onclick="showMenu()"></button>
-            </div>
-            <a href="">
-                <img src="https://ibighit.com/images/bts/logo.png" height="34em">
-            </a>
-            <button class="menu">
-                ENG
-            </button>
-        </header>
+            </header>
         <div class="d-flex justify-content-end flex-column w-100 content">
             
             <section class="content d-flex flex-column align-content-center justify-content-center">
@@ -87,7 +100,7 @@
                     <div class="col-2">
                     </div>  
                     <div class="col-lg-4 col-md-5 d-flex align-items-start justify-content-end">
-                        <img class="cover alphoto"  src="https://ibighit.com/bts/images/bts/discography/love_yourself-her/album-cover.jpg" width="87.666%" >
+                        <img class="cover alphoto"  src="https://ibighit.com/bts/images/bts/discography/love_yourself-her/album-cover.jpg" style="max-width: 540px;" >
                     </div>
                     <div class="col-lg-4 col-md-5 d-flex flex-column px-5">
                         <p style="color: black;">THE 5TH MINI ALBUM</p>
@@ -101,27 +114,28 @@
                 </div>
             </section>
 
-            <section class=" content d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 120px;">
-                
+            <section class=" content d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 100px;">
+                  
             </section>
 
 
-            <section class="content d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 80px; padding-top: 80px;">
+            <section class="content d-flex flex-column align-content-center justify-content-center">
                 <div class=" row d-flex flex-column align-content-center justify-content-center">
-                    <div class="videobg d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 690px;">     
-                    <div class="row d-flex  align-content-center justify-content-center" style="position: relative; overflow:hidden; width: 1080px; height: 608px;">
+                    <div class=" d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 740px;">
+                        <div class="videobg" style="position: absolute; width: 100%; height: 720px"></div>
+                    <div id="photovidco" class="row d-flex  align-content-center justify-content-center" style="position: relative; width: 1080px; height: 740px; margin-bottom: 40px;" >
                         <div><button class="btn" id="play" onclick="play()" style="display: block; position: relative;" height="608px">
                             <div>
-                            <img style="position: absolute; left: 0; padding-left: 12px;" src="https://ibighit.com/bts/images/bts/discography/love_yourself-her/video-cover06.jpg">
+                            <img style="position: absolute; left: 0; padding-left: 12px; height: 608px;" src="https://ibighit.com/bts/images/bts/discography/love_yourself-her/video-cover06.jpg">
                             <i style="position: absolute; padding-top: 270px; left: 520px; font-size: 30px;" class="fas fa-play"></i>
                             <div class="imgoverlay"></div>
                         </div>
                         </button></div>
                         <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: none;" id="vid" width="1080" height="608px"
                         src='https://www.youtube.com/embed/fJ9rUzIMcZQ'>>
-                    </iframe></div><h1 id="headvid">VIDEO</h1>
+                    </iframe>
                     <div class="row d-flex flex-column flex-column align-content-center justify-content-center" style="width: 1080px;">
-                        <div class="col d-flex align-content-center justify-content-center pb-2 pt-2" style="font-size: 16; text-align: center;">
+                        <div class="col d-flex align-content-center justify-content-center pt-2" style="font-size: 16; text-align: center;">
                             <div class="col-2 vidbut" ><button onclick="vid1()" id="vidbut1" class="btn">COMEBACK<br>TRAILER</button></div>
                             <div class="col-2 vidbut" ><button onclick="vid2()" id="vidbut2" class="btn">'DNA'MV<br>TEASER 1</button></div>
                             <div class="col-2 vidbut" ><button onclick="vid3()" id="vidbut3" class="btn">'DNA'MV<br>TEASER 2</button></div>
@@ -129,11 +143,16 @@
                             <div class="col-3 vidbut" ><button onclick="vid5()" id="vidbut5" class="btn">'MIC DROP(REMIX)'MV'<br>TEASER</button></div>
                             <div class="col vidbut" ><button onclick="vid6()" id="vidbut6" class="btn">'MIC DROP(REMIX)'<br>MV</button></div>
                         </div>
-                    </div>
-                
+                    </div> 
+                     
             </div>
+            <h1 id="headvid">VIDEO</h1>  
+            </div>
+            
                 </div>
+                
             </section>
+            
             <section class="content d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 80px;"> 
                 <div class="row d-flex flex-column align-content-center justify-content-center">
                     <div class="videobg" style="width: 100%; height: 740px; position: absolute; margin-top: 200px; background: #EB97BC4D;">
@@ -254,30 +273,36 @@
                         <div class="col-7"><div style="color: #5D5D7A; text-align: start; font-size: 17px; font-weight: bold;">Outro : Her <span style="color: #5D5D7A; font-weight: lighter;">3’49”</span></div></div>
                     </div>
             </section>
-            <footer class="footer d-flex justify-content-around p-2">
-                <div class="col">
+            <footer class="d-flex justify-content-around p-2">
+                <div class="col contact d-flex flex-column align-items-baseline justify-content-center">
+                    <ul class="d-flex align-items-center justify-content-center ps-3">
+                        <a href="https://twitter.com/bighit_music"><li class="twitter"></li></a>
+                        <a href="https://www.facebook.com/BIGHIT.MUSIC"><li class="facebook"></li></a>
+                        <a href="https://www.youtube.com/user/ibighit"><li class="youtube"></li></a>
+                        <a href="https://post.naver.com/bighitent_official"><li class="naver_post"></li></a>
+                    </ul>
                 </div>
                 <div id="family" class="family-site">
                     <button type="button" class="family-btn row h-100 w-100 justify-content-center">
                         FAMILY SITES
                     </button>
                     <ul class="d-none opacity-0 position-absolute justify-content-center flex-column text-center" id="family_site">
-                        <li>
-                            <a href="https://hybecorp.com">HYBE Co., Ltd.</a>
-                        </li>
-                        <li>
-                            <a href="https://www.bighitaudition.com/">Big Hit Audition</a>
-                        </li>
-                        <li>
-                            <a href="https://www.weverseshop.io">WEVERSE SHOP</a>
-                        </li>
-                        <li>
-                            <a href="https://weverse.io/">Weverse</a>
-                        </li>
+                        <a href="https://hybecorp.com" class="text-decoration-none">
+                            <li>HYBE Co., Ltd.</li>
+                        </a>
+                        <a href="https://www.bighitaudition.com/" class="text-decoration-none">
+                            <li>Big Hit Audition</li>
+                        </a>
+                        <a href="https://www.weverseshop.io" class="text-decoration-none">
+                            <li>WEVERSE SHOP</li>
+                        </a>
+                        <a href="https://weverse.io/" class="text-decoration-none">
+                            <li>Weverse</li>
+                        </a>
                     </ul>
                 </div>
-                <div class="col copyright text-end">
-                    <div class="col family-link pe-3" onclick="location.href='family_sites.html';">FAMILY SITE</div>
+                <div class="col copyright text-end d-flex jusity-content-end flex-column">
+                    <div class="col family-link pe-3" onclick="location.href='source/familysite.html';" id="family_site_content">FAMILY SITE</div>
                     <div class="col">COPYRIGHT © 2021 IT KMITL. All Rights Reserved</div>
                 </div>
             </footer>
