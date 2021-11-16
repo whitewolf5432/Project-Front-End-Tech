@@ -1,0 +1,131 @@
+
+.test2 {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: #FFDC00;
+}
+.textcontent{
+    padding-top: 10vw;
+}
+.melt{
+    background-image: url('../imgSrc/BTS/DISCOGRAPHY/BUTTER/album-desc_btm.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.melt2{
+    background-image: url('../imgSrc/BTS/DISCOGRAPHY/BUTTER2/photo_btm.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#vid{
+    background-color: white; width:100vw; padding-top:10vw; 
+}
+#pic{
+    width:100vw; padding-top:10vw; margin-bottom:10vw;
+}
+#videotitle{
+    font-family: NorBComicBold;
+    color: black;
+    font-size: 2.5vw;
+}
+#schtitle{
+    font-family: NorBComicBold;
+    color: black;
+    font-size: 5vw;
+}
+#ccvtitle{
+    font-family: NorBComicBold;
+    color: black;
+    font-size: 2.5vw;
+}
+#videoframe{
+    display: none;
+    width: 70%;
+    height:35vw;
+    
+}
+#coverpic{
+    display: block;
+    width: 70%;
+    height:35vw;
+}
+#btsvidcov{
+    opacity: 0.5;
+}
+#coverpic:hover{
+    cursor: pointer;
+}
+#coverpic:hover #btsvidcov{
+    opacity: 1;
+}
+.vidmenu{
+    font-family:NorBComicBold;
+    font-size: 1.25vw;
+    color: black;
+}
+.pointer:hover{
+    cursor: pointer;
+}
+.undervideo{
+    width: 100%;
+    height: 5vw;
+    margin-top: 5vw;
+    border-top: #FFDC00 5px;
+    background-image: url('../imgSrc/BTS/DISCOGRAPHY/BUTTER2/album-video_btm.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#btspic{
+    width: 30%;
+    margin-top: 5vw;
+}
+#schedule{
+    background-color: #fffac8;
+    padding-bottom: 5vw;
+}
+#schbtn{
+    font-family: NorBComicBold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    top:30%;
+    margin-left: 2%;
+    font-size: 2vw;
+    overflow: hidden;
+}
+@keyframes heartscale{
+    from{transform: scale(1);}
+    to{transform: scale(1.05);}
+}
+@keyframes fontscale{
+    from{font-size: 2vw;}
+    to{font-size: 2.25vw;}
+}
+.wrap:hover{
+    transform: scale(1.05);
+    overflow: visible;
+}
+.wrap:hover .heartpic{
+    animation: heartscale 0.25s ;
+    animation-fill-mode: forwards;
+}
+.wrap:hover #schbtn{
+    animation: fontscale 0.25s ;
+    animation-fill-mode: forwards;
+}
+#ccv{
+    margin-top: 10vw;
+}
+
+.ccvbtn:hover{
+    animation: heartscale 0.25s ;
+    animation-fill-mode: forwards;
+}
+.ccvbtn{
+    width: fit-content;
+    height: auto;
+}
+
