@@ -141,7 +141,7 @@
 .kv_fight {
     height: 100vh;
     width: 100%;
-    background-image: url(/source/imgSrc/home/kv-fight_escape.jpg);
+    background-image: url(../../source/imgSrc/home/kv-fight_escape.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: -60px;
@@ -150,7 +150,7 @@
 .kv_moon {
     height: 100vh;
     width: 100%;
-    background-image: url(/source/imgSrc/home/kv-moon_in_the_sea.jpg);
+    background-image: url(../../source/imgSrc/home/kv-moon_in_the_sea.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: -60px;
@@ -169,35 +169,35 @@
 }
 
 .melon {
-    background-image: url(/source/imgSrc/main/ico-melon.png);
+    background-image: url(../../source/imgSrc/main/ico-melon.png);
 }
 
 .genie {
-    background-image: url(/source/imgSrc/main/ico-genie.png);
+    background-image: url(../../source/imgSrc/main/ico-genie.png);
 }
 
 .vibe {
-    background-image: url(/source/imgSrc/main/ico-vibe-fight_escape.png);
+    background-image: url(../../source/imgSrc/main/ico-vibe-fight_escape.png);
 }
 
 .flo {
-    background-image: url(/source/imgSrc/main/ico-flo.png);
+    background-image: url(../../source/imgSrc/main/ico-flo.png);
 }
 
 .bugs {
-    background-image: url(/source/imgSrc/main/ico-bugs.png);
+    background-image: url(../../source/imgSrc/main/ico-bugs.png);
 }
 
 .spotify {
-    background-image: url(/source/imgSrc/main/ico-spotify.png);
+    background-image: url(../../source/imgSrc/main/ico-spotify.png);
 }
 
 .applemusic {
-    background-image: url(/source/imgSrc/main/ico-apple.png);
+    background-image: url(../../source/imgSrc/main/ico-apple.png);
 }
 
 .amazonmusic {
-    background-image: url(/source/imgSrc/main/ico-amazon.png);
+    background-image: url(../../source/imgSrc/main/ico-amazon.png);
 }
 
 .kv_fight .popup .popup_inner .info h2:hover {
@@ -215,7 +215,7 @@
 .kv_fight .popup .popup_inner .popup_list li .melon:hover {
     /* color: #ffa8b5; */
     color: #ec869d;
-    background-image: url(/source/imgSrc/main/ico-melon-fight_escape_h.png);
+    background-image: url(../../source/imgSrc/main/ico-melon-fight_escape_h.png);
     background-color: rgba(0, 0, 0, 0.25);
 }
 
@@ -223,42 +223,42 @@
     /* color: #ffa8b5; */
     color: #ec869d;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(/source/imgSrc/main/ico-genie-fight_escape_h.png);
+    background-image: url(../../source/imgSrc/main/ico-genie-fight_escape_h.png);
 }
 
 .kv_fight .popup .popup_inner .popup_list li .vibe:hover {
     /* color: #ffa8b5; */
     color: #ec869d;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(/source/imgSrc/main/ico-vibe-fight_escape_h.png);
+    background-image: url(../../source/imgSrc/main/ico-vibe-fight_escape_h.png);
 }
 
 .kv_fight .popup .popup_inner .popup_list li .flo:hover {
     /* color: #ffa8b5; */
     color: #ec869d;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(/source/imgSrc/main/ico-flo-fight_escape_h.png);
+    background-image: url(../../source/imgSrc/main/ico-flo-fight_escape_h.png);
 }
 
 .kv_fight .popup .popup_inner .popup_list li .bugs:hover {
     /* color: #ffa8b5; */
     color: #ec869d;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(/source/imgSrc/main/ico-bugs-fight_escape_h.png);
+    background-image: url(../../source/imgSrc/main/ico-bugs-fight_escape_h.png);
 }
 
 .kv_fight .popup .popup_inner .popup_list li .spotify:hover {
     /* color: #ffa8b5; */
     color: #ec869d;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(/source/imgSrc/main/ico-spotify-fight_escape_h.png);
+    background-image: url(../../source/imgSrc/main/ico-spotify-fight_escape_h.png);
 }
 
 .kv_fight .popup .popup_inner .popup_list li .applemusic:hover {
     /* color: #ffa8b5; */
     color: #ec869d;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(/source/imgSrc/main/ico-apple-fight_escape_h.png);
+    background-image: url(../../source/imgSrc/main/ico-apple-fight_escape_h.png);
 }
 
 .kv_moon .popup .popup_inner .info h2:hover {
@@ -276,7 +276,7 @@
 .kv_moon .popup .popup_inner .popup_list li .melon:hover {
     /* color: #ffa8b5; */
     color: #ffa4cc;
-    background-image: url(/source/imgSrc/main/ico-melon-moon_in_the_sea_h.png);
+    background-image: url(../../source/imgSrc/main/ico-melon-moon_in_the_sea_h.png);
     background-color: rgba(0, 0, 0, 0.25);
 }
 
@@ -284,28 +284,28 @@
     /* color: #ffa8b5; */
     color: #ffa4cc;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(/source/imgSrc/main/ico-genie-moon_in_the_sea_h.png);
+    background-image: url(../../source/imgSrc/main/ico-genie-moon_in_the_sea_h.png);
 }
 
 .kv_moon .popup .popup_inner .popup_list li .vibe:hover {
     /* color: #ffa8b5; */
     color: #ffa4cc;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(/source/imgSrc/main/ico-vibe-moon_in_the_sea_h.png);
+    background-image: url(../../source/imgSrc/main/ico-vibe-moon_in_the_sea_h.png);
 }
 
 .kv_moon .popup .popup_inner .popup_list li .flo:hover {
     /* color: #ffa8b5; */
     color: #ffa4cc;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(/source/imgSrc/main/ico-flo-moon_in_the_sea_h.png);
+    background-image: url(../../source/imgSrc/main/ico-flo-moon_in_the_sea_h.png);
 }
 
 .kv_moon .popup .popup_inner .popup_list li .bugs:hover {
     /* color: #ffa8b5; */
     color: #ffa4cc;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(/source/imgSrc/main/ico-bugs-moon_in_the_sea_h.png);
+    background-image: url(../../source/imgSrc/main/ico-bugs-moon_in_the_sea_h.png);
 }
 
 .kv_butter .popup .popup_inner .info h2:hover {
@@ -323,7 +323,7 @@
 .kv_butter .popup .popup_inner .popup_list li .melon:hover {
     /* color: #ffa8b5; */
     color: #FFDC00;
-    background-image: url(/source/imgSrc/main/ico-melon-butter_h.png);
+    background-image: url(../../source/imgSrc/main/ico-melon-butter_h.png);
     background-color: rgba(0, 0, 0, 0.25);
 }
 
@@ -331,49 +331,49 @@
     /* color: #ffa8b5; */
     color: #FFDC00;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(/source/imgSrc/main/ico-genie-butter_h.png);
+    background-image: url(../../source/imgSrc/main/ico-genie-butter_h.png);
 }
 
 .kv_butter .popup .popup_inner .popup_list li .vibe:hover {
     /* color: #ffa8b5; */
     color: #FFDC00;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(/source/imgSrc/main/ico-vibe-butter_h.png);
+    background-image: url(../../source/imgSrc/main/ico-vibe-butter_h.png);
 }
 
 .kv_butter .popup .popup_inner .popup_list li .flo:hover {
     /* color: #ffa8b5; */
     color: #FFDC00;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(/source/imgSrc/main/ico-flo-butter_h.png);
+    background-image: url(../../source/imgSrc/main/ico-flo-butter_h.png);
 }
 
 .kv_butter .popup .popup_inner .popup_list li .bugs:hover {
     /* color: #ffa8b5; */
     color: #FFDC00;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(/source/imgSrc/main/ico-bugs-butter_h.png);
+    background-image: url(../../source/imgSrc/main/ico-bugs-butter_h.png);
 }
 
 .kv_butter .popup .popup_inner .popup_list li .applemusic:hover {
     /* color: #ffa8b5; */
     color: #FFDC00;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(/source/imgSrc/main/ico-apple-butter_h.png);
+    background-image: url(../../source/imgSrc/main/ico-apple-butter_h.png);
 }
 
 .kv_butter .popup .popup_inner .popup_list li .spotify:hover {
     /* color: #ffa8b5; */
     color: #FFDC00;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(/source/imgSrc/main/ico-spotify-butter_h.png);
+    background-image: url(../../source/imgSrc/main/ico-spotify-butter_h.png);
 }
 
 .kv_butter .popup .popup_inner .popup_list li .amazonmusic:hover {
     /* color: #ffa8b5; */
     color: #FFDC00;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(/source/imgSrc/main/ico-amazon-butter_h.png);
+    background-image: url(../../source/imgSrc/main/ico-amazon-butter_h.png);
 }
 
 .kv_freeze .popup .popup_inner .info h2:hover {
@@ -391,7 +391,7 @@
 .kv_freeze .popup .popup_inner .popup_list li .melon:hover {
     /* color: #ffa8b5; */
     color: #01a7e3;
-    background-image: url(/source/imgSrc/main/ico-melon-butter_h.png);
+    background-image: url(../../source/imgSrc/main/ico-melon-butter_h.png);
     background-color: rgba(0, 0, 0, 0.25);
 }
 
@@ -399,40 +399,40 @@
     /* color: #ffa8b5; */
     color: #01a7e3;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(/source/imgSrc/main/ico-genie-butter_h.png);
+    background-image: url(../../source/imgSrc/main/ico-genie-butter_h.png);
 }
 
 .kv_freeze .popup .popup_inner .popup_list li .vibe:hover {
     /* color: #ffa8b5; */
     color: #01a7e3;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(/source/imgSrc/main/ico-vibe-butter_h.png);
+    background-image: url(../../source/imgSrc/main/ico-vibe-butter_h.png);
 }
 
 .kv_freeze .popup .popup_inner .popup_list li .flo:hover {
     /* color: #ffa8b5; */
     color: #01a7e3;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(/source/imgSrc/main/ico-flo-butter_h.png);
+    background-image: url(../../source/imgSrc/main/ico-flo-butter_h.png);
 }
 
 .kv_freeze .popup .popup_inner .popup_list li .bugs:hover {
     /* color: #ffa8b5; */
     color: #01a7e3;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(/source/imgSrc/main/ico-bugs-butter_h.png);
+    background-image: url(../../source/imgSrc/main/ico-bugs-butter_h.png);
 }
 
 .kv_freeze .popup .popup_inner .popup_list li .applemusic:hover {
     /* color: #ffa8b5; */
     color: #01a7e3;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(/source/imgSrc/main/ico-apple-butter_h.png);
+    background-image: url(../../source/imgSrc/main/ico-apple-butter_h.png);
 }
 
 .kv_freeze .popup .popup_inner .popup_list li .spotify:hover {
     /* color: #ffa8b5; */
     color: #01a7e3;
     background-color: rgba(0, 0, 0, 0.25);
-    background-image: url(/source/imgSrc/main/ico-spotify-butter_h.png);
+    background-image: url(../../source/imgSrc/main/ico-spotify-butter_h.png);
 }
