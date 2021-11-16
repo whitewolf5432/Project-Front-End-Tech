@@ -73,7 +73,7 @@
         </header>
         <div class="d-flex justify-content-end flex-column w-100 content">
             <section class="test2">
-                <div class="container-fluid w-100">
+                <div class="w-100 position-relative  overflow-hidden">
                     <div class="row w-100" >
                         <video class="w-100" autoplay>
                             <source src="../../vdoSrc/butter2/butter.webm" type="video/mp4">
@@ -188,19 +188,43 @@
                             <h1 class="d-flex justify-content-center mt-4 overflow-hidden" id="ccvtitle">CONCEPT CLIP</h1> 
                         </div>
                         <div class="row d-flex justify-content-center mt-5 overflow-hidden">
-                            <img class="ccvbtn" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/double_jk.jpg">
-                            <img class="ccvbtn" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/double_rm.jpg">
-                            <img class="ccvbtn" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/double_jin.jpg">
+                            <img class="ccvbtn" onclick="ccvplay(1)" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/double_jk.jpg">
+                            <img class="ccvbtn" onclick="ccvplay(2)" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/double_rm.jpg">
+                            <img class="ccvbtn" onclick="ccvplay(3)" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/double_jin.jpg">
                         </div>
                         <div class="row d-flex justify-content-center my-5 overflow-hidden" >
-                            <img class="ccvbtn" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/double_suga.jpg">
-                            <img class="ccvbtn" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/double_jhope.jpg">
-                            <img class="ccvbtn" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/double_jimin.jpg">
-                            <img class="ccvbtn" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/double_v.jpg">
+                            <img class="ccvbtn" onclick="ccvplay(4)" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/double_suga.jpg">
+                            <img class="ccvbtn" onclick="ccvplay(5)" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/double_jhope.jpg">
+                            <img class="ccvbtn" onclick="ccvplay(6)" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/double_jimin.jpg">
+                            <img class="ccvbtn" onclick="ccvplay(7)" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/double_v.jpg">
                         </div>
                     </div>
-                    <div class="w-100 h-100"></div>
                     
+                    <div class="row" style=" height:20vw; width:100vw;">
+                        <div class="row d-flex justify-content-center melt3" style=" height:20vw; width:100%"></div>
+                        
+                    </div>
+                    <div class="d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 5vw;">
+                        <div class="row track d-flex flex-column align-content-center justify-content-center pb-2">
+                            <div style="color: white; text-align: center; font-size: 5vw; font-family:SolanoGothic;">TRACK</div>
+                        </div>
+                        <div class="row d-flex flex-column align-content-center justify-content-center pt-2" style="font-family: chambers;">
+                            <div class="row d-flex align-content-center justify-content-center pt-2">
+                                <div class="col-5 text track"><div style="text-align: end; margin-right: 20px; font-size: 1.5vw;">1</div></div>
+                                <div class="col-7 track"><div style="text-align: start; font-size: 1.5vw;">BUTTER  <span style="color:gray; -webkit-text-stroke: 1px black;  opacity:60%;">2’44”</span></div></div>
+                            </div>
+                            
+                            <div class="row d-flex align-content-center justify-content-center pt-2">
+                                <div class="col-5 text track"><div style="text-align: end; margin-right: 20px; font-size: 1.5vw;">2</div></div>
+                                <div class="col-7 track"><div style="text-align: start; font-size: 1.5vw;">Butter (Instrumental)  <span style="color:gray; -webkit-text-stroke: 1px black;  opacity:60%;">2’42”</span></div></div>
+                            </div>
+
+                    </div>
+                    <div id="tab"  style=" width:100%; padding:0; display:none;">
+                        <div class="bg-black opacity-75 top-0 position-absolute w-100" style="height: 100%;"></div>
+                        <img id="pop" onclick="ccvstop()" class="position-absolute top-0" style="margin-top: 325%; margin-left:80%" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/btn_close_pop.png">
+                        
+                    </div>
                 </div>
                 
             </section>
