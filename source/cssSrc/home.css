@@ -1,31 +1,3 @@
-.kv_fight {
-    background-image: url(/source/imgSrc/home/kv-fight_escape.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: -105px;
-}
-
-.kv_fight_img {
-    transform: translateY(-80px) translateX(50px);
-}
-
-.kv_fight_txt {
-    position: absolute;
-    z-index: 20;
-    top: 40%;
-    left: 13%;
-}
-
-.kv_fight_txt p {
-    text-align: left;
-    font-size: 90px;
-    letter-spacing: -.03em;
-    font-family: SolanoGothic;
-    line-height: 1;
-    padding: 2px;
-    overflow-y: hidden;
-}
-
 .carousel-inner {
     height: calc(100vh - 60px);
     width: 100%;
@@ -65,6 +37,104 @@
     transition: opacity .6s ease;
 }
 
+.content_inner_img {
+    transform: translateY(-80px) translateX(50px);
+}
+
+.content_inner_txt {
+    position: absolute;
+    z-index: 20;
+    top: 40%;
+    left: 13%;
+}
+
+.content_inner_txt p {
+    text-align: left;
+    font-size: 90px;
+    letter-spacing: -.03em;
+    font-family: SolanoGothic;
+    line-height: 1;
+    padding: 2px;
+    overflow-y: hidden;
+}
+
+.popup {
+    background-color: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 60px);
+    margin-top: 60px;
+    z-index: 21;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup h2 {
+    font-family: CamberSemiBold;
+    font-size: 2.65vh;
+    text-align: center;
+    line-height: 1.2;
+    overflow-y: hidden;
+}
+
+.popup .popup_inner .info h2 {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.61vh;
+    margin-top: 38px;
+    height: 6vh;
+    border-radius: 30px;
+}
+
+.info a {
+    text-decoration: none;
+}
+
+.popup a {
+    font-family: CamberSemiBold;
+}
+
+.popup .popup_inner {
+    width: 360px;
+    padding-bottom: 80px;
+}
+
+.popup .popup_inner .popup_list li {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-width: 1px 0;
+}
+
+.popup .popup_inner .popup_list li a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-indent: 150px;
+    background-size: 10%;
+    background-position-x: 0px;
+    background-repeat: no-repeat;
+    background-position-x: 80px;
+    background-position-y: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.kv_fight {
+    background-image: url(/source/imgSrc/home/kv-fight_escape.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -105px;
+}
+
 .kv_moon {
     background-image: url(/source/imgSrc/home/kv-moon_in_the_sea.jpg);
     background-size: cover;
@@ -80,60 +150,271 @@
     background-color: #10125a;
 }
 
-.popup {
-    background-color: rgba(0, 0, 0, 0.85);
-    position: absolute;
-    width: 100%;
-    height: calc(100vh - 60px);
-    margin-top: 60px;
-    z-index: 100;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.popup h2 {
-    font-family: CamberSemiBold;
-    font-size: 2.65vh;
-    text-align: center;
-    line-height: 1.2;
-    overflow-y: hidden;
-}
-
-.popup .popup_inner {
-    width: 360px;
-}
-
-.popup .popup_inner .popup_list {
-    border: solid whitesmoke;
-    border-width: 2px 0px;
-    border-bottom: solid #72545d;
-}
-
-.popup .popup_inner .popup_list li {
-    height: 7vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.popup .popup_inner .popup_list li :hover {
-    color: #ffa8b5;
-}
-
-.popup .popup_inner .popup_list li a {
+.melon {
     background-image: url(/source/imgSrc/main/ico-melon.png);
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-size: 10%;
-    background-position-x: 0px;
-    background-repeat: no-repeat;
-    background-position-x: 80px;
-    background-position-y: 10px;
-    text-decoration: none;
-    color: white;
+}
+
+.genie {
+    background-image: url(/source/imgSrc/main/ico-genie.png);
+}
+
+.vibe {
+    background-image: url(/source/imgSrc/main/ico-vibe-fight_escape.png);
+}
+
+.flo {
+    background-image: url(/source/imgSrc/main/ico-flo.png);
+}
+
+.bugs {
+    background-image: url(/source/imgSrc/main/ico-bugs.png);
+}
+
+.spotify {
+    background-image: url(/source/imgSrc/main/ico-spotify.png);
+}
+
+.applemusic {
+    background-image: url(/source/imgSrc/main/ico-apple.png);
+}
+
+.amazonmusic {
+    background-image: url(/source/imgSrc/main/ico-amazon.png);
+}
+
+.kv_fight .popup .popup_inner .info h2:hover {
+    color: #ec869d;
+    cursor: pointer;
+}
+
+.kv_fight .popup .popup_inner .popup_list {
+    margin-top: 20px;
+    border: solid whitesmoke;
+    border-width: 1px 0px;
+    border-bottom: 2px solid #72545d;
+}
+
+.kv_fight .popup .popup_inner .popup_list li .melon:hover {
+    /* color: #ffa8b5; */
+    color: #ec869d;
+    background-image: url(/source/imgSrc/main/ico-melon-fight_escape_h.png);
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.kv_fight .popup .popup_inner .popup_list li .genie:hover {
+    /* color: #ffa8b5; */
+    color: #ec869d;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(/source/imgSrc/main/ico-genie-fight_escape_h.png);
+}
+
+.kv_fight .popup .popup_inner .popup_list li .vibe:hover {
+    /* color: #ffa8b5; */
+    color: #ec869d;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(/source/imgSrc/main/ico-vibe-fight_escape_h.png);
+}
+
+.kv_fight .popup .popup_inner .popup_list li .flo:hover {
+    /* color: #ffa8b5; */
+    color: #ec869d;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(/source/imgSrc/main/ico-flo-fight_escape_h.png);
+}
+
+.kv_fight .popup .popup_inner .popup_list li .bugs:hover {
+    /* color: #ffa8b5; */
+    color: #ec869d;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(/source/imgSrc/main/ico-bugs-fight_escape_h.png);
+}
+
+.kv_fight .popup .popup_inner .popup_list li .spotify:hover {
+    /* color: #ffa8b5; */
+    color: #ec869d;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(/source/imgSrc/main/ico-spotify-fight_escape_h.png);
+}
+
+.kv_fight .popup .popup_inner .popup_list li .applemusic:hover {
+    /* color: #ffa8b5; */
+    color: #ec869d;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(/source/imgSrc/main/ico-apple-fight_escape_h.png);
+}
+
+.kv_moon .popup .popup_inner .info h2:hover {
+    color: #ffa4cc;
+    cursor: pointer;
+}
+
+.kv_moon .popup .popup_inner .popup_list {
+    margin-top: 20px;
+    border: solid whitesmoke;
+    border-width: 1px 0px;
+    border-bottom: 2px solid #72545d;
+}
+
+.kv_moon .popup .popup_inner .popup_list li .melon:hover {
+    /* color: #ffa8b5; */
+    color: #ffa4cc;
+    background-image: url(/source/imgSrc/main/ico-melon-moon_in_the_sea_h.png);
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.kv_moon .popup .popup_inner .popup_list li .genie:hover {
+    /* color: #ffa8b5; */
+    color: #ffa4cc;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(/source/imgSrc/main/ico-genie-moon_in_the_sea_h.png);
+}
+
+.kv_moon .popup .popup_inner .popup_list li .vibe:hover {
+    /* color: #ffa8b5; */
+    color: #ffa4cc;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(/source/imgSrc/main/ico-vibe-moon_in_the_sea_h.png);
+}
+
+.kv_moon .popup .popup_inner .popup_list li .flo:hover {
+    /* color: #ffa8b5; */
+    color: #ffa4cc;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(/source/imgSrc/main/ico-flo-moon_in_the_sea_h.png);
+}
+
+.kv_moon .popup .popup_inner .popup_list li .bugs:hover {
+    /* color: #ffa8b5; */
+    color: #ffa4cc;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(/source/imgSrc/main/ico-bugs-moon_in_the_sea_h.png);
+}
+
+.kv_butter .popup .popup_inner .info h2:hover {
+    color: #FFDC00;
+    cursor: pointer;
+}
+
+.kv_butter .popup .popup_inner .popup_list {
+    margin-top: 20px;
+    border: solid whitesmoke;
+    border-width: 1px 0px;
+    border-bottom: 2px solid #72545d;
+}
+
+.kv_butter .popup .popup_inner .popup_list li .melon:hover {
+    /* color: #ffa8b5; */
+    color: #FFDC00;
+    background-image: url(/source/imgSrc/main/ico-melon-butter_h.png);
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.kv_butter .popup .popup_inner .popup_list li .genie:hover {
+    /* color: #ffa8b5; */
+    color: #FFDC00;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(/source/imgSrc/main/ico-genie-butter_h.png);
+}
+
+.kv_butter .popup .popup_inner .popup_list li .vibe:hover {
+    /* color: #ffa8b5; */
+    color: #FFDC00;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(/source/imgSrc/main/ico-vibe-butter_h.png);
+}
+
+.kv_butter .popup .popup_inner .popup_list li .flo:hover {
+    /* color: #ffa8b5; */
+    color: #FFDC00;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(/source/imgSrc/main/ico-flo-butter_h.png);
+}
+
+.kv_butter .popup .popup_inner .popup_list li .bugs:hover {
+    /* color: #ffa8b5; */
+    color: #FFDC00;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(/source/imgSrc/main/ico-bugs-butter_h.png);
+}
+
+.kv_butter .popup .popup_inner .popup_list li .applemusic:hover {
+    /* color: #ffa8b5; */
+    color: #FFDC00;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(/source/imgSrc/main/ico-apple-butter_h.png);
+}
+
+.kv_butter .popup .popup_inner .popup_list li .spotify:hover {
+    /* color: #ffa8b5; */
+    color: #FFDC00;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(/source/imgSrc/main/ico-spotify-butter_h.png);
+}
+
+.kv_butter .popup .popup_inner .popup_list li .amazonmusic:hover {
+    /* color: #ffa8b5; */
+    color: #FFDC00;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(/source/imgSrc/main/ico-amazon-butter_h.png);
+}
+
+.kv_freeze .popup .popup_inner .info h2:hover {
+    color: #01a7e3;
+    cursor: pointer;
+}
+
+.kv_freeze .popup .popup_inner .popup_list {
+    margin-top: 20px;
+    border: solid whitesmoke;
+    border-width: 1px 0px;
+    border-bottom: 2px solid rgba(123, 162, 217, 0.6);
+}
+
+.kv_freeze .popup .popup_inner .popup_list li .melon:hover {
+    /* color: #ffa8b5; */
+    color: #01a7e3;
+    background-image: url(/source/imgSrc/main/ico-melon-butter_h.png);
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.kv_freeze .popup .popup_inner .popup_list li .genie:hover {
+    /* color: #ffa8b5; */
+    color: #01a7e3;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(/source/imgSrc/main/ico-genie-butter_h.png);
+}
+
+.kv_freeze .popup .popup_inner .popup_list li .vibe:hover {
+    /* color: #ffa8b5; */
+    color: #01a7e3;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(/source/imgSrc/main/ico-vibe-butter_h.png);
+}
+
+.kv_freeze .popup .popup_inner .popup_list li .flo:hover {
+    /* color: #ffa8b5; */
+    color: #01a7e3;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(/source/imgSrc/main/ico-flo-butter_h.png);
+}
+
+.kv_freeze .popup .popup_inner .popup_list li .bugs:hover {
+    /* color: #ffa8b5; */
+    color: #01a7e3;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(/source/imgSrc/main/ico-bugs-butter_h.png);
+}
+
+.kv_freeze .popup .popup_inner .popup_list li .applemusic:hover {
+    /* color: #ffa8b5; */
+    color: #01a7e3;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(/source/imgSrc/main/ico-apple-butter_h.png);
+}
+
+.kv_freeze .popup .popup_inner .popup_list li .spotify:hover {
+    /* color: #ffa8b5; */
+    color: #01a7e3;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(/source/imgSrc/main/ico-spotify-butter_h.png);
 }
