@@ -236,12 +236,68 @@ footer {
     background-image: url("../../source/imgSrc/main/youtube_h.png");
 }
 
-.naver_post {
-    background-image: url("../../source/imgSrc/main/naver_post.png");
+.twitter-star {
+    background-image: url("../../source/imgSrc/main/twitter-star.png");
 }
 
-.naver_post:hover {
-    background-image: url("../../source/imgSrc/main/naver_post_h.png");
+.twitter-star:hover {
+    background-image: url("../../source/imgSrc/main/twitter-star_h.png");
+}
+
+.instagram {
+    background-image: url("../../source/imgSrc/main/insta.png");
+}
+
+.instagram:hover {
+    background-image: url("../../source/imgSrc/main/insta_h.png");
+}
+
+.weibo {
+    background-image: url("../../source/imgSrc/main/weibo.png");
+}
+
+.weibo:hover {
+    background-image: url("../../source/imgSrc/main/weibo_h.png");
+}
+
+.weibo-member {
+    background-image: url("../../source/imgSrc/main/weibo-member.png");
+}
+
+.weibo-member:hover {
+    background-image: url("../../source/imgSrc/main/weibo-member_h.png");
+}
+
+.youku {
+    background-image: url("../../source/imgSrc/main/youku.png");
+}
+
+.youku:hover {
+    background-image: url("../../source/imgSrc/main/youku_h.png");
+}
+
+.weverse {
+    background-image: url("../../source/imgSrc/main/weverse.png");
+}
+
+.weverse:hover {
+    background-image: url("../../source/imgSrc/main/weverse_h.png");
+}
+
+.cafe {
+    background-image: url("../../source/imgSrc/main/cafe.png");
+}
+
+.cafe:hover {
+    background-image: url("../../source/imgSrc/main/cafe_h.png");
+}
+
+.blog {
+    background-image: url("../../source/imgSrc/main/blog.png");
+}
+
+.blog:hover {
+    background-image: url("../../source/imgSrc/main/blog_h.png");
 }
 
 .family-site {
