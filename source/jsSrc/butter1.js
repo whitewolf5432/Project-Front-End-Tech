@@ -1,10 +1,15 @@
+function load_content(data) {
+  let data_content = data["butter1_album"];
+  document.getElementById("data").innerHTML = data_content["paragraph"];
+}
 fetch('/source/contentSrc/english.json')
-    .then(response => response.json())
-    .then(data => {
-                console.log(data.about_page.paragraph)
-                document.querySelector("#data").innerHTML = data.butter1_album.paragraph;
-    }
+  .then(response => response.json())
+  .then(data => {
+              console.log(data.butter2_album.paragraph)
+              document.querySelector("#data").innerHTML = data.butter1_album.paragraph
+  }
 )
+
 function play(){
     document.getElementById('play').style.display = "none";
     document.getElementById('vid1').style.display = "block";
