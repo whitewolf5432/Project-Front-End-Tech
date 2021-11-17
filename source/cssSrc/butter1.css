@@ -9,3 +9,57 @@
 .imgoverlay:hover{
     opacity: 0;
 }
+#schedule{
+    background-color: #fffac8;
+    padding-bottom: 5vw;
+}
+#schbtn{
+    font-family: NorBcomic-B;
+    color: black;
+    display: flex;
+    justify-content: center;
+    top:30%;
+    margin-left: 2%;
+    font-size: 2vw;
+    overflow: hidden;
+}
+@keyframes heartscale{
+    from{transform: scale(1);}
+    to{transform: scale(1.05);}
+}
+@keyframes fontscale{
+    from{font-size: 2vw;}
+    to{font-size: 2.25vw;}
+}
+.wrap:hover{
+    transform: scale(1.05);
+    overflow: visible;
+}
+.wrap:hover .heartpic{
+    animation: heartscale 0.25s ;
+    animation-fill-mode: forwards;
+}
+.wrap:hover #schbtn{
+    animation: fontscale 0.25s ;
+    animation-fill-mode: forwards;
+}
+#ccv{
+    margin-top: 10vw;
+}
+
+.ccvbtn:hover{
+    animation: heartscale 0.25s ;
+    animation-fill-mode: forwards;
+}
+.ccvbtn{
+    width: fit-content;
+    height: auto;
+}
+#ccvpic{
+    width: 70.25vw;
+    height:56.25vw;
+    background-image: url('../imgSrc/BTS/DISCOGRAPHY/BUTTER2/jkpic.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
