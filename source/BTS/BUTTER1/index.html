@@ -8,15 +8,20 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="icon" type="image/png" href="https://www.ibighit.com/images/favicon-32.ico"/>
-    <script src="source/jsSrc/main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../../jsSrc/butter1.js"></script>
+    <script src="../../jsSrc/main.js"></script>
     <link rel="stylesheet" href="../../cssSrc/font.css">
     <link rel="stylesheet" href="../../cssSrc/main.css">
     <link rel="stylesheet" href="../../cssSrc/butter1.css">
+    <script src="https://kit.fontawesome.com/23b0d6d721.js" crossorigin="anonymous"></script>
     <title>Artists | BIGHIT MUSIC</title>
 </head>
 <body>
     <div class="wrapper">
-        <div style="background-color: #ffdc04; width: 100%; height: 60px; position: absolute;"></div>
+        <div style="background-color: #ffdc04; width: 100vw; height: 20vh; position: absolute;"></div>
         <header>
             <div class="position-fixed d-flex w-100 h-100 justify-content-center align-items-center" id="menu-list">
                 <div class="col d-flex justify-content-center h-100 align-items-center" id="list">
@@ -77,22 +82,15 @@
         <div class="d-flex justify-content-end flex-column w-100 content">
 
             
-            <section class="test" style="background: #ffdc04;">
+            <section class="test d-flex align-items-center justify-content-center" style="background: #ffdc04;">
                 <video src="../../vdoSrc/butter/butter-2.mp4" autoplay muted></video>
             </section>
             <section class="test" style="background-color: #ffdc00;">
                 <div style="padding-top: 120px; margin-bottom: 50px;" class="col d-flex align-content-center justify-content-center"><img width="50px" height="48.58" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_icon.png" alt=""></div>
                 <div class="col" style="text-align: center; font-size: 17px;">
-                    <div style="color: black;">BTS released their CD single ‘Butter’ on July 9. The CD single includes the shimmering summer song “Butter” as well as
-                        <br>“Permission to Dance” that will get your heart pumping and dance again. The instrumental versions of each are also part of the tracklist.
-                        <br>
-                        <br>
-                        Belonging to the dance pop genre, “Permission to Dance” sits on piano and string sounds that make the listeners bop their heads and
-                        <br>
-                        bust some dance moves. World-renowned musician Ed Sheeran and British producer Steve Mac took part in making the song.
+                    <div id="data" style="color: black;">
                     </div>
-                    <p></p>
-                    <div class="col" style="background-color: white; background-image: url(../../imgSrc/BTS/DISCOGRAPHY/BUTTER/video_bg.png); background-repeat: no-repeat; background-size: cover;">
+                    <div class="col" style="background-color: white; background-image: url(../../imgSrc/BTS/DISCOGRAPHY/BUTTER/video_bg.png); background-repeat: no-repeat; background-size: cover; background-position: center;">
                         <div class="row"><img height="343.67px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/album-desc_btm.png" alt="">></div>
                         <div style="height: 1080px;">
                         <div style="padding-top: 100px;">
@@ -103,32 +101,116 @@
                             <div class=" d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 740px;">
                                 <div><button class="btn" id="play" onclick="play()" style="display: block; position: relative;" height="608px">
                                     <div>
-                                        
                                     <img style="position: absolute; left: 12px; height: 608px;" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/video-cover01.jpg">
                                     <i style="position: absolute; padding-top: 270px; left: 500px; font-size: 30px;"><img src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_video_btn.png" alt=""></i>
-                                    <div class="imgoverlay d-flex"></div>
+                                    <div class="imgoverlay d-flex"><i style="position: absolute; padding-top: 270px; left: 488px; font-size: 30px;"><img src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_video_btn.png" alt=""></i></div>
                                 </div>
                                 </button></div>
-                                    <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: none;" id="vid" width="1080" height="608px"
-                                    src='https://www.youtube.com/embed/fJ9rUzIMcZQ'>>
+                                    <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: none;" id="vid1" width="1080" height="608px"
+                                    src='https://www.youtube.com/embed/fJ9rUzIMcZQ'>
                                     </iframe>
                             </div>
                     
                         </div>
                         <div class="row">
-                            <div class="col">
-                                <div style="line-height: 20px; color: black; text-align: end; font-family: NorBcomic-B; font-size: 25px; padding-right: 60px;">MV TEASER <br><img width="140px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_text_under.png" alt=""></div>
-                                
+                            <div class="col d-flex align-content-end justify-content-end">
+                                <button class="btn" style="margin-right: 60px;">
+                                    <div onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" style="line-height: 20px;  text-align: end; color: black; font-family: NorBcomic-B; font-size: 25px;">MV TEASER <br><img width="140px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_text_under.png" alt=""></div>
+                                </button>
                             </div>
-                            <div class="col">
-                                <div style="line-height: 20px; color: black; text-align: start; font-family: NorBcomic-B; font-size: 25px; padding-left: 60px;">'BUTTER' MV <br><img width="160px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_text_under.png" alt=""></div>
+                            <div class="col d-flex align-content-start justify-content-start">
+                                <button class="btn" style=" margin-left: 60px;">
+                                    <div onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" style="line-height: 20px; color: black; text-align: start; font-family: NorBcomic-B; font-size: 25px;">'BUTTER' MV <br><img width="160px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_text_under.png" alt=""></div>
+                                </button>
+                                
                             </div>
                         </div>
                     </div>
                     </div>
                 </div>
             </section>
+            <section class="test">
+                <img src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/album-video_btm.png" alt="">
+            </section>
+            <section class="test" style="background-image: url(../../imgSrc/BTS/DISCOGRAPHY/BUTTER/permission_bg.png); background-repeat: no-repeat; background-size: cover; background-position: center;">
+                
+                <div class="d-flex align-content-lg-center justify-content-center" style="padding-top: 240px;">
+                    <img class="row" width="220px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter-2_videoLogo.png" alt="">
+                </div>
+                <div style="text-align: center; font-family: NorBcomic-B; color: black; padding-top: 17px; font-size: 27px;">"VIDEO"</div>
+                <div class="row d-flex flex-column align-content-center justify-content-center">
+                    <div class=" d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 740px;">
+                        <div class="row"><button class="btn" id="play" onclick="play2()" style="display: block; position: relative;" height="608px">
+                            <div>
+                            <img style="position: absolute; left: 12px; height: 608px;" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/dance-cover02.jpg">
+                            <i style="position: absolute; padding-top: 270px; left: 500px; font-size: 30px;"><img src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_video_btn.png" alt=""></i>
+                            <div class="imgoverlay d-flex"><i style="position: absolute; padding-top: 270px; left: 488px; font-size: 30px;"><img src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_video_btn.png" alt=""></i></div>
+                        </div>
+                        </button></div>
+                            <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: none;" id="vid2" width="1080" height="608px"
+                            src='https://www.youtube.com/embed/fJ9rUzIMcZQ'>>
+                            </iframe>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex align-content-end justify-content-end">
+                        <button class="btn">
+                            <div  style="line-height: 20px;  text-align: end; color: black; font-family: NorBcomic-B; font-size: 25px;">MV TEASER <br><img width="140px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_text_under.png" alt=""></div>
+                        </button>
+                    </div>
+                    <div class="col-7 d-flex align-content-start justify-content-start">
+                        <button class="btn" style="padding-left: 100PX;">
+                            <div style="line-height: 20px; color: black; text-align: start; font-family: NorBcomic-B; font-size: 25px;">'PERMISSION TO DANCE' MV <br><img width="350px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_text_under_long.png" alt=""></div>
+                        </button>
+                        
+                    </div>
+                </div>
+                <div class="d-flex align-content-lg-center justify-content-center" style="padding-top: 240px;">
+                    <img class="row" height="50px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_logo.png" alt="">
+                </div>
+                <div class="row d-flex  align-content-center justify-content-center pt-5">
+                    <div class="col-2"></div>
+                    <div class="col d-flex align-content-center justify-content-center" style="font-size: 16; text-align: center;">
+                        <div class="col-2 vidbut"><button class="btn"><img onmouseover="mouseOgum(this)" onmouseout="mousegumO(this)" width="140px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/concept_btn_active-1.png" alt=""></button></div>
+                        <div class="col-2 vidbut"><button class="btn"><img onmouseover="mouseOgum2(this)" onmouseout="mousegumO2(this)" width="140px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/concept_btn-2.png" alt=""></button></div>
+                        <div class="col-2 vidbut"><button class="btn"><img onmouseover="mouseOgum3(this)" onmouseout="mousegumO3(this)" width="140px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/concept_btn-3.png" alt=""></button></div>
+                        <div class="col-2 vidbut"><button class="btn"><img onmouseover="mouseOgum4(this)" onmouseout="mousegumO4(this)" width="140px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/concept_btn-4.png" alt=""></button></div>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <div class="row d-flex flex-column flex-column align-content-center justify-content-center"><div class="row d-flex  align-content-center justify-content-center" style="position: relative; overflow:hidden; width: 1440px; height: 800px;">               
+                    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
 
+                        <div class="carousel-inner" style="display: block;">
+                            <div class="carousel-item active">
+                              <div class="d-flex align-items-center justify-content-center">
+                                  <img id="photo0" height="720px" src="https://ibighit.com/bts/images/bts/discography/love_yourself-her/photo01-01.jpg">
+                              </div>
+                            </div>
+                          </div>
+                        <div class="carousel-inner" style="display: none;">
+                            <div class="carousel-item active">
+                              <div class="d-flex align-items-center justify-content-center">
+                                  <img id="photo1" height="720px" src="">
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="d-flex align-items-center justify-content-center">
+                                  <img id="photo2" height="720px" src="">
+                              </div>
+                            </div>
+                          </div>
+                        <button id="butset1" style="display: none;" onmouseover="mouseOver4()" onmouseout="mouseOut4()" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                          <span aria-hidden="true"><i id="left" id="arrowbot" style="font-size: 50px;"><img width="53px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_slideBtn_left.png" alt=""></i></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button id="butset2" style="display: none;" onmouseover="mouseOver5()" onmouseout="mouseOut5()" class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                          <span aria-hidden="true"><i id="right" style="font-size: 50px;"><img width="53px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_slideBtn_right.png" alt=""></i></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                     </div> 
+            </section>
 
 
 
