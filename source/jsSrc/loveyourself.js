@@ -10,7 +10,6 @@ function play() {
     document.getElementById('vid').style.display = "block";
     document.getElementById('vid').src = "https://www.youtube.com/embed/kTlv5_Bs8aw?autoplay=1"
 }
-
 function vid1() {
     document.getElementById('play').style.display = "none";
     document.getElementById('vid').style.display = "block";

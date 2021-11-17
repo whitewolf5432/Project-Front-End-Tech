@@ -16,7 +16,7 @@
     },
 
     "butter1_album" : {
-       "paragraph" : "BTS released their CD single ‘Butter’ on July 9. The CD single includes the shimmering summer song “Butter” as well as “Permission to Dance” that will get your heart pumping and dance again. The instrumental versions of each are also part of the tracklist. <br><br> Belonging to the dance pop genre, “Permission to Dance” sits on piano and string sounds that make the listeners bop their heads and bust some dance moves. World-renowned musician Ed Sheeran and British producer Steve Mac took part in making the song."
+       "paragraph" : "BTS released their CD single ‘Butter’ on July 9. The CD single includes the shimmering summer song “Butter” as well as<br> “Permission to Dance” that will get your heart pumping and dance again. The instrumental versions of each are also part of the tracklist. <br><br> Belonging to the dance pop genre, “Permission to Dance” sits on piano and string sounds that make the listeners bop their heads and<br> bust some dance moves. World-renowned musician Ed Sheeran and British producer Steve Mac took part in making the song."
     },
 
     "butter2_album" : {
@@ -37,7 +37,7 @@
     },
 
     "lysh_album" : {
-        "paragraph": "BTS releases LOVE YOURSELF 承 'HER'!“Loving yourself is the beginning of true love”,<br>All the different faces of love expressed through the signature music of BTS!<br><br>On September 18, BTS will release 承 'HER', the first album in the new LOVE YOURSELF series.<br><br>LOVE YOURSELF 承 'HER' is an expression of the anxiety and elation of love, told in the unique style of BTS. The “love” that BTS aims to convey in the LOVE YOURSELF series is both the individual experience of a boy growing into adulthood and a message of peace and unity to our society today. In the mini album 承 'HER' that begins this new narrative, the image of boys in love for the first time are expressed in a refreshing and cheerful take that aims to talk about the topic of “love” while immersed in a coming-of-age tale.",
+        "paragraph": "BTS releases LOVE YOURSELF 承 'HER'!<br>“Loving yourself is the beginning of true love”,<br>All the different faces of love expressed through the signature<br> music of BTS!<br><br>On September 18, BTS will release 承 'HER', the first album in<br> the new LOVE YOURSELF series.<br><br>LOVE YOURSELF 承 'HER' is an expression of the anxiety and<br> elation of love, told in the unique style of BTS. The “love” that<br> BTS aims to convey in the LOVE YOURSELF series is both the<br> individual experience of a boy growing into adulthood and a<br> message of peace and unity to our society today. In the mini<br> album 承 'HER' that begins this new narrative, the image of<br> boys in love for the first time are expressed in a refreshing and<br> cheerful take that aims to talk about the topic of “love” while<br> immersed in a coming-of-age tale.",
         "track_list":[["1","Intro : Serendipity","2’19”"],["2","DNA","3’43”"],["3","Best Of Me","3’46”"],["4","Dimple","3’16”"],["5","Pied Piper","4’05”"],["6","Skit : Billboard Music Awards Speech","1’43”"],["7","MIC Drop","3’57”"],["8","Go Go","3’55”"],["9","Outro : Her","3’49”"]]
     }
 }
