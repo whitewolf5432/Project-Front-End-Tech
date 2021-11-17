@@ -694,3 +694,40 @@ function SU(){
     ll = 1
   }
 }
+function ccvplay(num){
+  if (num==1){
+      document.getElementById("ccvpic").style.backgroundImage = "url(../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/jkpic.png)";
+      document.getElementById("ccvvid").src = "../../vdoSrc/butter2/jkvid.mp4";
+  }
+  else if (num==2){
+      document.getElementById("ccvpic").style.backgroundImage = "url(../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/rmpic.png)";
+      document.getElementById("ccvvid").src = "../../vdoSrc/butter2/rmvid.mp4";
+  }
+  else if (num==3){
+      document.getElementById("ccvpic").style.backgroundImage = "url(../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/jinpic.png)";
+      document.getElementById("ccvvid").src = "../../vdoSrc/butter2/jinvid.mp4";
+  }
+  else if (num==4){
+      document.getElementById("ccvpic").style.backgroundImage = "url(../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/sgpic.png)";
+      document.getElementById("ccvvid").src = "../../vdoSrc/butter2/sgvid.mp4";
+  }
+  else if (num==5){
+      document.getElementById("ccvpic").style.backgroundImage = "url(../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/jhpic.png)";
+      document.getElementById("ccvvid").src = "../../vdoSrc/butter2/jhvid.mp4";
+  }
+  else if (num==6){
+      document.getElementById("ccvpic").style.backgroundImage = "url(../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/jmpic.png)";
+      document.getElementById("ccvvid").src = "../../vdoSrc/butter2/jmvid.mp4";
+  }
+  else if (num==7){
+      document.getElementById("ccvpic").style.backgroundImage = "../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/vpic.png";
+      document.getElementById("ccvvid").src = "../../vdoSrc/butter2/vvid.mp4";
+  }
+  document.getElementById('tab').style.display ="block";
+  document.getElementById('ccvvid').style.display = "none";
+  document.getElementById('ccvpic').style.display = "block";
+  document.getElementById('cvvvidbtn').style.display = "block";
+}
+function ccvstop(){document.getElementById('tab').style.display ="none";
+document.getElementById('ccvvid').pause();
+document.getElementById('ccvvid').currentTime = 0;}
