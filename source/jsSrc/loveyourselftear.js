@@ -5,10 +5,6 @@ fetch('/source/contentSrc/english.json')
                 document.querySelector("#data").innerHTML = data.lysh_album.paragraph
     }
 )
-function load_content(data) {
-    let data_content = data["lysh_album"];
-    document.getElementById("paragraph").innerHTML = data_content["paragraph"];
-}
 function play(){
     document.getElementById('vidbut6').style.opacity = "1";
     document.getElementById('play').style.display = "none";
@@ -94,78 +90,78 @@ function phoset1() {
     document.getElementById('phobut2').style.opacity = "50%";
     document.getElementById('phobut3').style.opacity = "50%";
     document.getElementById('phobut4').style.opacity = "50%";
-    document.getElementById('photo1').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset1/photo01-01.jpg"
-    document.getElementById('photo2').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset1/photo01-02.jpg"
-    document.getElementById('photo3').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset1/photo01-03.jpg"
-    document.getElementById('photo4').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset1/photo01-04.jpg"
-    document.getElementById('photo5').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset1/photo01-05.jpg"
-    document.getElementById('photo6').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset1/photo01-06.jpg"
-    document.getElementById('photo7').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset1/photo01-07.jpg"
-    document.getElementById('photo8').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset1/photo01-08.jpg"
+    document.getElementById('photo1').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset1/photo01-01.jpg"
+    document.getElementById('photo2').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset1/photo01-02.jpg"
+    document.getElementById('photo3').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset1/photo01-03.jpg"
+    document.getElementById('photo4').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset1/photo01-04.jpg"
+    document.getElementById('photo5').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset1/photo01-05.jpg"
+    document.getElementById('photo6').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset1/photo01-06.jpg"
+    document.getElementById('photo7').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset1/photo01-07.jpg"
+    document.getElementById('photo8').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset1/photo01-08.jpg"
     }
 function phoset2() {
     document.getElementById('phobut1').style.opacity = "50%";
     document.getElementById('phobut2').style.opacity = "1";
     document.getElementById('phobut3').style.opacity = "50%";
     document.getElementById('phobut4').style.opacity = "50%";
-    document.getElementById('photo1').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset2/photo02-01.jpg"
-    document.getElementById('photo2').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset2/photo02-02.jpg"
-    document.getElementById('photo3').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset2/photo02-03.jpg"
-    document.getElementById('photo4').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset2/photo02-04.jpg"
-    document.getElementById('photo5').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset2/photo02-05.jpg"
-    document.getElementById('photo6').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset2/photo02-06.jpg"
-    document.getElementById('photo7').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset2/photo02-07.jpg"
-    document.getElementById('photo8').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset2/photo02-08.jpg"
+    document.getElementById('photo1').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset2/photo02-01.jpg"
+    document.getElementById('photo2').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset2/photo02-02.jpg"
+    document.getElementById('photo3').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset2/photo02-03.jpg"
+    document.getElementById('photo4').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset2/photo02-04.jpg"
+    document.getElementById('photo5').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset2/photo02-05.jpg"
+    document.getElementById('photo6').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset2/photo02-06.jpg"
+    document.getElementById('photo7').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset2/photo02-07.jpg"
+    document.getElementById('photo8').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset2/photo02-08.jpg"
     }
 function phoset3() {
     document.getElementById('phobut1').style.opacity = "50%";
     document.getElementById('phobut2').style.opacity = "50%";
     document.getElementById('phobut3').style.opacity = "1";
     document.getElementById('phobut4').style.opacity = "50%";
-    document.getElementById('photo1').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset3/photo03-01.jpg"
-    document.getElementById('photo2').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset3/photo03-02.jpg"
-    document.getElementById('photo3').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset3/photo03-03.jpg"
-    document.getElementById('photo4').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset3/photo03-04.jpg"
-    document.getElementById('photo5').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset3/photo03-05.jpg"
-    document.getElementById('photo6').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset3/photo03-06.jpg"
-    document.getElementById('photo7').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset3/photo03-07.jpg"
-    document.getElementById('photo8').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset3/photo03-08.jpg"  
+    document.getElementById('photo1').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset3/photo03-01.jpg"
+    document.getElementById('photo2').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset3/photo03-02.jpg"
+    document.getElementById('photo3').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset3/photo03-03.jpg"
+    document.getElementById('photo4').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset3/photo03-04.jpg"
+    document.getElementById('photo5').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset3/photo03-05.jpg"
+    document.getElementById('photo6').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset3/photo03-06.jpg"
+    document.getElementById('photo7').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset3/photo03-07.jpg"
+    document.getElementById('photo8').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset3/photo03-08.jpg"  
     }
 function phoset4() {
     document.getElementById('phobut1').style.opacity = "50%";
     document.getElementById('phobut2').style.opacity = "50%";
     document.getElementById('phobut3').style.opacity = "50%";
     document.getElementById('phobut4').style.opacity = "1";
-    document.getElementById('photo1').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset4/photo04-01.jpg"
-    document.getElementById('photo2').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset4/photo04-02.jpg"
-    document.getElementById('photo3').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset4/photo04-03.jpg"
-    document.getElementById('photo4').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset4/photo04-04.jpg"
-    document.getElementById('photo5').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset4/photo04-05.jpg"
-    document.getElementById('photo6').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset4/photo04-06.jpg"
-    document.getElementById('photo7').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset4/photo04-07.jpg"
-    document.getElementById('photo8').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFHER/photoset4/photo04-08.jpg"
+    document.getElementById('photo1').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset4/photo04-01.jpg"
+    document.getElementById('photo2').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset4/photo04-02.jpg"
+    document.getElementById('photo3').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset4/photo04-03.jpg"
+    document.getElementById('photo4').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset4/photo04-04.jpg"
+    document.getElementById('photo5').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset4/photo04-05.jpg"
+    document.getElementById('photo6').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset4/photo04-06.jpg"
+    document.getElementById('photo7').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset4/photo04-07.jpg"
+    document.getElementById('photo8').src = "../../imgSrc/BTS/DISCOGRAPHY/LOVEYOURSELFTEAR/photoset4/photo04-08.jpg"
     }
     function mouseOver(x) {
-        x.style.color = "black";
+        x.style.color = "white";
       }
       
     function mouseOut(x) {
-        x.style.color = "#576686";
+        x.style.color = "#5B647F";
     }
     function mouseOver2(y) {
-        y.style.color = "black";
+        y.style.color = "white";
       }
     function mouseOut2(y) {
-        y.style.color = "#A6607F";
+        y.style.color = "#5B647F";
     }
     function mouseOver4() {
-        document.getElementById('left').style.color = "pink";
+        document.getElementById('left').style.color = "#24408d";
       }
     function mouseOut4() {
         document.getElementById('left').style.color = "gray";
     }
     function mouseOver5() {
-        document.getElementById('right').style.color = "pink";
+        document.getElementById('right').style.color = "#24408d";
       }
     function mouseOut5() {
         document.getElementById('right').style.color = "gray";

@@ -36,3 +36,6 @@
     font-family: cambersb;
 }
 .videobg > ul > li  {display: none;}
+.alphoto{
+    box-shadow: 2px 2px 5px grey;
+}

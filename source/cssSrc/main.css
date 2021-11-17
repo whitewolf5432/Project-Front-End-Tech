@@ -27,9 +27,7 @@ header {
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 30;
 }
-.alphoto{
-    box-shadow: 2px 2px 5px grey;
-}
+
 .content {
     padding-top: 5vh;
 }
