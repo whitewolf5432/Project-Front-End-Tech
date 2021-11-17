@@ -2,13 +2,28 @@ fetch('/source/contentSrc/english.json')
     .then(response => response.json())
     .then(data => {
                 console.log(data.about_page.paragraph)
-                document.querySelector("#data").innerHTML = data.butter1_album.paragraph
+                document.querySelector("#data").innerHTML = data.butter1_album.paragraph;
     }
 )
 function play(){
     document.getElementById('play').style.display = "none";
     document.getElementById('vid1').style.display = "block";
-    document.getElementById('vid1').src = "https://www.youtube.com/embed/fJ9rUzIMcZQ?autoplay=1"
+    document.getElementById('vid1').src = "https://www.youtube.com/embed/OOMxU9f1FBU?autoplay=1"
+}
+function vidplay1(){
+  document.getElementById('play2').style.display = "none";
+  document.getElementById('vid2').style.display = "block";
+  document.getElementById('vid2').src = "https://www.youtube.com/embed/iLycuRm1V0Q?autoplay=1"
+}
+function vidplay2(){
+  document.getElementById('play2').style.display = "none";
+  document.getElementById('vid2').style.display = "block";
+  document.getElementById('vid2').src = "https://www.youtube.com/embed/CuklIb9d3fI?autoplay=1"
+}
+function play2(){
+  document.getElementById('play2').style.display = "none";
+  document.getElementById('vid2').style.display = "block";
+  document.getElementById('vid2').src = "https://www.youtube.com/embed/CuklIb9d3fI?autoplay=1"
 }
 function mouseOver(x) {
     x.style.color = "#66424d";
@@ -430,7 +445,7 @@ function JK(){
   }
 }
 function JH(){
-  if(ff != 1){
+  if(hh != 1){
     document.getElementById('btsbut').src = "../../imgSrc/BTS/DISCOGRAPHY/BUTTER/photo_bts.png";
     document.getElementById('vbut').src = "../../imgSrc/BTS/DISCOGRAPHY/BUTTER/photo_v.png";
     document.getElementById('jkbut').src = "../../imgSrc/BTS/DISCOGRAPHY/BUTTER/photo_jk.png";
@@ -480,7 +495,7 @@ function JH(){
   }
 }
 function JIN(){
-  if(ff != 1){
+  if(ii != 1){
     document.getElementById('btsbut').src = "../../imgSrc/BTS/DISCOGRAPHY/BUTTER/photo_bts.png";
     document.getElementById('vbut').src = "../../imgSrc/BTS/DISCOGRAPHY/BUTTER/photo_v.png";
     document.getElementById('jkbut').src = "../../imgSrc/BTS/DISCOGRAPHY/BUTTER/photo_jk.png";
@@ -530,7 +545,7 @@ function JIN(){
   }
 }
 function JI(){
-  if(ff != 1){
+  if(jj != 1){
     document.getElementById('btsbut').src = "../../imgSrc/BTS/DISCOGRAPHY/BUTTER/photo_bts.png";
     document.getElementById('vbut').src = "../../imgSrc/BTS/DISCOGRAPHY/BUTTER/photo_v.png";
     document.getElementById('jkbut').src = "../../imgSrc/BTS/DISCOGRAPHY/BUTTER/photo_jk.png";
@@ -580,7 +595,7 @@ function JI(){
   }
 }
 function RM(){
-  if(ff != 1){
+  if(kk != 1){
     document.getElementById('btsbut').src = "../../imgSrc/BTS/DISCOGRAPHY/BUTTER/photo_bts.png";
     document.getElementById('vbut').src = "../../imgSrc/BTS/DISCOGRAPHY/BUTTER/photo_v.png";
     document.getElementById('jkbut').src = "../../imgSrc/BTS/DISCOGRAPHY/BUTTER/photo_jk.png";
@@ -630,7 +645,7 @@ function RM(){
   }
 }
 function SU(){
-  if(ff != 1){
+  if(ll != 1){
     document.getElementById('btsbut').src = "../../imgSrc/BTS/DISCOGRAPHY/BUTTER/photo_bts.png";
     document.getElementById('vbut').src = "../../imgSrc/BTS/DISCOGRAPHY/BUTTER/photo_v.png";
     document.getElementById('jkbut').src = "../../imgSrc/BTS/DISCOGRAPHY/BUTTER/photo_jk.png";

@@ -1,3 +1,8 @@
+
+function load_content(data) {
+    let data_content = data["lysh_album"];
+    document.getElementById("data").innerHTML = data_content["paragraph"];
+}
 fetch('/source/contentSrc/english.json')
     .then(response => response.json())
     .then(data => {
@@ -5,16 +10,12 @@ fetch('/source/contentSrc/english.json')
                 document.querySelector("#data").innerHTML = data.lysh_album.paragraph
     }
 )
-function load_content(data) {
-    let data_content = data["lysh_album"];
-    document.getElementById("data").innerHTML = data_content["paragraph"];
-}
 function play(){
     document.getElementById('vidbut6').style.opacity = "1";
     document.getElementById('play').style.display = "none";
     document.getElementById('photovidco').style.display = "none";
     document.getElementById('vid').style.display = "block";
-    document.getElementById('vid').src = "https://www.youtube.com/embed/fJ9rUzIMcZQ?autoplay=1"
+    document.getElementById('vid').src = "https://www.youtube.com/embed/kTlv5_Bs8aw?autoplay=1"
 }
 function vid1() {
     document.getElementById('play').style.display = "none";
@@ -26,7 +27,7 @@ function vid1() {
     document.getElementById('vidbut4').style.opacity = "50%";
     document.getElementById('vidbut5').style.opacity = "50%";
     document.getElementById('vidbut6').style.opacity = "50%";
-    document.getElementById('vid').src = "https://www.youtube.com/embed/AJEoJYgktb4?autoplay=1"
+    document.getElementById('vid').src = "https://www.youtube.com/embed/BEMaH9Sm3lQ?autoplay=1"
     }
 function vid2() {
     document.getElementById('play').style.display = "none";
@@ -38,7 +39,7 @@ function vid2() {
     document.getElementById('vidbut4').style.opacity = "50%";
     document.getElementById('vidbut5').style.opacity = "50%";
     document.getElementById('vidbut6').style.opacity = "50%";
-    document.getElementById('vid').src = "https://www.youtube.com/embed/9hhMUT2U2L4?autoplay=1"
+    document.getElementById('vid').src = "https://www.youtube.com/embed/FSOxXsYVJMQ?autoplay=1"
     }
 function vid3() {
     document.getElementById('play').style.display = "none";
@@ -50,7 +51,7 @@ function vid3() {
     document.getElementById('vidbut4').style.opacity = "50%";
     document.getElementById('vidbut5').style.opacity = "50%";
     document.getElementById('vidbut6').style.opacity = "50%";
-    document.getElementById('vid').src = "https://www.youtube.com/embed/aTJncWndUB8?autoplay=1"    
+    document.getElementById('vid').src = "https://www.youtube.com/embed/g_wuoInNyAI?autoplay=1"    
     }
 function vid4() {
     document.getElementById('play').style.display = "none";
@@ -62,7 +63,7 @@ function vid4() {
     document.getElementById('vidbut4').style.opacity = "1";
     document.getElementById('vidbut5').style.opacity = "50%";
     document.getElementById('vidbut6').style.opacity = "50%";
-    document.getElementById('vid').src = "https://www.youtube.com/embed/qjmv57QMQzg?autoplay=1" 
+    document.getElementById('vid').src = "https://www.youtube.com/embed/MBdVXkSdhwU?autoplay=1" 
     }
 function vid5() {
     document.getElementById('play').style.display = "none";
@@ -74,7 +75,7 @@ function vid5() {
     document.getElementById('vidbut4').style.opacity = "50%";
     document.getElementById('vidbut5').style.opacity = "1";
     document.getElementById('vidbut6').style.opacity = "50%";
-    document.getElementById('vid').src = "https://www.youtube.com/embed/G-uqRYqzmXw?autoplay=1"     
+    document.getElementById('vid').src = "https://www.youtube.com/embed/ixxR3ZoqnF0?autoplay=1"     
     }
 function vid6() {
     document.getElementById('play').style.display = "none";
@@ -86,7 +87,7 @@ function vid6() {
     document.getElementById('vidbut4').style.opacity = "50%";
     document.getElementById('vidbut5').style.opacity = "50%";
     document.getElementById('vidbut6').style.opacity = "1";
-    document.getElementById('vid').src = "https://www.youtube.com/embed/fJ9rUzIMcZQ?autoplay=1"     
+    document.getElementById('vid').src = "https://www.youtube.com/embed/kTlv5_Bs8aw?autoplay=1"     
     }
 
 function phoset1() {
