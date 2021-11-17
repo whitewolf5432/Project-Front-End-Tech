@@ -7,7 +7,7 @@ fetch('/source/contentSrc/english.json')
 )
 function load_content(data) {
     let data_content = data["lysh_album"];
-    document.getElementById("paragraph").innerHTML = data_content["paragraph"];
+    document.getElementById("data").innerHTML = data_content["paragraph"];
 }
 function play(){
     document.getElementById('vidbut6').style.opacity = "1";
