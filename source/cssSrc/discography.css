@@ -27,7 +27,7 @@
     margin-top: -2.22vw;
 }
 
-.cover_inner a {
+.cover_inner {
     border: 1px solid white;
     display: flex;
     align-items: center;

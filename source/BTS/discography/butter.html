@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" type="image/png" href="https://www.ibighit.com/images/favicon-32.ico"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" type="image/png" href="/source/imgSrc/BTS/favicon-32.ico"/>
+    <script src="../../jsSrc/butter.js"></script>
+    <script src="../../jsSrc/main.js"></script>
+    <link rel="stylesheet" href="../../cssSrc/font.css">
+    <link rel="stylesheet" href="../../cssSrc/main.css">
+    <link rel="stylesheet" href="../../cssSrc/butter.css">
+    <script src="https://kit.fontawesome.com/23b0d6d721.js" crossorigin="anonymous"></script>
+    <title>BUTTER | BTS | Big Hit Entertainment</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div style="background-color: #ffdc04; width: 100vw; height: 20vh; position: absolute;"></div>
+        <header>
+            <div class="position-fixed d-flex w-100 h-100 justify-content-center align-items-center" id="menu-list">
+                <div class="col d-flex justify-content-center h-100 align-items-center" id="list">
+                    <ul class="p-0" onclick="">
+                        <li><a href="/index.html">HOME</a></li>
+                        <li><a href="/source/about.html">ABOUT</a></li>
+                        <li onclick="moreList(0)" id='0'>BTS</li>
+                        <li onclick="moreList(1)" id='1'>TOMORROW X TOGETHER</li>
+                        <li onclick="moreList(2)" id='2'>LEE HYUN</li>
+                    </ul>
+                </div>
+                <div class="d-flex justify-content-start p-0 h-100 align-items-center" id="more">
+                    <ul class="p-0 d-flex flex-column position-absolute" id="more0">
+                        <li><a href="../home.html">HOME</a></li>
+                        <li><a href="../profile.html">PROFILE</a></li>
+                        <li><a href="../discography.html">DISCOGRAPHY</a></li>
+                        <li><a href="../schedule.html">SCHEDULE</a></li>
+                        <li><a href="../tour.html">TOUR</a></li>
+                    </ul>
+                    <ul class="p-0 d-flex flex-column position-absolute" id="more1">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">PROFILE</a></li>
+                        <li><a href="#">DISCOGRAPHY</a></li>
+                        <li><a href="#">SCHEDULE</a></li>
+                        <li><a href="#">INTRODUTION</a></li>
+                    </ul>
+                    <ul class="p-0 d-flex flex-column position-absolute" id="more2">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">PROFILE</a></li>
+                        <li><a href="#">DISCOGRAPHY</a></li>
+                        <li><a href="#">SCHEDULE</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-bar menu overflow-hidden" id="menu">
+                <button class="menu" onclick="showMenu()"></button>
+            </div>
+            <a href="/index.html">
+                <img src="../../imgSrc/main/logo.png" height="34em">
+            </a>
+            <div class="menu d-flex justify-content-center align-items-center" id="language">
+                <button class="border-0 bg-transparent">
+                    ENG
+                </button>
+                <span></span>
+                <span></span>
+                <ul class="position-fixed" id="language_option">
+                    <li onclick="move(0)" id="selected">ENG</li>
+                    <li onclick="move(1)">KOR</li>
+                    <li onclick="move(2)">JPN</li>
+                    <li onclick="move(3)">CHN</li>
+                </ul>
+            </div>
+        </header>
+
+
+        
+        <div class="d-flex justify-content-end flex-column w-100 content">
+
+            
+            <section class="test d-flex align-items-center justify-content-center" style="background: #ffdc04;">
+                <video src="../../vdoSrc/butter/butter-2.mp4" autoplay muted></video>
+            </section>
+            <section class="test" style="background-color: #ffdc00;">
+                <div style="padding-top: 120px; margin-bottom: 50px;" class="col d-flex align-content-center justify-content-center"><img width="50px" height="48.58" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_icon.png"></div>
+                <div class="col" style="text-align: center; font-size: 17px;">
+                    <div id="data" style="color: black;">
+                        BTS released their CD single ‘Butter’ on July 9. The CD single includes the shimmering summer song “Butter” as well as<br> “Permission to Dance” that will get your heart pumping and dance again. The instrumental versions of each are also part of the tracklist. <br><br> Belonging to the dance pop genre, “Permission to Dance” sits on piano and string sounds that make the listeners bop their heads and<br> bust some dance moves. World-renowned musician Ed Sheeran and British producer Steve Mac took part in making the song.
+                    </div>
+                    <div class="col" style="background-color: white; background-image: url(../../imgSrc/BTS/DISCOGRAPHY/BUTTER/video_bg.png); background-repeat: no-repeat; background-size: cover; background-position: center;">
+                        <div class="row"><img height="343.67px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/album-desc_btm.png">></div>
+                        <div style="height: 1080px;">
+                        <div style="padding-top: 100px;">
+                            <img height="50px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_logo.png">
+                            <div style="font-family: NorBcomic-B; color: black; padding-top: 17px; font-size: 27px;">"VIDEO"</div>
+                        </div>
+                        <div class=" row d-flex flex-column align-content-center justify-content-center">
+                            <div class=" d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 740px;">
+                                <div><button class="btn" id="play" onclick="play()" style="display: block; position: relative;" height="608px">
+                                    <div>
+                                    <img style="position: absolute; left: 12px; height: 608px;" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/video-cover01.jpg">
+                                    <i style="position: absolute; padding-top: 270px; left: 500px; font-size: 30px;"><img src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_video_btn.png"></i>
+                                    <div class="imgoverlay d-flex"><i style="position: absolute; padding-top: 270px; left: 488px; font-size: 30px;"><img src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_video_btn.png"></i></div>
+                                </div>
+                                </button></div>
+                                    <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: none;" id="vid1" width="1080" height="608px"
+                                    src='https://www.youtube.com/embed/OOMxU9f1FBU'>
+                                    </iframe>
+                            </div>
+                    
+                        </div>
+                        <div class="row">
+                            <div class="col d-flex align-content-end justify-content-end">
+                                <button class="btn" style="margin-right: 60px;">
+                                    <div onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" style="line-height: 20px;  text-align: end; color: black; font-family: NorBcomic-B; font-size: 25px;">MV TEASER <br><img width="140px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_text_under.png"></div>
+                                </button>
+                            </div>
+                            <div class="col d-flex align-content-start justify-content-start">
+                                <button class="btn" style=" margin-left: 60px;">
+                                    <div onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" style="line-height: 20px; color: black; text-align: start; font-family: NorBcomic-B; font-size: 25px;">'BUTTER' MV <br><img width="160px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_text_under.png"></div>
+                                </button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <section class="test">
+                <img src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/album-video_btm.png">
+            </section>
+            <section class="test" style="background-image: url(../../imgSrc/BTS/DISCOGRAPHY/BUTTER/permission_bg_cut.png); background-repeat: no-repeat; background-size: cover; background-position: center;">
+                <div class="d-flex align-content-lg-center justify-content-center" style="padding-top: 240px;">
+                    <img class="row" width="220px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter-2_videoLogo.png">
+                </div>
+                <div style="text-align: center; font-family: NorBcomic-B; color: black; padding-top: 17px; font-size: 27px;">"VIDEO"</div>
+                <div class="row d-flex flex-column align-content-center justify-content-center">
+                    <div class=" d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 740px;">
+                        <div class="row"><button class="btn" id="play2" onclick="play2()" style="display: block; position: relative;" height="608px">
+                            <div>
+                            <img style="position: absolute; left: 12px; height: 608px;" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/dance-cover02.jpg">
+                            <i style="position: absolute; padding-top: 270px; left: 500px; font-size: 30px;"><img src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_video_btn.png"></i>
+                            <div class="imgoverlay d-flex"><i style="position: absolute; padding-top: 270px; left: 488px; font-size: 30px;"><img src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_video_btn.png"></i></div>
+                        </div>
+                        </button></div>
+                            <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: none;" id="vid2" width="1080" height="608px"
+                            src='https://www.youtube.com/embed/CuklIb9d3fI'>>
+                            </iframe>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex align-content-end justify-content-end">
+                        <button class="btn">
+                            <div onclick="vidplay1()" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" style="line-height: 20px;  text-align: end; color: black; font-family: NorBcomic-B; font-size: 25px;">MV TEASER <br><img width="140px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_text_under.png"></div>
+                        </button>
+                    </div>
+                    <div class="col-7 d-flex align-content-start justify-content-start">
+                        <button class="btn" style="padding-left: 100PX;">
+                            <div onclick="vidplay2()" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" style="line-height: 20px; color: black; text-align: start; font-family: NorBcomic-B; font-size: 25px;">'PERMISSION TO DANCE' MV <br><img width="350px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_text_under_long.png"></div>
+                        </button>
+                        
+                    </div>
+                </div>
+                <div class="d-flex align-content-lg-center justify-content-center" style="padding-top: 120px;">
+                    <img class="row" height="50px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_logo.png">
+                </div>
+                <div class="row d-flex  align-content-center justify-content-center pt-5">
+                    <div class="col-2"></div>
+                    <div class="col d-flex align-content-center justify-content-center" style="font-size: 16; text-align: center;">
+                        <div class="col-2 vidbut" ><button onclick="con1()" class="btn"><img id="conbut1" onmouseover="mouseOgum(this)" onmouseout="mousegumO(this)" width="140px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/concept_btn_active-1.png"></button></div>
+                        <div class="col-2 vidbut"><button onclick="con2()" class="btn"><img id="conbut2" onmouseover="mouseOgum2(this)" onmouseout="mousegumO2(this)" width="140px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/concept_btn-2.png"></button></div>
+                        <div class="col-2 vidbut"><button onclick="con3()" class="btn"><img id="conbut3" onmouseover="mouseOgum3(this)" onmouseout="mousegumO3(this)" width="140px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/concept_btn-3.png"></button></div>
+                        <div class="col-2 vidbut"><button onclick="con4()" class="btn"><img id="conbut4" onmouseover="mouseOgum4(this)" onmouseout="mousegumO4(this)" width="140px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/concept_btn-4.png"></button></div>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <div class="row d-flex flex-column flex-column align-content-center justify-content-center">
+                    <div class="row d-flex  align-content-center justify-content-center" style="position: relative; overflow:hidden; width: 1440px; height: 800px;">               
+                    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                              <div class="d-flex align-items-center justify-content-center">
+                                  <img style="display: none;" id="photo0" height="720px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/Concept1/bts.jpg">
+                              </div>
+                        <div id="photoset" class="carousel-inner" style="display: block;">
+                            <div class="carousel-item active">
+                              <div class="d-flex align-items-center justify-content-center">
+                                  <img id="photo1" height="720px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/Concept1/bts.jpg">
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="d-flex align-items-center justify-content-center">
+                                  <img id="photo2" height="720px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/Concept2/bts.jpg">
+                              </div>
+                            </div>
+                          </div>
+                        <button id="butset1" style="display: none;" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                          <span aria-hidden="true"><i id="left" id="arrowbot" style="font-size: 50px;"><img width="53px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_slideBtn_left.png"></i></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button id="butset2" style="display: none;" class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                          <span aria-hidden="true"><i id="right" style="font-size: 50px;"><img width="53px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/butter_slideBtn_right.png"></i></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                     </div>
+                    </div>
+                    <div class="row d-flex  align-content-center justify-content-center" style="padding-bottom: 280px;">
+                        <div class="col d-flex align-content-center justify-content-center" style="font-size: 16; text-align: center;">
+                            <button onclick="BTS()" class="btn"><img id="btsbut" onmouseover="mousebts(this)" onmouseout="mousebtsO(this)" width="110px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/photo_bts_active.png"></button>
+                            <button onclick="V()" class="btn"><img id="vbut" onmouseover="mouseV(this)" onmouseout="mouseVO(this)" width="110px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/photo_v.png"></button>
+                            <button onclick="JK()" class="btn"><img id="jkbut" onmouseover="mousejk(this)" onmouseout="mousejkO(this)" width="110px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/photo_jk.png"></button>
+                            <button onclick="JH()" class="btn"><img id="jhbut" onmouseover="mousejh(this)" onmouseout="mousejhO(this)" width="110px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/photo_jhope.png"></button>
+                            <button onclick="JIN()" class="btn"><img id="jinbut" onmouseover="mouseji(this)" onmouseout="mousejiO(this)" width="110px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/photo_jin.png"></button>
+                            <button onclick="JI()" class="btn"><img id="jibut" onmouseover="mousejimin(this)" onmouseout="mousejiminO(this)" width="110px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/photo_jimin.png"></button>
+                            <button onclick="RM()" class="btn"><img id="rmbut" onmouseover="mouserm(this)" onmouseout="mousermO(this)" width="110px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/photo_rm.png"></button>
+                            <button onclick="SU()" class="btn"><img id="subut" onmouseover="mousesu(this)" onmouseout="mousesuO(this)" width="110px" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/photo_suga.png"></button>
+                        </div>
+                        </div>
+            </section>
+            <section class="test" style="text-align: center; background-image: url(../../imgSrc/BTS/DISCOGRAPHY/BUTTER/clip_bg_cut.png); background-size: cover; background-position: center; padding-top: 100px;">
+                <div class="d-flex flex-column justify-content-center align-items-center" id="ccv">
+                    <div class="row" >
+                        <h1 class="d-flex justify-content-center overflow-hidden" style="color: black; font-family: NorBcomic-B;" id="ccvtitle">VIDEO</h1> 
+                    </div>
+                    <div class="row d-flex justify-content-center mt-5 overflow-hidden">
+                        <img class="ccvbtn" onclick="ccvplay(1)" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/concept-v_2.png">
+                        <img class="ccvbtn" onclick="ccvplay(2)" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/concept-JK.png">
+                        <img class="ccvbtn" onclick="ccvplay(3)" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/concept-JHOPE.png">
+                    </div>
+                    <div class="row d-flex justify-content-center my-5 overflow-hidden" >
+                        <img class="ccvbtn" onclick="ccvplay(4)" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/concept-JIN.png">
+                        <img class="ccvbtn" onclick="ccvplay(5)" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/concept-JIMIN.png">
+                        <img class="ccvbtn" onclick="ccvplay(6)" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/concept-RM.png">
+                        <img class="ccvbtn" onclick="ccvplay(7)" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/concept-SUGA.png">
+                    </div>
+                </div>
+                <div class="d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 5vw;">
+                <div id="tab"  style=" width:100%; padding:0; display:none;">
+                    <div class="bg-black opacity-75 top-0 position-absolute w-100" style="height: 100%;"></div>
+                    <img id="pop" onclick="ccvstop()" class="position-absolute top-0" style="margin-top: 325%; margin-left:80%" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/btn_close_pop.png">
+                    <video id="ccvvid" class="position-absolute top-0" style="margin-top: 330%; margin-left:10%;" controls >
+                        <source id="ccvsouce" src="../../vdoSrc/butter2/jkvid.mp4" type="video/mp4">
+                    </video>
+                    <div id="ccvpic" class="position-absolute top-0" onclick="letplay2()" style="margin-top: 330%; margin-left:10%;">
+                        <img id="cvvvidbtn" class="position-absolute" style="left: 35vw; top:25vw;" src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/butter_video_btn.png"> 
+                    </div>
+                </div>
+            </div>
+            </section>
+            <section class="test" style="text-align: center; background-color: #FF7828; padding-top: 100px;">
+                <div style="color: black; font-size: 70px; font-family: NorBcomic-B;">PROMOTION SCHEDULE</div>
+                <div class="row rowanm d-flex justify-content-center mt-5 position-relative heart overflow-hidden">
+                    <a href="" style="width: 20%;" class="d-flex justify-content-center wrap">
+                        <img src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/schedule_btn.png" style="width: 100%;" class="heartpic mt-3">
+                        <h1 class="position-absolute mt-3" id="schbtn">HIT THIS<br>BUTTON!</h1>
+                    </a>
+                </div>
+                <div style="background-color: #FFDC00; padding-bottom: 100px;"><img src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER/schedule_btm.png"></div>
+                
+            </section>
+            <section style="background: #FFDC00;">
+                <video autoplay playinline muted loop width="1920" height="1080" src="../../vdoSrc/butter/butter2_tracklist.mp4"></video>
+            </section>
+            </div>
+           <footer class="d-flex justify-content-around p-2">
+                <div class="col contact d-flex flex-column align-items-baseline justify-content-center">
+                    <ul class="d-flex align-items-center justify-content-center ps-3">
+                        <a href="https://twitter.com/BTS_bighit">
+                            <li class="twitter-star"></li>
+                        </a>
+                        <a href="https://twitter.com/BTS_twt/">
+                            <li class="twitter"></li>
+                        </a>
+                        <a href="https://www.facebook.com/bangtan.official">
+                            <li class="facebook"></li>
+                        </a>
+                        <a href="https://www.instagram.com/bts.bighitofficial/">
+                            <li class="instagram"></li>
+                        </a>
+                        <a href="https://www.youtube.com/user/BANGTANTV">
+                            <li class="youtube"></li>
+                        </a>
+                        <a href="https://www.weibo.com/BTSbighit">
+                            <li class="weibo"></li>
+                        </a>
+                        <a href="https://www.weibo.com/BTSmembers">
+                            <li class="weibo-member"></li>
+                        </a>
+                        <a href="http://i.youku.com/btsofficial">
+                            <li class="youku"></li>
+                        </a>
+                        <a href="https://weverse.onelink.me/qt3S/cbdb15ca">
+                            <li class="weverse"></li>
+                        </a>
+                        <a href="http://cafe.daum.net/BANGTAN">
+                            <li class="cafe"></li>
+                        </a>
+                        <a href="https://btsblog.ibighit.com/">
+                            <li class="blog"></li>
+                        </a>
+                    </ul>
+                </div>
+                <div id="family" class="family-site">
+                    <button type="button" class="family-btn row h-100 w-100 justify-content-center">
+                        FAMILY SITES
+                    </button>
+                    <ul class="d-none opacity-0 position-absolute justify-content-center flex-column text-center" id="family_site">
+                        <a href="https://hybecorp.com" class="text-decoration-none">
+                            <li>HYBE Co., Ltd.</li>
+                        </a>
+                        <a href="https://www.bighitaudition.com/" class="text-decoration-none">
+                            <li>Big Hit Audition</li>
+                        </a>
+                        <a href="https://www.weverseshop.io" class="text-decoration-none">
+                            <li>WEVERSE SHOP</li>
+                        </a>
+                        <a href="https://weverse.io/" class="text-decoration-none">
+                            <li>Weverse</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col copyright text-end d-flex jusity-content-end flex-column">
+                    <div class="col family-link pe-3" onclick="location.href='../../familysite.html';" id="family_site_content">FAMILY SITE</div>
+                    <div class="col">COPYRIGHT © 2021 IT KMITL. All Rights Reserved</div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

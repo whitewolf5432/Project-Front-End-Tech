@@ -2,40 +2,33 @@
     line-height: 60px;
     font-family: SolanoGothic;
     font-size: 70px;
-    color: white;
+    color: #5D5D7A;
     min-height: 132px;
 }
 
 #arrow {
-    font-size: 20px;
+    font-size: 18px;
     padding-right: 100px;
-    color: white;
 }
 
 #headvid {
     text-align: center;
-    color: white;
+    color: #5D5D7A;
     position: absolute;
     overflow: hidden;
     font-size: 80px;
     font-family: SolanoGothic;
     margin-bottom: 758px;
-    text-shadow: 0px 0px 3px rgb(0 0 0 / 40%);
 }
 
 .vidbut {
     font-family: CamberMedium;
-    color: yellow;
-    opacity: 60%;
-}
-
-.vidbut:hover {
-    opacity: 1;
+    color: #7084A8CC;
+    opacity: 50%;
 }
 
 .imgoverlay {
     position: relative;
-    overflow: hidden;
     width: 1080px;
     height: 608px;
     opacity: 1;
@@ -48,7 +41,7 @@
 }
 
 .videobg {
-    background: #d2628c;
+    background: #B1C2E04D;
     width: 1920px;
     height: 720px;
 }
@@ -57,6 +50,14 @@
     color: pink;
 }
 
+#phobut {
+    font-family: CamberSemiBold;
+}
+
 .videobg>ul>li {
     display: none;
+}
+
+.alphoto {
+    box-shadow: 2px 2px 5px grey;
 }
