@@ -30,10 +30,6 @@ header {
     z-index: 30;
 }
 
-.content {
-    padding-top: 5vh;
-}
-
 .menu-bar {
     background: url("../imgSrc/main/btn-gnb.png");
     z-index: 20;
