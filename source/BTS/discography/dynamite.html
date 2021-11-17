@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" type="image/png" href="/source/imgSrc/BTS/favicon-32.ico"/>
+    <script src="../../jsSrc/main.js"></script>
+    <script src="../../jsSrc/dynamite.js"></script>
+    <link rel="stylesheet" href="../../cssSrc/main.css">
+    <link rel="stylesheet" href="../../cssSrc/font.css">
+    <link rel="stylesheet" href="../../cssSrc/dynamite.css">
+    <script src="https://kit.fontawesome.com/23b0d6d721.js" crossorigin="anonymous"></script>
+    <title>DYNAMITE | BTS | Big Hit Entertainment</title>
+    <script src="../../jsSrc/dynamite.js"></script>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div style="background-image: url(); background-repeat: no-repeat; background-size: cover;">
+            <header>
+                <div class="position-fixed d-flex w-100 h-100 justify-content-center align-items-center" id="menu-list">
+                    <div class="col d-flex justify-content-center h-100 align-items-center" id="list">
+                        <ul class="p-0" onclick="">
+                            <li><a href="/index.html">HOME</a></li>
+                            <li><a href="/source/about.html">ABOUT</a></li>
+                            <li onclick="moreList(0)" id='0'>BTS</li>
+                            <li onclick="moreList(1)" id='1'>TOMORROW X TOGETHER</li>
+                            <li onclick="moreList(2)" id='2'>LEE HYUN</li>
+                        </ul>
+                    </div>
+                    <div class="d-flex justify-content-start p-0 h-100 align-items-center" id="more">
+                        <ul class="p-0 d-flex flex-column position-absolute" id="more0">
+                            <li><a href="../home.html">HOME</a></li>
+                            <li><a href="../profile.html">PROFILE</a></li>
+                            <li><a href="../discography.html">DISCOGRAPHY</a></li>
+                            <li><a href="../schedule.html">SCHEDULE</a></li>
+                            <li><a href="../tour.html">TOUR</a></li>
+                        </ul>
+                        <ul class="p-0 d-flex flex-column position-absolute" id="more1">
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">PROFILE</a></li>
+                            <li><a href="#">DISCOGRAPHY</a></li>
+                            <li><a href="#">SCHEDULE</a></li>
+                            <li><a href="#">INTRODUTION</a></li>
+                        </ul>
+                        <ul class="p-0 d-flex flex-column position-absolute" id="more2">
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">PROFILE</a></li>
+                            <li><a href="#">DISCOGRAPHY</a></li>
+                            <li><a href="#">SCHEDULE</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-bar menu overflow-hidden" id="menu">
+                    <button class="menu" onclick="showMenu()"></button>
+                </div>
+                <a href="/index.html">
+                    <img src="../../imgSrc/BTS/TOUR/logo.png" height="34em">
+                </a>
+                <div class="menu d-flex justify-content-center align-items-center" id="language">
+                    <button class="border-0 bg-transparent">
+                        ENG
+                    </button>
+                    <span></span>
+                    <span></span>
+                    <ul class="position-fixed" id="language_option">
+                        <li onclick="move(0)" id="selected">ENG</li>
+                        <li onclick="move(1)">KOR</li>
+                        <li onclick="move(2)">JPN</li>
+                        <li onclick="move(3)">CHN</li>
+                    </ul>
+                </div>
+            </header>
+        <div class="d-flex justify-content-end flex-column w-100 content" style=" background-color:#e66e9b;">
+            
+            <section class="content d-flex flex-column align-content-center justify-content-center">
+                <div class="row d-flex c" >
+                    <div class="col-6 d-flex justify-content-center align-items-baseline">
+                        <a href="../discography.html" id="arrow" class="btn fas fa-arrow-left">
+                        </a>
+                    </div>
+                </div>
+                <div class="row m-0 w-100 mt-5" style=" background-color:#e66e9b;">
+                    <div class="col-2">
+                    </div>  
+                    <div class="col-lg-4 col-md-5 d-flex align-items-start justify-content-end">
+                        <img class="cover alphoto"  src="../../imgSrc/BTS/DISCOGRAPHY/Dynamite/cover.jpg" >
+                    </div>
+                    <div class="col-lg-4 col-md-5 d-flex flex-column px-5">
+                        <p style="color: #FFFF99;">DIGITAL SINGLE</p>
+                        <div id="title">DYNAMITE</div>
+                        <br>
+                        <p id="data" style="font-family: camberm; font-size: 17px; color: #67343b;">
+                            “Dynamite” is a Disco Pop single that sings of joy and confidence, bringing a new surge of much-needed ‘energy’ to reinvigorate the global community.<br><br>In this song, the global superstars find happiness by doing again what they do best: engaging in a perpetual cycle of giving and receiving joy with the world through music and performances.<br><br>It also marks BTS’ first song to be released completely in English; having sought a “breakthrough” to overcome a sense of disheartenment from within the new global climate, BTS embarks on a new challenge through “Dynamite.”<br><br>The choreography is edgy and upbeat, with deeply addicting movements that highlight the distinct charms of each BTS member.
+                        </p>
+                    </div>
+                    <div class="col-2">
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="content d-flex flex-column align-content-center justify-content-center">
+                <div class=" row d-flex flex-column align-content-center justify-content-center">
+                    <div class=" d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 740px;">
+                        <div class="videobg" style="position: absolute; width: 100%; height: 720px"></div>
+                    <div id="photovidco" class="row d-flex  align-content-center justify-content-center" style="position: relative; width: 1080px; height: 740px; margin-bottom: 40px;" >
+                        <div><button class="btn" id="play" onclick="play()" style="display: block; position: relative;" height="608px">
+                            <div>
+                            <img style="position: absolute; left: 0; padding-left: 12px; height: 608px;" src="../../imgSrc/BTS/DISCOGRAPHY/Dynamite/video-cover04 (1).jpg">
+                            <i style="position: absolute; padding-top: 270px; left: 520px; font-size: 30px;" class="fas fa-play"></i>
+                            <div class="imgoverlay"></div>
+                        </div>
+                        </button></div>
+                        <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: none;" id="vid" width="1080" height="608px"
+                        src='https://www.youtube.com/watch?v=BflFNMl_UWY&t=1s'>>
+                    </iframe>
+                    <div class="row d-flex flex-column flex-column align-content-center justify-content-center" style="width: 1080px;">
+                        <div class="col d-flex align-content-center justify-content-center pt-2" style="font-size: 16; text-align: center;">
+                            <div class="col-2 vidbut" ><button onclick="vid1()" id="vidbut1" class="btn" style="color: white; font-weight:700;">MV TEASER</button></div>
+                            <div class="col-3 vidbut" ><button onclick="vid2()" id="vidbut2" class="btn" style="color: white; font-weight:700;">'DYNAMITE' MV</button></div>
+                            <div class="col-3 vidbut" ><button onclick="vid3()" id="vidbut3" class="btn" style="color: white; font-weight:700;">'DYNAMITE' MV (B-SIDE)</button></div>
+                            <div class="col-4 vidbut" ><button onclick="vid4()" id="vidbut4" class="btn" style="color: white; font-weight:700;">'DYNAMITE' MV (CHOREOGRAPHY VER.)</button></div>
+                        </div>
+                    </div> 
+                     
+            </div>
+            <h1 id="headvid">VIDEO</h1>  
+            </div>
+            
+                </div>
+                
+            </section>
+
+            <section class="content d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 80px;"> 
+                <div class="row d-flex flex-column align-content-center justify-content-center">
+                    <div class="videobg" style="width: 100%; height: 740px; position: absolute; margin-top: 200px;">
+                    </div>                   
+                    <div style="width: 1440px; height: 1000px; position: relative; padding-top: 100px;">
+                        <div class="row d-flex flex-column flex-column align-content-center justify-content-center"><div class="row d-flex  align-content-center justify-content-center" style="position: relative; overflow:hidden; width: 1440px; height: 800px;">               
+                            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                      <div class="d-flex align-items-center justify-content-center">
+                                          <img id="photo1" height="720px" src="../../imgSrc/BTS/DISCOGRAPHY/Dynamite/tp1.jpg">
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <div class="d-flex align-items-center justify-content-center">
+                                          <img id="photo2" height="720px" src="../../imgSrc/BTS/DISCOGRAPHY/Dynamite/tp2.jpg">
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <div class="d-flex align-items-center justify-content-center">
+                                          <img id="photo3" height="720px" src="../../imgSrc/BTS/DISCOGRAPHY/Dynamite/tp3.jpg">
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <div class="d-flex align-items-center justify-content-center">
+                                          <img id="photo4" height="720px" src="../../imgSrc/BTS/DISCOGRAPHY/Dynamite/tp4.jpg">
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <div class="d-flex align-items-center justify-content-center">
+                                          <img id="photo5" height="720px" src="../../imgSrc/BTS/DISCOGRAPHY/Dynamite/tp5.jpg">
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <div class="d-flex align-items-center justify-content-center">
+                                          <img id="photo6" height="720px" src="../../imgSrc/BTS/DISCOGRAPHY/Dynamite/tp6.jpg">
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <div class="d-flex align-items-center justify-content-center">
+                                          <img id="photo7" height="720px" src="../../imgSrc/BTS/DISCOGRAPHY/Dynamite/tp7.jpg">
+                                      </div>
+                                    </div>
+                                    
+                                  </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev" id="prev">
+                                  <span aria-hidden="true"><i id="arrowbot" style="color: white; font-size: 50px;" class="fas fa-chevron-left" ></i></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next" id="next">
+                                  <span aria-hidden="true"><i style="color:white; font-size: 50px;" class="fas fa-chevron-right" ></i></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                             </div><h1 style="text-align: center; margin-bottom: 760px; color: white;" id="headvid">PHOTO</h1>  </div>   
+                        <div class="row d-flex flex-column flex-column align-content-center justify-content-center">
+                            <div class="col d-flex align-content-center justify-content-center" style="font-size: 16; text-align: center;">
+                                <div class="col-2 vidbut" ><button onclick="phoset1()" id="phobut1" class="btn" style="color: white; font-weight:700;">TEASER PHOTO</button></div>
+                                <div class="col-2 vidbut" ><button onclick="phoset2()" id="phobut2" class="btn" style="color: white; font-weight:700;">GROUP TEASER PHOTO 1</button></div>
+                                <div class="col-2 vidbut" ><button onclick="phoset3()" id="phobut3" class="btn" style="color: white; font-weight:700;">GROUP TEASER PHOTO 2</button></div>
+                                <div class="col-2 vidbut" ><button onclick="phoset4()" id="phobut4" class="btn" style="color: white; font-weight:700;">REMIX TEASER PHOTO</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="content d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 80px;"> 
+                <div class="row d-flex flex-column align-content-center justify-content-center">
+                    <div class="videobg" style="width: 100%; height: 1300px; position: absolute; margin-top: 200px;">
+                    </div>                   
+                    <div style="position: relative; padding-top: 100px;">
+                        <div class="row d-flex flex-column flex-column align-content-center justify-content-center">
+                            <div class="row d-flex  align-content-center justify-content-center" style="position: relative; overflow:hidden; width: 1440px; height: 1300px; margin-bottom:100px;">               
+                            <img src="https://ibighit.com/bts/images/bts/discography/dynamite/pWsDPJ2PqebRHaoJCAemW8ud.jpg" >
+                              </div> 
+                            <h1 style="text-align: center; color: white;  margin-bottom: 1420px;" id="headvid">PROMOTION SCHEDULE</h1>  
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="content d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 270px;">
+                <div class="row d-flex flex-column align-content-center justify-content-center pb-2"><div style="color: white; text-align: center; font-size: 80px; font-family: MVB;">TRACK</div></div>
+                <div class="row d-flex flex-column align-content-center justify-content-center pt-2" style="font-family: chambers;">
+                    <div class="row d-flex align-content-center justify-content-center pt-2">
+                        <div class="col-5 text"><div style="color:#FFFF99; text-align: end; margin-right: 20px; font-size: 17px;">1</div></div>
+                        <div class="col-7"><div style="color:white; text-align: start; font-size: 17px; font-weight: 700;">Dynamite  <span style="color:white; font-weight: lighter; opacity:60%;">3’18”</span></div></div>
+                    </div>
+                    
+                    <div class="row d-flex align-content-center justify-content-center pt-2">
+                        <div class="col-5 text"><div style="color:#FFFF99; text-align: end; margin-right: 20px; font-size: 17px;">2</div></div>
+                        <div class="col-7"><div style="color:white; text-align: start; font-size: 17px; font-weight: 700;">Dynamite (Instrumental) <span style="color:white; font-weight: lighter; opacity:60%;">3’18”</span></div></div>
+                    </div>
+
+                    <div class="row d-flex align-content-center justify-content-center pt-2">
+                        <div class="col-5 text"><div style="color:#FFFF99; text-align: end; margin-right: 20px; font-size: 17px;">3</div></div>
+                        <div class="col-7"><div style="color:white; text-align: start; font-size: 17px; font-weight: 700;">Dynamite (Acoustic Remix) <span style="color:white; font-weight: lighter; opacity:60%;">3’17”</span></div></div>
+                    </div>
+
+                    <div class="row d-flex align-content-center justify-content-center pt-2">
+                        <div class="col-5 text"><div style="color:#FFFF99; text-align: end; margin-right: 20px; font-size: 17px;">4</div></div>
+                        <div class="col-7"><div style="color:white; text-align: start; font-size: 17px; font-weight: 700;">Dynamite (EDM Remix)  <span style="color:white; font-weight: lighter; opacity:60%;">3’18”</span></div></div>
+                    </div>
+
+                    
+            </section>
+            <footer class="d-flex justify-content-around p-2">
+                <div class="col contact d-flex flex-column align-items-baseline justify-content-center">
+                    <ul class="d-flex align-items-center justify-content-center ps-3">
+                        <a href="https://twitter.com/BTS_bighit">
+                            <li class="twitter-star"></li>
+                        </a>
+                        <a href="https://twitter.com/BTS_twt/">
+                            <li class="twitter"></li>
+                        </a>
+                        <a href="https://www.facebook.com/bangtan.official">
+                            <li class="facebook"></li>
+                        </a>
+                        <a href="https://www.instagram.com/bts.bighitofficial/">
+                            <li class="instagram"></li>
+                        </a>
+                        <a href="https://www.youtube.com/user/BANGTANTV">
+                            <li class="youtube"></li>
+                        </a>
+                        <a href="https://www.weibo.com/BTSbighit">
+                            <li class="weibo"></li>
+                        </a>
+                        <a href="https://www.weibo.com/BTSmembers">
+                            <li class="weibo-member"></li>
+                        </a>
+                        <a href="http://i.youku.com/btsofficial">
+                            <li class="youku"></li>
+                        </a>
+                        <a href="https://weverse.onelink.me/qt3S/cbdb15ca">
+                            <li class="weverse"></li>
+                        </a>
+                        <a href="http://cafe.daum.net/BANGTAN">
+                            <li class="cafe"></li>
+                        </a>
+                        <a href="https://btsblog.ibighit.com/">
+                            <li class="blog"></li>
+                        </a>
+                    </ul>
+                </div>
+                <div id="family" class="family-site">
+                    <button type="button" class="family-btn row h-100 w-100 justify-content-center">
+                        FAMILY SITES
+                    </button>
+                    <ul class="d-none opacity-0 position-absolute justify-content-center flex-column text-center" id="family_site">
+                        <a href="https://hybecorp.com" class="text-decoration-none">
+                            <li>HYBE Co., Ltd.</li>
+                        </a>
+                        <a href="https://www.bighitaudition.com/" class="text-decoration-none">
+                            <li>Big Hit Audition</li>
+                        </a>
+                        <a href="https://www.weverseshop.io" class="text-decoration-none">
+                            <li>WEVERSE SHOP</li>
+                        </a>
+                        <a href="https://weverse.io/" class="text-decoration-none">
+                            <li>Weverse</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col copyright text-end d-flex jusity-content-end flex-column">
+                    <div class="col family-link pe-3" onclick="location.href='../../familysite.html';" id="family_site_content">FAMILY SITE</div>
+                    <div class="col">COPYRIGHT © 2021 IT KMITL. All Rights Reserved</div>
+                </div>
+            </footer>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

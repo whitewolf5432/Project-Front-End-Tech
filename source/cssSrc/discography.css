@@ -1,3 +1,59 @@
 .dis_wrap {
     background-color: #FFDC00;
+    padding: 150px 180px 131px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dis_wrap .col-4 {
+    margin-bottom: 1.805%;
+}
+
+.discography_title {
+    display: flex;
+    justify-content: center;
+}
+
+.discography_title h1 {
+    font-family: SolanoGothic;
+    font-size: 90px;
+    z-index: 20;
+    text-shadow: 0 0 0.5px rgba(0, 0, 0, 0.8);
+}
+
+.album {
+    margin-top: -2.22vw;
+}
+
+.cover_inner {
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover_inner img {
+    height: 347px;
+    width: 345.71px;
+}
+
+.cover_inner:hover {
+    cursor: pointer;
+}
+
+.cover_inner:hover p {
+    opacity: 1;
+}
+
+.cover_inner p {
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    font-size: 20px;
+}
+
+.cover_inner:hover img {
+    filter: brightness(0.30);
 }

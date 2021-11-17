@@ -1,0 +1,63 @@
+#title {
+    line-height: 60px;
+    font-family: SolanoGothic;
+    font-size: 70px;
+    color: #5D5D7A;
+    min-height: 132px;
+}
+
+#arrow {
+    font-size: 18px;
+    padding-right: 100px;
+}
+
+#headvid {
+    text-align: center;
+    color: #5D5D7A;
+    position: absolute;
+    overflow: hidden;
+    font-size: 80px;
+    font-family: SolanoGothic;
+    margin-bottom: 758px;
+}
+
+.vidbut {
+    font-family: CamberMedium;
+    color: #7084A8CC;
+    opacity: 50%;
+}
+
+.imgoverlay {
+    position: relative;
+    width: 1080px;
+    height: 608px;
+    opacity: 1;
+    display: block;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.imgoverlay:hover {
+    opacity: 0;
+}
+
+.videobg {
+    background: #B1C2E04D;
+    width: 1920px;
+    height: 720px;
+}
+
+#arrowbot:hover {
+    color: pink;
+}
+
+#phobut {
+    font-family: CamberSemiBold;
+}
+
+.videobg>ul>li {
+    display: none;
+}
+
+.alphoto {
+    box-shadow: 2px 2px 5px grey;
+}

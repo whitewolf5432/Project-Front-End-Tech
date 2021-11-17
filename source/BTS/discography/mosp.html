@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" type="image/png" href="/source/imgSrc/BTS/favicon-32.ico"/>
+    <script src="../../jsSrc/main.js"></script>
+    <link rel="stylesheet" href="../../cssSrc/font.css">
+    <link rel="stylesheet" href="../../cssSrc/mosp.css">
+    <link rel="stylesheet" href="../../cssSrc/main.css">
+    <script src="https://kit.fontawesome.com/23b0d6d721.js" crossorigin="anonymous"></script>
+    <title>MAP OF THE SOUL : PERSONA | BTS | Big Hit Entertainment</title>
+    <script src="../../jsSrc/mosp.js"></script>
+</head>
+<body>
+    
+    <div class="wrapper" style="overflow:hidden;">
+        <div style="background-image: url(../../imgSrc/BTS/DISCOGRAPHY/MOSP/discography-bg.png); background-repeat: no-repeat; background-size: cover; background-position: center; background-color: #f78ba3; margin-left:8.75%; width:110%;">
+            <header>
+                <div class="position-fixed d-flex w-100 h-100 justify-content-center align-items-center" id="menu-list">
+                    <div class="col d-flex justify-content-center h-100 align-items-center" id="list">
+                        <ul class="p-0" onclick="">
+                            <li><a href="/index.html">HOME</a></li>
+                            <li><a href="/source/about.html">ABOUT</a></li>
+                            <li onclick="moreList(0)" id='0'>BTS</li>
+                            <li onclick="moreList(1)" id='1'>TOMORROW X TOGETHER</li>
+                            <li onclick="moreList(2)" id='2'>LEE HYUN</li>
+                        </ul>
+                    </div>
+                    <div class="d-flex justify-content-start p-0 h-100 align-items-center" id="more">
+                        <ul class="p-0 d-flex flex-column position-absolute" id="more0">
+                            <li><a href="../home.html">HOME</a></li>
+                            <li><a href="../profile.html">PROFILE</a></li>
+                            <li><a href="../discography.html">DISCOGRAPHY</a></li>
+                            <li><a href="../schedule.html">SCHEDULE</a></li>
+                            <li><a href="../tour.html">TOUR</a></li>
+                        </ul>
+                        <ul class="p-0 d-flex flex-column position-absolute" id="more1">
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">PROFILE</a></li>
+                            <li><a href="#">DISCOGRAPHY</a></li>
+                            <li><a href="#">SCHEDULE</a></li>
+                            <li><a href="#">INTRODUTION</a></li>
+                        </ul>
+                        <ul class="p-0 d-flex flex-column position-absolute" id="more2">
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">PROFILE</a></li>
+                            <li><a href="#">DISCOGRAPHY</a></li>
+                            <li><a href="#">SCHEDULE</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-bar menu overflow-hidden" id="menu">
+                    <button class="menu" onclick="showMenu()"></button>
+                </div>
+                <a href="/index.html">
+                    <img src="../../imgSrc/BTS/TOUR/logo.png" height="34em">
+                </a>
+                <div class="menu d-flex justify-content-center align-items-center" id="language">
+                    <button class="border-0 bg-transparent">
+                        ENG
+                    </button>
+                    <span></span>
+                    <span></span>
+                    <ul class="position-fixed" id="language_option">
+                        <li onclick="move(0)" id="selected">ENG</li>
+                        <li onclick="move(1)">KOR</li>
+                        <li onclick="move(2)">JPN</li>
+                        <li onclick="move(3)">CHN</li>
+                    </ul>
+                </div>
+            </header>
+        <div class="d-flex justify-content-end flex-column w-100 content" id="allbody">
+            
+            <section class="content d-flex flex-column align-content-center justify-content-center">
+                <div class="row d-flex c" >
+                    <div class="col-6 d-flex justify-content-center align-items-baseline">
+                        <a href="../discography.html" id="arrow" class="btn fas fa-arrow-left" style="color: #fff;">   
+                        </a>
+                    </div>
+                </div>
+                <div class="row m-0 w-100 mt-5">
+                    <div class="col-2">
+                    </div>  
+                    <div class="col-lg-4 col-md-5 d-flex align-items-start justify-content-end">
+                        <img class="cover alphoto"  src="../../imgSrc/BTS/DISCOGRAPHY/MOSP/album-cover.jpg" style="max-width: 540px;" >
+                    </div>
+                    <div class="col-lg-4 col-md-5 d-flex flex-column px-5">
+                        <p style="color: #a33267;">THE 6TH MINI ALBUM</p>
+                        <div id="title" class="overflow-hidden">MAP OF THE SOUL :<br>PERSONA</div>
+                        <br>
+                        <p id="data" style="font-family: camberm; font-size: 17px; color: #383032;"></p>
+                    </div>
+                    <div class="col-2">
+                        
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="content d-flex flex-column align-content-center justify-content-center " style="margin-top:5vw;">
+                <div class=" row d-flex flex-column align-content-center justify-content-center">
+                    <div class=" d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 740px;">
+                        <div class="videobg" style="position: absolute; width: 100%; height: 720px"></div>
+                    <div id="photovidco" class="row d-flex  align-content-center justify-content-center overflow-hidden" style="position: relative; width: 1080px; height: 740px; margin-bottom: 40px;" >
+                        <div><button class="btn" id="play" onclick="play()" style="display: block; position: relative;" height="608px">
+                            <div>
+                            <img style="position: absolute; left: 0; padding-left: 12px; height: 608px; width: 1080px;" src="../../imgSrc/BTS/DISCOGRAPHY/MOSP/video-cover06.jpg">
+                            <i style="position: absolute; padding-top: 270px; left: 520px; font-size: 30px;" class="fas fa-play"></i>
+                            <div class="imgoverlay"></div>
+                        </div>
+                        </button></div>
+                        <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: none;" id="vid" width="1080" height="608px"
+                        src='https://www.youtube.com/watch?v=eXBu09fwe3I'>>
+                    </iframe>
+                    <div class="row d-flex flex-column flex-column align-content-center justify-content-center" style="width: 1080px;">
+                        <div class="col d-flex align-content-center justify-content-center mt-2" style=" font-size: 16; text-align: center; border-bottom:1px solid rgba(255, 255, 255, 0.5);">
+                            <div class="col-4 vidbut" style="font-family: cambersb"><button onclick="vid1()" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" id="vidbut1" style="color: #fff;" class="btn">COMEBACK TRAILER</button></div>
+                            <div class="col-2 vidbut" style="font-family: cambersb;"><button onclick="vid2()" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" id="vidbut2" style="color: #fff;" class="btn">MV TEASER 1</button></div>
+                            <div class="col-2 vidbut" style="font-family: cambersb;"><button onclick="vid3()" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" id="vidbut3" style="color: #fff;" class="btn">MV TEASER 2</button></div>
+                            <div class="col-4 vidbut" style="font-family: cambersb;"><button onclick="vid4()" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" id="vidbut4" style="color: #fff;" class="btn">'Boy With Luv (Feat. Halsey)' MV                            </button></div>
+                            
+                        </div>
+                        <div class="col d-flex align-content-center justify-content-center mt-2" style=" font-size: 16; text-align: center;">
+                            <div class="col-6 vidbut" style="font-family: cambersb;"><button onclick="vid5()" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" id="vidbut5" style="color: #fff;" class="btn">'Boy With Luv (Feat. Halsey)' MV ('ARMY With Luv' ver.)</button></div>
+                            <div class="col-5 vidbut" style="font-family: cambersb;"><button onclick="vid6()" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" id="vidbut6" style="color: #fff;" class="btn">Make It Right (Feat. Lauv)</button></div>
+                        </div>
+                    </div> 
+                     
+            </div>
+            <h1 id="headvid">VIDEO</h1>  
+            </div>
+            
+                </div>
+                
+            </section>
+            
+            <section class="content d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 80px;"> 
+                <div class="row d-flex flex-column align-content-center justify-content-center">
+                    <div class="videobg" style="width: 100%; height: 740px; position: absolute; margin-top: 200px; background: #EB97BC4D;">
+                    </div>                   
+                    <div style="width: 1440px; height: 1000px; position: relative; padding-top: 100px;">
+                        <div class="row d-flex flex-column flex-column align-content-center justify-content-center"><div class="row d-flex  align-content-center justify-content-center" style="position: relative; overflow:hidden; width: 1440px; height: 800px;">               
+                            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                      <div class="d-flex align-items-center justify-content-center">
+                                          <img id="photo1" height="720px" src="../../imgSrc/BTS/DISCOGRAPHY/MOSP/version01-01.jpg">
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <div class="d-flex align-items-center justify-content-center">
+                                          <img id="photo2" height="720px" src="../../imgSrc/BTS/DISCOGRAPHY/MOSP/version01-02.jpg">
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <div class="d-flex align-items-center justify-content-center">
+                                          <img id="photo3" height="720px" src="../../imgSrc/BTS/DISCOGRAPHY/MOSP/version01-03.jpg">
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <div class="d-flex align-items-center justify-content-center">
+                                          <img id="photo4" height="720px" src="../../imgSrc/BTS/DISCOGRAPHY/MOSP/version01-04.jpg">
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <div class="d-flex align-items-center justify-content-center">
+                                          <img id="photo5" height="720px" src="../../imgSrc/BTS/DISCOGRAPHY/MOSP/version01-05.jpg">
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <div class="d-flex align-items-center justify-content-center">
+                                          <img id="photo6" height="720px" src="../../imgSrc/BTS/DISCOGRAPHY/MOSP/version01-06.jpg">
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <div class="d-flex align-items-center justify-content-center">
+                                          <img id="photo7" height="720px" src="../../imgSrc/BTS/DISCOGRAPHY/MOSP/version01-07.jpg">
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <div class="d-flex align-items-center justify-content-center">
+                                          <img id="photo8" height="720px" src="../../imgSrc/BTS/DISCOGRAPHY/MOSP/version01-07.jpg">
+                                      </div>
+                                    </div>
+                                    
+                                  </div>
+                                <button onmouseover="mouseOver4()" onmouseout="mouseOut4()" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                                  <span aria-hidden="true"><i id="left" onmouseover="mouseOver3(this)" onmouseout="mouseOut3(this)" id="arrowbot" style="color: #fff; font-size: 50px;" class="fas fa-chevron-left"></i></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button onmouseover="mouseOver5()" onmouseout="mouseOut5()" class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                                  <span aria-hidden="true"><i id="right" onmouseover="mouseOver3(this)" onmouseout="mouseOut3(this)" style="color: #fff; font-size: 50px;" class="fas fa-chevron-right"></i></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                             </div><h1 style="text-align: center; margin-bottom: 760px; color: white;" id="headvid">PHOTO</h1>  </div>   
+                        <div class="row d-flex flex-column flex-column align-content-center justify-content-center">
+                            <div class="col d-flex align-content-center justify-content-center" style="font-size: 16; text-align: center;">
+                                <div class="col-2 vidbut" ><button onmouseover="mouseOver2(this)" onmouseout="mouseOut2(this)" onclick="phoset1()" id="phobut1" style="font-family: cambersb; color: #fff;" class="btn">VERSION 1</button></div>
+                                <div class="col-2 vidbut" ><button onmouseover="mouseOver2(this)" onmouseout="mouseOut2(this)" onclick="phoset2()" id="phobut2" style="font-family: cambersb; color: #fff;" class="btn">VERSION 2</button></div>
+                                <div class="col-2 vidbut" ><button onmouseover="mouseOver2(this)" onmouseout="mouseOut2(this)" onclick="phoset3()" id="phobut3" style="font-family: cambersb; color: #fff;" class="btn">VERSION 3</button></div>
+                                <div class="col-2 vidbut" ><button onmouseover="mouseOver2(this)" onmouseout="mouseOut2(this)" onclick="phoset4()" id="phobut4" style="font-family: cambersb; color: #fff;" class="btn">VERSION 4</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="content d-flex flex-column align-content-center justify-content-center" style="padding-bottom: 270px;">
+                <div class="row d-flex flex-column align-content-center justify-content-center pb-2"><div style="color: #fff; text-align: center; font-size: 80px; font-family: MVB;">TRACK</div></div>
+                <div class="row d-flex flex-column align-content-center justify-content-center pt-2" style="font-family: chambers;">
+                    <div class="row d-flex align-content-center justify-content-center pt-2">
+                        <div class="col-5 text"><div style="color: #fff; text-align: end; margin-right: 20px; font-size: 17px;">1</div></div>
+                        <div class="col-7"><div style="color: #56233a; text-align: start; font-size: 17px; font-weight: bold;">Intro : Persona  <span style="color: #56233a; font-weight: lighter;">2’54”</span></div></div>
+                    </div>
+                    
+                    <div class="row d-flex align-content-center justify-content-center pt-2">
+                        <div class="col-5 text"><div style="color: #fff; text-align: end; margin-right: 20px; font-size: 17px;">2</div></div>
+                        <div class="col-7"><div style="color: #56233a; text-align: start; font-size: 17px; font-weight: bold;">Boy With Luv (Feat. Halsey) <span style="color: #56233a; font-weight: lighter;">3’49”</span></div></div>
+                    </div>
+
+                    <div class="row d-flex align-content-center justify-content-center pt-2">
+                        <div class="col-5 text"><div style="color: #fff; text-align: end; margin-right: 20px; font-size: 17px;">3</div></div>
+                        <div class="col-7"><div style="color: #56233a; text-align: start; font-size: 17px; font-weight: bold;">Mikrokosmos <span style="color: #56233a; font-weight: lighter;">3’46”</span></div></div>
+                    </div>
+
+                    <div class="row d-flex align-content-center justify-content-center pt-2">
+                        <div class="col-5 text"><div style="color: #fff; text-align: end; margin-right: 20px; font-size: 17px;">4</div></div>
+                        <div class="col-7"><div style="color: #56233a; text-align: start; font-size: 17px; font-weight: bold;">Make It Right  <span style="color: #56233a; font-weight: lighter;">3’42”</span></div></div>
+                    </div>
+
+                    <div class="row d-flex align-content-center justify-content-center pt-2">
+                        <div class="col-5 text"><div style="color: #fff; text-align: end; margin-right: 20px; font-size: 17px;">5</div></div>
+                        <div class="col-7"><div style="color: #56233a; text-align: start; font-size: 17px; font-weight: bold;">HOME  <span style="color: #56233a; font-weight: lighter;">4’00”</span></div></div>
+                    </div>
+
+                    <div class="row d-flex align-content-center justify-content-center pt-2">
+                        <div class="col-5 text"><div style="color: #fff; text-align: end; margin-right: 20px; font-size: 17px;">6</div></div>
+                        <div class="col-7"><div style="color: #56233a; text-align: start; font-size: 17px; font-weight: bold;">Jamais Vu<span style="color: #56233a; font-weight: lighter;">3’46”</span></div></div>
+                    </div>
+
+                    <div class="row d-flex align-content-center justify-content-center pt-2">
+                        <div class="col-5 text"><div style="color: #fff; text-align: end; margin-right: 20px; font-size: 17px;">7</div></div>
+                        <div class="col-7"><div style="color: #56233a; text-align: start; font-size: 17px; font-weight: bold;">Dionysus <span style="color: #56233a; font-weight: lighter;">4’08”</span></div></div>
+                    </div>
+
+            </section>
+            <footer class="d-flex justify-content-around p-2">
+                <div class="col contact d-flex flex-column align-items-baseline justify-content-center">
+                    <ul class="d-flex align-items-center justify-content-center ps-3">
+                        <a href="https://twitter.com/BTS_bighit">
+                            <li class="twitter-star"></li>
+                        </a>
+                        <a href="https://twitter.com/BTS_twt/">
+                            <li class="twitter"></li>
+                        </a>
+                        <a href="https://www.facebook.com/bangtan.official">
+                            <li class="facebook"></li>
+                        </a>
+                        <a href="https://www.instagram.com/bts.bighitofficial/">
+                            <li class="instagram"></li>
+                        </a>
+                        <a href="https://www.youtube.com/user/BANGTANTV">
+                            <li class="youtube"></li>
+                        </a>
+                        <a href="https://www.weibo.com/BTSbighit">
+                            <li class="weibo"></li>
+                        </a>
+                        <a href="https://www.weibo.com/BTSmembers">
+                            <li class="weibo-member"></li>
+                        </a>
+                        <a href="http://i.youku.com/btsofficial">
+                            <li class="youku"></li>
+                        </a>
+                        <a href="https://weverse.onelink.me/qt3S/cbdb15ca">
+                            <li class="weverse"></li>
+                        </a>
+                        <a href="http://cafe.daum.net/BANGTAN">
+                            <li class="cafe"></li>
+                        </a>
+                        <a href="https://btsblog.ibighit.com/">
+                            <li class="blog"></li>
+                        </a>
+                    </ul>
+                </div>
+                <div id="family" class="family-site">
+                    <button type="button" class="family-btn row h-100 w-100 justify-content-center">
+                        FAMILY SITES
+                    </button>
+                    <ul class="d-none opacity-0 position-absolute justify-content-center flex-column text-center" id="family_site">
+                        <a href="https://hybecorp.com" class="text-decoration-none">
+                            <li>HYBE Co., Ltd.</li>
+                        </a>
+                        <a href="https://www.bighitaudition.com/" class="text-decoration-none">
+                            <li>Big Hit Audition</li>
+                        </a>
+                        <a href="https://www.weverseshop.io" class="text-decoration-none">
+                            <li>WEVERSE SHOP</li>
+                        </a>
+                        <a href="https://weverse.io/" class="text-decoration-none">
+                            <li>Weverse</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col copyright text-end d-flex jusity-content-end flex-column">
+                    <div class="col family-link pe-3" onclick="location.href='../../familysite.html';" id="family_site_content">FAMILY SITE</div>
+                    <div class="col">COPYRIGHT © 2021 IT KMITL. All Rights Reserved</div>
+                </div>
+            </footer>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,36 +1,62 @@
-#title{
-    overflow: hidden; line-height: 60px; font-family: MVB; font-size: 70px; color: white;
+#title {
+    line-height: 60px;
+    font-family: SolanoGothic;
+    font-size: 70px;
+    color: white;
+    min-height: 132px;
 }
-#arrow{
-    font-size: 20px; padding-right: 100px; color: white;
+
+#arrow {
+    font-size: 20px;
+    padding-right: 100px;
+    color: white;
 }
-#headvid{
-    text-align: center; color: white; position: absolute; overflow:hidden; font-size: 80px; font-family: MVB; margin-bottom: 724px; text-shadow: 0px 0px 3px rgb(0 0 0 / 40%);
+
+#headvid {
+    text-align: center;
+    color: white;
+    position: absolute;
+    overflow: hidden;
+    font-size: 80px;
+    font-family: SolanoGothic;
+    margin-bottom: 758px;
+    text-shadow: 0px 0px 3px rgb(0 0 0 / 40%);
 }
-.vidbut{
-    font-family: camberm;
+
+.vidbut {
+    font-family: CamberMedium;
     color: yellow;
     opacity: 60%;
 }
-.vidbut:hover{
+
+.vidbut:hover {
     opacity: 1;
 }
-.imgoverlay{
-    position: relative; overflow:hidden;
+
+.imgoverlay {
+    position: relative;
+    overflow: hidden;
     width: 1080px;
     height: 608px;
     opacity: 1;
     display: block;
     background-color: rgb(0, 0, 0, 0.6);
 }
-.imgoverlay:hover{
+
+.imgoverlay:hover {
     opacity: 0;
 }
-.videobg{
+
+.videobg {
     background: #d2628c;
-    width: 1920px; height: 720px;
+    width: 1920px;
+    height: 720px;
 }
-#arrowbot:hover{
+
+#arrowbot:hover {
     color: pink;
 }
-.videobg > ul > li  {display: none;}
+
+.videobg>ul>li {
+    display: none;
+}
