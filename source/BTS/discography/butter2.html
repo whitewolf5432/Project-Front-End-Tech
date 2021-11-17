@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="icon" type="image/png" href="https://www.ibighit.com/images/favicon-32.ico"/>
+    <link rel="icon" type="image/png" href="/source/imgSrc/BTS/favicon-32.ico"/>
     <script src="../../jsSrc/butter2.js"></script>
     <script src="../../jsSrc/main.js"></script>
     <link rel="stylesheet" href="../../cssSrc/font.css">
@@ -21,8 +21,8 @@
             <div class="position-fixed d-flex w-100 h-100 justify-content-center align-items-center" id="menu-list">
                 <div class="col d-flex justify-content-center h-100 align-items-center" id="list">
                     <ul class="p-0" onclick="">
-                        <li><a href=".">HOME</a></li>
-                        <li><a href="source/about.html">ABOUT</a></li>
+                        <li><a href="/index.html">HOME</a></li>
+                        <li><a href="/source/about.html">ABOUT</a></li>
                         <li onclick="moreList(0)" id='0'>BTS</li>
                         <li onclick="moreList(1)" id='1'>TOMORROW X TOGETHER</li>
                         <li onclick="moreList(2)" id='2'>LEE HYUN</li>
@@ -30,22 +30,22 @@
                 </div>
                 <div class="d-flex justify-content-start p-0 h-100 align-items-center" id="more">
                     <ul class="p-0 d-flex flex-column position-absolute" id="more0">
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">DISCOGRAPHY</a></li>
-                        <li><a href="#">SCHEDULE</a></li>
-                        <li><a href="#">TOUR</a></li>
+                        <li><a href="../home.html">HOME</a></li>
+                        <li><a href="#">PROFILE</a></li>
+                        <li><a href="../discography.html">DISCOGRAPHY</a></li>
+                        <li><a href="../schedule.html">SCHEDULE</a></li>
+                        <li><a href="../tour.html">TOUR</a></li>
                     </ul>
                     <ul class="p-0 d-flex flex-column position-absolute" id="more1">
                         <li><a href="#">HOME</a></li>
-                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">PROFILE</a></li>
                         <li><a href="#">DISCOGRAPHY</a></li>
                         <li><a href="#">SCHEDULE</a></li>
                         <li><a href="#">INTRODUTION</a></li>
                     </ul>
                     <ul class="p-0 d-flex flex-column position-absolute" id="more2">
                         <li><a href="#">HOME</a></li>
-                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">PROFILE</a></li>
                         <li><a href="#">DISCOGRAPHY</a></li>
                         <li><a href="#">SCHEDULE</a></li>
                     </ul>
@@ -55,7 +55,7 @@
                 <button class="menu" onclick="showMenu()"></button>
             </div>
             <a href=".">
-                <img src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/logo (1).png" height="34em">
+                <img src="../../imgSrc/BTS/TOUR/logo.png" height="34em">
             </a>
             <div class="menu d-flex justify-content-center align-items-center" id="language">
                 <button class="border-0 bg-transparent">
@@ -75,7 +75,7 @@
             <section class="test2">
                 <div class="w-100 position-relative  overflow-hidden">
                     <div class="row w-100" >
-                        <video class="w-100" autoplay>
+                        <video class="w-100" autoplay playinline loop muted>
                             <source src="../../vdoSrc/butter2/butter.webm" type="video/mp4">
                         </video>
                     </div>
@@ -176,9 +176,9 @@
                             <h1 class="d-flex justify-content-center mt-4 overflow-hidden" id="schtitle">PROMOTION SCHEDULE</h1> 
                         </div>
                         <div class="row rowanm d-flex justify-content-center mt-5 position-relative heart overflow-hidden">
-                            <div style="width: 20%;" class="d-flex justify-content-center wrap">
+                            <div style="width: 20%;" class="d-flex justify-content-center wrap overflow-hidden">
                                 <img src="../../imgSrc/BTS/DISCOGRAPHY/BUTTER2/schedule_btn.png" style="width: 100%;" class="heartpic mt-3">
-                                <h1 class="position-absolute mt-3" id="schbtn">HIT THE<br>BUTTON!</h1>
+                                <h1 class="position-absolute mt-3 overflow-hidden" id="schbtn">HIT THE<br>BUTTON!</h1>
                             </div>
                             
                         </div>
@@ -238,10 +238,39 @@
             <footer class="d-flex justify-content-around p-2">
                 <div class="col contact d-flex flex-column align-items-baseline justify-content-center">
                     <ul class="d-flex align-items-center justify-content-center ps-3">
-                        <a href="https://twitter.com/bighit_music"><li class="twitter"></li></a>
-                        <a href="https://www.facebook.com/BIGHIT.MUSIC"><li class="facebook"></li></a>
-                        <a href="https://www.youtube.com/user/ibighit"><li class="youtube"></li></a>
-                        <a href="https://post.naver.com/bighitent_official"><li class="naver_post"></li></a>
+                        <a href="https://twitter.com/BTS_bighit">
+                            <li class="twitter-star"></li>
+                        </a>
+                        <a href="https://twitter.com/BTS_twt/">
+                            <li class="twitter"></li>
+                        </a>
+                        <a href="https://www.facebook.com/bangtan.official">
+                            <li class="facebook"></li>
+                        </a>
+                        <a href="https://www.instagram.com/bts.bighitofficial/">
+                            <li class="instagram"></li>
+                        </a>
+                        <a href="https://www.youtube.com/user/BANGTANTV">
+                            <li class="youtube"></li>
+                        </a>
+                        <a href="https://www.weibo.com/BTSbighit">
+                            <li class="weibo"></li>
+                        </a>
+                        <a href="https://www.weibo.com/BTSmembers">
+                            <li class="weibo-member"></li>
+                        </a>
+                        <a href="http://i.youku.com/btsofficial">
+                            <li class="youku"></li>
+                        </a>
+                        <a href="https://weverse.onelink.me/qt3S/cbdb15ca">
+                            <li class="weverse"></li>
+                        </a>
+                        <a href="http://cafe.daum.net/BANGTAN">
+                            <li class="cafe"></li>
+                        </a>
+                        <a href="https://btsblog.ibighit.com/">
+                            <li class="blog"></li>
+                        </a>
                     </ul>
                 </div>
                 <div id="family" class="family-site">
@@ -264,7 +293,7 @@
                     </ul>
                 </div>
                 <div class="col copyright text-end d-flex jusity-content-end flex-column">
-                    <div class="col family-link pe-3" onclick="location.href='source/familysite.html';" id="family_site_content">FAMILY SITE</div>
+                    <div class="col family-link pe-3" onclick="location.href='../../familysite.html';" id="family_site_content">FAMILY SITE</div>
                     <div class="col">COPYRIGHT © 2021 IT KMITL. All Rights Reserved</div>
                 </div>
             </footer>

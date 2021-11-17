@@ -107,7 +107,7 @@ function moreList(item) {
 }
 
 function content() {
-    let requestURL = '../source/contentSrc/';
+    let requestURL = '../../../source/contentSrc/';
     switch (document.getElementById('selected').innerText) {
         case "ENG":
             requestURL += 'english.json';

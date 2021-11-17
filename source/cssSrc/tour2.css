@@ -1,151 +1,168 @@
-.test2 {
-    width: 100%;
-    height: calc(100vh - 60px);
-    background-color: #000;
-}
-.dropdown{
+.dropdown {
   margin-top: 4%;
-  
+
 }
-.dropdown2{
-    margin-top: 4%;
-    
-  }
+
+.dropdown2 {
+  margin-top: 4%;
+
+}
+
 .dropbtn {
-    background-color: transparent;
-    color: #cbcbcb;
-    width: 30vw;
-    display: inline-block;
-    overflow-y: hidden;
-    position: relative;
-    font-size: 1vw;
-    font-weight: bold;
-    font-family: CamberMedium;
-    border: none;
-    cursor: pointer;
-    border-bottom: 1px solid rgba(170, 170, 170, 0.8);
-  }
+  background-color: transparent;
+  color: #cbcbcb;
+  width: 30vw;
+  display: inline-block;
+  overflow-y: hidden;
+  position: relative;
+  font-size: 1vw;
+  font-weight: bold;
+  font-family: CamberMedium;
+  border: none;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(170, 170, 170, 0.8);
+}
 
-  .dropbtn2 {
-    background-color: transparent;
-    color: #fff;
-    width: 30vw;
-    display: inline-block;
-    overflow-y: hidden;
-    position: relative;
-    font-size: 1vw;
-    font-weight: bold;
-    font-family: CamberMedium;
-    border: none;
-    cursor: pointer;
-  }
-  
-  
-  .dropdown-content {
-    display:  none;
-    background-color: #282828;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
+.dropbtn2 {
+  background-color: transparent;
+  color: #fff;
+  width: 30vw;
+  display: inline-block;
+  overflow-y: hidden;
+  position: relative;
+  font-size: 1vw;
+  font-weight: bold;
+  font-family: CamberMedium;
+  border: none;
+  cursor: pointer;
+}
 
 
-  
-  .dropdown-content a {
-    width: 95%;
-    left: 12.5;
-    position: absolute;
-    text-align: center;
-    font-size: 1vw;
-    font-weight: 700;
-    background: #282828;
-    color: #96a0a7;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #1f1f1f;}
-  
-  .dropdown-content:hover {
-    background-color: #1f1f1f;
-  }
-  .dropdown:hover .droparrow {
-    transform: rotateX(180deg);
-    
-  }
-  .dropdown:hover .dropdown-content {
-    display: inline-block;
-    overflow: visible;
-    
-  }
-  .dropdown-content a:hover{
-    color: #fff
-    ;
-    
-  }
-  .dropdown:hover{  
-    cursor: pointer;
-  }
-  .dropdown:hover .dropbtn{
-    color: #797979    ;
-  }
-  .dropdown:hover .dropdown-content a{
-    overflow: visible;
-  }
-  .droparrow{
-    position: absolute;
-    top:-10%;
-  }
-  .pic{
-    background-color: #000;
-    
-  }
-  .board{
-    border-bottom: 3px solid #000;
-    border-top: 3px solid #000;
-  }
-  .boarddown{
-    border-bottom: 3px solid #000;
-  }
-  .day{
-    font-size: 1vw;
-    font-weight: 700;
-    color: #fff;
-    margin-left: 5%;
-    padding-top: 17.5%;
-  }
-  .year{
-    font-size: 1vw;
-    color:#a9b0bc    ;
-    margin-left: 5%;
-  }
-  .town{
-    font-size: 1.25vw;
-    font-weight:700;
-    color: #FFF;
-    margin-left: 5%;
-    padding-top: 7.5%;
-  }
-  .place{
-    font-size: 1vw;
-    color:#86737a    ;
-    margin-left: 5%;
-  }
-  .ticket{
-    width: 6vw;
-    height:6vw;
-    border-radius: 50%;
-    background-color: #363636;
-    display: flex;
-    color: #fff    ;
-    justify-content: center;
-    align-items: center;
-    font-size: 1vw;
-    font-weight: 700;
-    margin: auto;
-    margin-top: 0.75vw;
-    }
-    .soldout{
-        width: 70%; text-align:center; line-height:95%; overflow:hidden;
-    }
+.dropdown-content {
+  display: none;
+  background-color: #282828;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+
+
+.dropdown-content a {
+  width: 95%;
+  left: 12.5;
+  position: absolute;
+  text-align: center;
+  font-size: 1vw;
+  font-weight: 700;
+  background: #282828;
+  color: #96a0a7;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #1f1f1f;
+}
+
+.dropdown-content:hover {
+  background-color: #1f1f1f;
+}
+
+.dropdown:hover .droparrow {
+  transform: rotateX(180deg);
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: inline-block;
+  overflow: visible;
+
+}
+
+.dropdown-content a:hover {
+  color: #fff;
+
+}
+
+.dropdown:hover {
+  cursor: pointer;
+}
+
+.dropdown:hover .dropbtn {
+  color: #797979;
+}
+
+.dropdown:hover .dropdown-content a {
+  overflow: visible;
+}
+
+.droparrow {
+  position: absolute;
+  top: -10%;
+}
+
+.pic {
+  background-color: #000;
+
+}
+
+.board {
+  border-bottom: 3px solid #000;
+  border-top: 3px solid #000;
+}
+
+.boarddown {
+  border-bottom: 3px solid #000;
+}
+
+.day {
+  font-size: 1vw;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 5%;
+  padding-top: 17.5%;
+}
+
+.year {
+  font-size: 1vw;
+  color: #a9b0bc;
+  margin-left: 5%;
+}
+
+.town {
+  font-size: 1.25vw;
+  font-weight: 700;
+  color: #FFF;
+  margin-left: 5%;
+  padding-top: 7.5%;
+}
+
+.place {
+  font-size: 1vw;
+  color: #86737a;
+  margin-left: 5%;
+}
+
+.ticket {
+  width: 6vw;
+  height: 6vw;
+  border-radius: 50%;
+  background-color: #363636;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw;
+  font-weight: 700;
+  margin: auto;
+  margin-top: 0.75vw;
+}
+
+.soldout {
+  width: 70%;
+  text-align: center;
+  line-height: 95%;
+  overflow: hidden;
+}

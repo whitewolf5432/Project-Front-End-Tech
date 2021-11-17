@@ -236,6 +236,14 @@ footer {
     background-image: url("../../source/imgSrc/main/youtube_h.png");
 }
 
+.naver_post {
+    background-image: url("../../source/imgSrc/main/naver_post.png");
+}
+
+.naver_post:hover {
+    background-image: url("../../source/imgSrc/main/naver_post_h.png");
+}
+
 .twitter-star {
     background-image: url("../../source/imgSrc/main/twitter-star.png");
 }
@@ -388,13 +396,4 @@ footer .active {
 .family-link {
     margin-bottom: -2px;
     margin-right: 30px;
-}
-
-
-/* NOTE test section here */
-
-.test {
-    width: 100%;
-    height: calc(100vh - 60px);
-    background-color: rgb(160, 160, 160);
 }
