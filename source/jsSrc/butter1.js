@@ -730,4 +730,11 @@ function ccvplay(num){
 }
 function ccvstop(){document.getElementById('tab').style.display ="none";
 document.getElementById('ccvvid').pause();
-document.getElementById('ccvvid').currentTime = 0;}
+document.getElementById('ccvvid').currentTime = 0;
+}
+
+function letplay2(){
+  document.getElementById('ccvvid').style.display = "block";
+  document.getElementById('ccvpic').style.display = "none";
+  document.getElementById('cvvvidbtn').style.display = "none";
+}
