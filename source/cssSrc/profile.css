@@ -1,0 +1,106 @@
+.warp_profile {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.container-fluid {
+    background-color: #e4be27;
+}
+
+.container {
+    padding-bottom: 150px;
+}
+
+.about_bts {
+    background-color: #FFDC00;
+    height: 100%;
+    width: 100%;
+    padding-top: 63px;
+    padding-bottom: 150px;
+}
+
+.about_bts .title p {
+    font-family: SolanoGothic;
+    font-size: 80px;
+}
+
+.about_bts .text {
+    padding-left: 10%;
+    padding-right: 8%;
+    padding-top: 3%;
+}
+
+.about_bts .text p {
+    font-family: CamberMedium;
+    color: rgb(71, 70, 70);
+    letter-spacing: -0.02em;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 100;
+}
+
+.member_txt h1 {
+    font-family: SolanoGothic;
+    font-size: 50px;
+}
+
+.col-3 img {
+    width: 100%;
+}
+
+.col-6 {
+    z-index: 11;
+}
+
+.content_popup {
+    background-color: rgba(51, 49, 49, 0.7);
+    position: absolute;
+    width: 94%;
+    z-index: 21;
+    margin-top: 23.75%;
+}
+
+.popup_inner_profile {
+    height: 100%;
+}
+
+.popup_inner_profile p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.popup_inner_profile h1 {
+    font-size: 30px;
+    margin-left: 50px;
+    overflow-y: hidden;
+}
+
+.firstline {
+    margin-top: 0%;
+}
+
+.close_btn {
+    position: absolute;
+    right: 0;
+}
+
+.person_date {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.close_btn button {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: none;
+    background-repeat: none;
+    background-color: black;
+}
