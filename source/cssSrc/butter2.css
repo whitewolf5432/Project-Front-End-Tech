@@ -141,4 +141,13 @@
     width: fit-content;
     height: auto;
 }
+#ccvpic{
+    width: 70.25vw;
+    height:56.25vw;
+    background-image: url('../imgSrc/BTS/DISCOGRAPHY/BUTTER2/jkpic.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
